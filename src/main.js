@@ -28,24 +28,28 @@ const components = [
 const plugins = [
 
 ]
-
-
 // 自定义主题
-// import 'element-plus/lib/theme-chalk/index.css';
 import '~/theme/index.css'
 // 基于断点的隐藏类
-// import 'element-plus/lib/theme-chalk/display.css';
+import 'element-plus/lib/theme-chalk/display.css';
 
 // createApp(App).use(router, ElementPlus).mount('#app')
 
 const app = createApp(App)
-
 app.use(router)
-
 components.forEach(component => {
   app.component(component.name, component)
 })
 plugins.forEach(plugin => {
   app.use(plugin)
 })
+
 app.mount('#app')
+
+if( import.meta.env.MODE == "development") {
+  app.config.devtools = true
+} else{
+  app.config.devtools = false
+}
+
+console.log(import.meta.env.MODE);
