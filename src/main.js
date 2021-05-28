@@ -2,8 +2,10 @@ import { createApp } from 'vue'
 import router from '@/router'
 import App from './App.vue'
 
+import lang from 'element-plus/lib/locale/lang/zh-cn'
+import locale from 'element-plus/lib/locale'
 
-
+locale.use(lang)
 import { 
   ElHeader,
   ElMain,
@@ -13,6 +15,10 @@ import {
   ElInput,
   ElCarousel,
   ElCarouselItem,
+  ElMenu,
+  ElMenuItem,
+  ElMenuItemGroup,
+  ElSubmenu,
 } from 'element-plus'
 
 const components = [
@@ -24,6 +30,10 @@ const components = [
   ElInput,
   ElCarousel,
   ElCarouselItem,
+  ElMenu,
+  ElMenuItem,
+  ElMenuItemGroup,
+  ElSubmenu,
 ]
 const plugins = [
 
