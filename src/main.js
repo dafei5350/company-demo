@@ -19,6 +19,10 @@ import {
   ElMenuItem,
   ElMenuItemGroup,
   ElSubmenu,
+  ElTabPane,
+  ElTabs,
+  ElRow,
+  ElCol,
 } from 'element-plus'
 
 const components = [
@@ -34,6 +38,10 @@ const components = [
   ElMenuItem,
   ElMenuItemGroup,
   ElSubmenu,
+  ElTabPane,
+  ElTabs,
+  ElRow,
+  ElCol,
 ]
 const plugins = [
 
@@ -61,5 +69,3 @@ if( import.meta.env.MODE == "development") {
 } else{
   app.config.devtools = false
 }
-
-console.log(import.meta.env.MODE);

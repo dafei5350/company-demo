@@ -35,6 +35,14 @@
       <el-menu-item index="6-1">MT4</el-menu-item>
       <el-menu-item index="6-2">MT5</el-menu-item>
     </el-submenu>
+    <el-submenu index="9">
+      <template #title>English</template>
+      <el-menu-item index="9-1">简体中文</el-menu-item>
+      <el-menu-item index="9-2">繁体中文</el-menu-item>
+      <el-menu-item index="9-2">English</el-menu-item>
+    </el-submenu>
+    <el-menu-item index="7"><el-button class="navbtn">登入</el-button></el-menu-item>
+    <el-menu-item index="8"><el-button class="navbtn" type="primary">注册账户</el-button></el-menu-item>
   </el-menu>
 </template>  
 
@@ -86,4 +94,9 @@ export default {
   height: 80px;
   width: 80px;
 }
+.navbtn{
+  width: 100px;
+
+}
+
 </style>
