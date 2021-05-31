@@ -1,9 +1,9 @@
 <template>
 <div class="layout">
-  <NavBar></NavBar> 
+
   <el-container direction="vertical">
     <el-header>
-       
+         <NavBar></NavBar> 
     </el-header>
     <el-main>
       <router-view></router-view>
@@ -28,6 +28,9 @@ export default {
 <style>
 .el-header{
   padding: 0 !important;
-  height: 80px;
+  height: 95px !important;
+}
+.el-main{
+  padding: 0 !important;
 }
 </style>

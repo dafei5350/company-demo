@@ -80,7 +80,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90px;
+  height: 95px;
 }
 .el-menu-demo .logo {
   height: 80px;
