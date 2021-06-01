@@ -19,6 +19,8 @@ import {
   ElMenuItem,
   ElMenuItemGroup,
   ElSubmenu,
+  ElTabPane,
+  ElTabs,
 } from 'element-plus'
 
 const components = [
@@ -34,6 +36,8 @@ const components = [
   ElMenuItem,
   ElMenuItemGroup,
   ElSubmenu,
+  ElTabPane,
+  ElTabs,
 ]
 const plugins = [
 
