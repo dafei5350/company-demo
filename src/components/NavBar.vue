@@ -4,12 +4,13 @@
     class="el-menu-demo"
     mode="horizontal"
     @select="handleSelect"
+    router
   >
     <img src="@/assets/logo.png" class="logo" alt="logo" srcset="" />
     <el-submenu index="2">
       <template #title>关于Attuare Pty.Ltd</template>
-      <el-menu-item index="2-1">关于Attuare Pty.Ltd</el-menu-item>
-      <el-menu-item index="2-2">常见问题解答</el-menu-item>
+      <el-menu-item index="2-1" route="/about-me">关于Attuare Pty.Ltd</el-menu-item>
+      <el-menu-item index="2-2" route="/question">常见问题解答</el-menu-item>
       <el-menu-item index="2-3">监督信息</el-menu-item>
       <el-menu-item index="2-3">联系我们</el-menu-item>
       <el-menu-item index="2-3">公告</el-menu-item>
@@ -96,7 +97,13 @@ export default {
 }
 .navbtn{
   width: 100px;
-
+}
+.router{
+  text-decoration: none;
+  color: #4a4a4a;
+  border-bottom: 1p solid #d9d9d9;
+  margin-top: 3px;
+  font-weight: 600;
 }
 
 </style>
