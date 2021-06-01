@@ -1,3 +1,3 @@
 <template>
-  公告1
+  区域代理
 </template>

@@ -10,14 +10,14 @@
     <el-submenu index="2">
       <template #title>关于Attuare Pty.Ltd</template>
       <el-menu-item index="2-1" route="/about-me">关于Attuare Pty.Ltd</el-menu-item>
-      <el-menu-item index="2-2" route="/question">常见问题解答</el-menu-item>
-      <el-menu-item index="2-3">监督信息</el-menu-item>
-      <el-menu-item index="2-3">联系我们</el-menu-item>
-      <el-menu-item index="2-3">公告</el-menu-item>
+      <el-menu-item index="2-2" route="/about-question">常见问题解答</el-menu-item>
+      <el-menu-item index="2-3" route="/about-supervise">监督信息</el-menu-item>
+      <el-menu-item index="2-3" route="/about-contact">联系我们</el-menu-item>
+      <el-menu-item index="2-3" route="/about-notice">公告</el-menu-item>
     </el-submenu>
     <el-submenu index="3">
       <template #title>交易产品</template>
-      <el-menu-item index="3-1">外汇</el-menu-item>
+      <el-menu-item index="3-1" route="/product-fprex">外汇</el-menu-item>
       <el-menu-item index="3-2">贵金属</el-menu-item>
       <el-menu-item index="3-3">股票指数</el-menu-item>
     </el-submenu>
