@@ -1,11 +1,11 @@
 <template>
-	<banner></banner>
-	<pictureTab :tablist="tablista"></pictureTab>
+	<banner :bannerList="bannera"></banner>
+	<pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
 
 	<div class="minbar">
 		<div class="minbar-big">
 			<div class="minbar-text">
-				体验市场波动最大的交易品种
+				波动最大的交易产品，为您在国际金融市场提供无限机会。
 			</div>
 			<a href="" class="button-a">
 				<div class="minbar-button">
@@ -26,7 +26,7 @@
 		</div>
 	</div>
 	<div class="fourth">
-		<img src="../assets/index/forex_top_banner1.jpg">
+		<img src="../assets/index/dq.png">
 		<div class="fourth-big">
 			<div class="fourth-text">
 				体验市场波动最大的交易品种，开仓
@@ -52,35 +52,43 @@
 		data() {
 			return {
 				activeName: 'second',
+				tabTitlea: '贵金属交易优势',
 				tablista: [{
-						label: '24小时市场',
+						label: '流动性强',
 						name: 'first',
-						imga: 'src/assets/index/forex1.png',
-						text: '5天24小时不间断交易，投资者可随时随地参与到市场波动中。',
+						imga: 'src/assets/index/forex_slider5.jpg',
+						text: '流动性强，对接国际市场，可通过交易贵金属保值以分散风险，或跟随市场波动，以达到保值乃至增值目的。',
+					},
+					{
+						label: '高达1:100倍杠杆',
+						imga: 'src/assets/index/indices_slider4.jpg',
+						name: 'second',
+						text: '最大杠杆高达1:100倍杠杆，通过杠杆效应减少资金占用成本，提高投资效率。',
 					},
 					{
 						label: '低成本交易',
-						imga: 'src/assets/index/forex_slider2.jpg',
-						name: 'second',
-						text: 'Attuare Pty.Ltd.推出的stpECN账户外汇平均点差1.0个点，zeroECN和pureECN账户更是低至0.1-0.8点差加佣金模式，投资者可根据个人的投资情况选择相应账户类型并享受Attuare Pty.Ltd.提供的超低点差服务。',
-					},
-					{
-						label: '24上百种交易货币对',
 						name: 'third',
-						imga: 'src/assets/index/forex_slider3.jpg',
-						text: '可满足投资者交易需求，并根据各国货币涨跌情况进行24小时不间断交易。',
+						imga: 'src/assets/index/metal_slider3.jpg',
+						text: '低成本交易, 最低入金100美元。低门槛使得新手投资者也可以轻松进入贵金属市场交易。',
 					},
 					{
-						label: '市场公开透明',
+						label: '双向交易',
 						name: 'fourth',
-						imga: 'src/assets/index/forex_slider4.jpg',
-						text: '巨大的交易量使市场不易受某一银行或机构操控价格，一秒内下单，无重复报价现象。',
+						imga: 'src/assets/index/metal_slider4.jpg',
+						text: '双向交易，摆脱了过去只有价格上涨时投资者才能获利的局限，在贵金属价格下行时也能投资获利。',
 					},
 					{
-						label: '全球性交易',
+						label: '5天24小时可不间断交易',
 						name: 'fifth',
-						imga: 'src/assets/index/forex_slider5.jpg',
-						text: '各国货币受政策影响涨涨跌跌，投资者可根据Attuare Pty. Ltd.MT4账号进行全球性交易。',
+						imga: 'src/assets/index/metal_slider5.jpg',
+						text: '5天24小时可不间断交易，投资者可随时随地参与到全球市场的波动中，把握获利机会。',
+					},
+				],
+				bannera: [
+					{
+						imga:'src/assets/index/bg-download.jpg',
+						title:'贵金属交易',
+						main:'贵金属交易是指投资人在对贵金属市场看好的情况下，通过低买高卖赚取差价的过程。也可以是在不看好经济前景的情况下所采取的一种避险交易，以实现资产的保值增值。由于黄金的稀缺属性，黄金一直都是一种非常贵重的金属，同时它也被用来当作一种交换媒介或者作为货币使用。其价格受到政治态势、经济环境、地区冲突等多种因素的影响，经常会出现大幅波动的情况。另外，黄金是通过美元结算的，因此美元的涨跌也会影响黄金价格的波动。	'
 					},
 				],
 			};
@@ -103,7 +111,7 @@
 
 
 
-<style>
+<style scoped>
 	body {
 		margin: 0;
 		color: #333333;
@@ -128,12 +136,13 @@
 	.minbar {
 		width: 100%;
 		background: #F5F5F5;
-		padding: 40px 0;
+		padding: 60px 0;
 		margin: 80px 0;
+		margin-bottom: 0;
 	}
 
 	.minbar-big {
-		width: 600px;
+		width: 1000px;
 		margin: 0 auto;
 	}
 
@@ -162,7 +171,7 @@
 
 	.thirdbar {
 		width: 100%;
-		background: #F5F5F5;
+		background: #FFFFFF;
 	}
 
 	.thirdbar-big {
@@ -183,11 +192,14 @@
 	}
 
 	.fourth {
-		position: absolute;
+		position: relative;
+		background-color: #F5F5F5;
 	}
 
 	.fourth img {
-		width: 100%;
+		width: 30% !important;
+		height: 40% !important;
+		margin-left: 10% !important;
 	}
 
 	.fourth-button {
@@ -199,8 +211,8 @@
 
 	.fourth-big {
 		position: absolute;
-		top: 20%;
-		right: 10%;
+		top: 25%;
+		right: 15%;
 		line-height: 80px;
 		font-size: 30px;
 	}

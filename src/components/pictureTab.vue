@@ -1,7 +1,7 @@
 <template>
-	<div class="title">外汇交易的优势</div>
+	<div class="title">{{tabTitle}}</div>
 	<div class="picture-demo">
-		<el-tabs v-model="tabValue" stretch @tab-click="handleClick" class="tabtop">
+		<el-tabs model-value="first" stretch @tab-click="handleClick" class="tabtop">
 			<el-tab-pane v-for="tabtop in tablist" :label="tabtop.label" :name="tabtop.name">
 				<img :src="tabtop.imga">
 				<div class="picture-text">
@@ -16,10 +16,14 @@
 	export default {
 		data() {
 			return {
+				tabTitle: '',
 				tablist: ''
 			}
 		},
-		props: ['tablist']
+		props: [
+			'tabTitle',
+			'tablist'
+		]
 	}
 </script>
 

@@ -4,37 +4,47 @@
     class="el-menu-demo"
     mode="horizontal"
     @select="handleSelect"
+    router
   >
     <img src="@/assets/logo.png" class="logo" alt="logo" srcset="" />
     <el-submenu index="2">
       <template #title>关于Attuare Pty.Ltd</template>
-      <el-menu-item index="2-1">关于Attuare Pty.Ltd</el-menu-item>
-      <el-menu-item index="2-2">常见问题解答</el-menu-item>
-      <el-menu-item index="2-3">监督信息</el-menu-item>
-      <el-menu-item index="2-3">联系我们</el-menu-item>
-      <el-menu-item index="2-3">公告</el-menu-item>
+      <el-menu-item index="2-1" route="/about-me">关于Attuare Pty.Ltd</el-menu-item>
+      <el-menu-item index="2-2" route="/about-question">常见问题解答</el-menu-item>
+      <el-menu-item index="2-3" route="/about-supervise">监督信息</el-menu-item>
+      <el-menu-item index="2-3" route="/about-contact">联系我们</el-menu-item>
+      <el-menu-item index="2-3" route="/about-notice">公告</el-menu-item>
     </el-submenu>
     <el-submenu index="3">
       <template #title>交易产品</template>
-      <el-menu-item index="3-1">外汇</el-menu-item>
-      <el-menu-item index="3-2">贵金属</el-menu-item>
-      <el-menu-item index="3-3">股票指数</el-menu-item>
+      <el-menu-item index="3-1" route="/product-forex">外汇</el-menu-item>
+      <el-menu-item index="3-2" route="/product-index">贵金属</el-menu-item>
+      <el-menu-item index="3-3" route="/product-metal">股票指数</el-menu-item>
     </el-submenu>
     <el-submenu index="4">
       <template #title>交易平台</template>
-      <el-menu-item index="4-1">MT4</el-menu-item>
-      <el-menu-item index="4-2">MT5</el-menu-item>
+      <el-menu-item index="4-1" route="/platform-mt4">MT4</el-menu-item>
+      <el-menu-item index="4-2" route="/platform-mt5">MT5</el-menu-item>
     </el-submenu>
     <el-submenu index="5">
-      <template #title>交易平台</template>
-      <el-menu-item index="5-1">MT4</el-menu-item>
-      <el-menu-item index="5-2">MT5</el-menu-item>
+      <template #title>新闻动态</template>
+      <el-menu-item index="5-1" route="/news-analysis">市场分析</el-menu-item>
+      <el-menu-item index="5-2" route="/news-letters">市场快报</el-menu-item>
     </el-submenu>
     <el-submenu index="6">
-      <template #title>交易平台</template>
-      <el-menu-item index="6-1">MT4</el-menu-item>
-      <el-menu-item index="6-2">MT5</el-menu-item>
+      <template #title>合作伙伴</template>
+      <el-menu-item index="6-1" route="/coop-ib">IB代理计划</el-menu-item>
+      <el-menu-item index="6-2" route="/coop-intem">区域代理</el-menu-item>
+	  <el-menu-item index="6-3" route="/coop-agent">白标合作</el-menu-item>
     </el-submenu>
+    <el-submenu index="9">
+      <template #title>English</template>
+      <el-menu-item index="9-1">简体中文</el-menu-item>
+      <el-menu-item index="9-2">繁体中文</el-menu-item>
+      <el-menu-item index="9-2">English</el-menu-item>
+    </el-submenu>
+    <el-menu-item index="7"><el-button class="navbtn">登入</el-button></el-menu-item>
+    <el-menu-item index="8"><el-button class="navbtn" type="primary">注册账户</el-button></el-menu-item>
   </el-menu>
 </template>  
 
@@ -86,4 +96,15 @@ export default {
   height: 80px;
   width: 80px;
 }
+.navbtn{
+  width: 100px;
+}
+.router{
+  text-decoration: none;
+  color: #4a4a4a;
+  border-bottom: 1p solid #d9d9d9;
+  margin-top: 3px;
+  font-weight: 600;
+}
+
 </style>

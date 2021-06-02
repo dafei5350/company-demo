@@ -1,21 +1,28 @@
 <template>
-	<div class="banner">
+	<div class="banner" v-for="bannera in bannerList">
 		<div class="banner-img">
-			<img src="../assets/index/bg-download.jpg">
+			<img :src="bannera.imga">
 		</div>
 		<div class="banner-text">
 			<div class="banner-text-title">
-				外汇
+				{{bannera.title}}
 			</div>
 			<div class="banner-text-main">
-				外汇交易市场，也称为”Foreign exchange”或”FX”市场，
-				是世界上最大的金融市场，平均每天超过5万亿美元的资金在当中运转，相当于美国所有证券市场交易总和的30余倍。外汇交易市场比传统的股票、债券或者期货市场都要庞大许多，巨大的交易量使市场不易受某一银行或机构操控价格。通常用两种货币之间的兑换比例来表示。货币对里前面的货币是基础货币，后面的是对手货币。当你买卖货币对的时候，你是以基础货币为准。
+				{{bannera.main}}
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
+	export default {
+		data() {
+			return {
+				bannerList: ''
+			}
+		},
+		props: ['bannerList']
+	}
 </script>
 
 <style>
