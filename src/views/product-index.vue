@@ -98,7 +98,6 @@
 				console.log(tab, event);
 			}
 		},
-		name: 'pro',
 		components: {
 			banner,
 			pictureTab

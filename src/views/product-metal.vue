@@ -61,8 +61,6 @@
 <script>
 	import banner from '@/components/banner.vue'
 	import pictureTab from '@/components/pictureTab.vue'
-	const ENV =
-		import.meta.env
 	export default {
 		data() {
 			return {

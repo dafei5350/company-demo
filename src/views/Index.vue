@@ -56,14 +56,61 @@
       </div>
     </div>
   </div>
-  <div class="content-row"></div>
+  <div class="content-row">
+    <div class="cointainer">
+      <div class="text">
+        <h2>选择Attuare Pty. Ltd.的理由</h2>
+        <p>被誉为华尔街和硅谷的完美结合，我们不仅仅是一家持多国牌照的全球知名经纪商，还是一家以技术为灵感、以客户为中心的多资产供应商，致力于为客户提供卓越的在线交易服务。</p>
+      </div>
+      <div class="block">
+        <div class="img">
+          <img src="@/assets/index/diannaotupian.png" alt="">
+          <el-button type="primary">开户体验</el-button>
+        </div>
+        <div class="content">
+          <div class="items">
+            <img src="@/assets/index/execution_speed.png" alt="">
+            <b>卓越交易体验</b>
+            <p>超低交易成本 | 闪电般订单执行速度 | 原始点差</p>
+          </div>
+          <div class="items">
+            <img src="@/assets/index/execution_speed.png" alt="">
+            <b>卓越交易体验</b>
+            <p>超低交易成本 | 闪电般订单执行速度 | 原始点差</p>
+          </div>
+          <div class="items">
+            <img src="@/assets/index/execution_speed.png" alt="">
+            <b>卓越交易体验</b>
+            <p>超低交易成本 | 闪电般订单执行速度 | 原始点差</p>
+          </div>
+          <div class="items">
+            <img src="@/assets/index/execution_speed.png" alt="">
+            <b>卓越交易体验</b>
+            <p>超低交易成本 | 闪电般订单执行速度 | 原始点差</p>
+          </div>
+          <div class="items">
+            <img src="@/assets/index/execution_speed.png" alt="">
+            <b>卓越交易体验</b>
+            <p>超低交易成本 | 闪电般订单执行速度 | 原始点差</p>
+          </div>
+          <div class="items">
+            <img src="@/assets/index/execution_speed.png" alt="">
+            <b>卓越交易体验</b>
+            <p>超低交易成本 | 闪电般订单执行速度 | 原始点差</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="ban-row">
     <div class="content">
       <div class="text">即刻申请Attuare Pty. Ltd.真实交易账户!</div>
       <el-button plain>开户体验</el-button>
     </div>
   </div>
-  <div class="content-row"></div>
+  <div class="content-row">
+
+  </div>
   <div class="other-row"></div>
   <div class="ban-row">
     <div class="content">
@@ -186,7 +233,58 @@ export default {
   width: 100%;
   height: 950px;
   background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+.content-row .cointainer{
+  width: 60%;
+  height: 800px;
+  padding-top: 200px
+}
+.content-row .text{
+  color: #9b9999;
+  font-size: 16px;
+  text-align: left;
+}
+.content-row .text h2{
+  color: rgba(0,0,0,.85);
+}
+.content-row .block{
+  display: flex;
+  flex-direction: row;
+}
+.content-row .block{
+  display: flex;
+  flex: 1;
+}
+.content-row .block .img{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-row .block .img .el-button{
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+.content-row .block  .content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-row .block .content .items{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.content-row .block .content .items img{
+  width: 50px;
+  height: 50px;
+}
+
 .other-row {
   width: 100%;
   height: 560px;
