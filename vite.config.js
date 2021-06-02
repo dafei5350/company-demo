@@ -16,19 +16,11 @@ export default ({
     } else {
       config.devtool = 'cheap-module-eval-source-map';
       config.mode = "development"
-      console.log("2222");
     }
   },
 
   plugins: [
-    vue(),
-    vitePluginImport([{
-      libraryName: 'element-plus',
-      libraryDirectory: 'es',
-      style(name) {
-        return `element-plus/lib/theme-chalk/${name}.css`;
-      },
-    }])
+    vue()
   ],
   resolve: {
     alias: {
@@ -48,3 +40,20 @@ export default ({
     }
   }
 })
+
+
+
+
+
+
+
+
+
+// ,
+//     vitePluginImport([{
+//       libraryName: 'element-plus',
+//       libraryDirectory: 'es',
+//       style(name) {
+//         return `element-plus/lib/theme-chalk/${name}.css`;
+//       },
+//     }])
