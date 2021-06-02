@@ -65,7 +65,9 @@
       <div class="block">
         <div class="img">
           <img src="@/assets/index/diannaotupian.png" alt="">
-          <el-button type="primary">开户体验</el-button>
+          <div class="btn">
+            <el-button type="primary">开户体验</el-button>
+          </div>
         </div>
         <div class="content">
           <div class="items">
@@ -136,158 +138,33 @@ export default {
 
 
 <style>
-.fenye01 {
-  position: relative;
-}
-.fenye01 img {
-  position: absolute;
-}
-.fenye01 .block {
-  width: 650px;
-  height: 280px;
-  font-size: 30px;
-  line-height: 48px;
-  color: #eee;
-  position: absolute;
-  top: 200px;
-  left: 280px;
-}
-.fenye01 .block .btn {
-  width: 260px;
-  height: 50px;
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.25s ease-in-out;
-}
-.fenye01 .block .btn:hover {
-  transform: scale(1.2);
-}
-.fenye02 {
-  position: relative;
-  background-color: #ffffff;
-}
-.fenye02 .block-text {
-  width: 650px;
-  height: 280px;
-  font-size: 30px;
-  line-height: 48px;
-  color: #01254f;
-  position: absolute;
-  top: 200px;
-  left: 280px;
-}
-.fenye02 .block-text p {
-  font-size: 24px;
-  line-height: 32px;
-  color: rgba(0, 0, 0, 0.85);
-}
-.fenye02 .block-text .btn {
-  display: flex;
-  justify-content: space-between;
-}
-.fenye02 .block-text .btn .items {
-  width: 260px;
-  height: 50px;
-  font-size: 22px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.25s ease-in-out;
-}
-.fenye02 .block-text .btn .items:hover {
-  transform: scale(1.2);
-}
-.fenye02 img {
-  position: absolute;
-  z-index: -1;
-  max-width: unset;
-  top: -134px;
-  width: 156%;
-}
-.ban-row {
-  color: #eee;
-  position: absolute;
-  height: 120px;
-  width: 100%;
-  background: #01254f;
-  display: flex;
-  justify-content: center;
-}
-.ban-row .content {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.ban-row .content .text {
-  font-size: 28px;
-  color: #eee;
-}
-.ban-row .content button {
-  width: 200px;
-}
-.content-row {
-  width: 100%;
-  height: 950px;
-  background: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.content-row .cointainer{
-  width: 60%;
-  height: 800px;
-  padding-top: 200px
-}
-.content-row .text{
-  color: #9b9999;
-  font-size: 16px;
-  text-align: left;
-}
-.content-row .text h2{
-  color: rgba(0,0,0,.85);
-}
-.content-row .block{
-  display: flex;
-  flex-direction: row;
-}
-.content-row .block{
-  display: flex;
-  flex: 1;
-}
-.content-row .block .img{
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.content-row .block .img .el-button{
-  margin-top: 20px;
-  width: 50%;
-  text-align: center;
-}
-.content-row .block  .content{
-  display: flex;
-  flex-wrap: wrap;
-}
-.content-row .block .content .items{
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-}
-.content-row .block .content .items img{
-  width: 50px;
-  height: 50px;
-}
+.fenye01{position:relative}
+.fenye01 .block,.fenye01 img{position:absolute}
+.fenye01 .block{top:200px;left:280px;width:650px;height:280px;color:#eee;font-size:30px;line-height:48px}
+.fenye01 .block .btn{display:flex;width:260px;height:50px;font-size:22px;transition:all .25s ease-in-out;justify-content:center;align-items:center}
+.fenye01 .block .btn:hover{transform:scale(1.2)}
+.fenye02{position:relative;background-color:#fff}
+.fenye02 .block-text{position:absolute;top:200px;left:280px;width:650px;height:280px;color:#01254f;font-size:30px;line-height:48px}
+.fenye02 .block-text p{color:rgba(0,0,0,.85);font-size:24px;line-height:32px}
+.fenye02 .block-text .btn{display:flex;justify-content:space-between}
+.fenye02 .block-text .btn .items{display:flex;width:260px;height:50px;font-size:22px;transition:all .25s ease-in-out;flex-direction:row;justify-content:center;align-items:center}
+.fenye02 .block-text .btn .items:hover{transform:scale(1.2)}
+.fenye02 img{position:absolute;top:-134px;z-index:-1;width:156%;max-width:unset}
+.ban-row{position:absolute;display:flex;width:100%;height:120px;background:#01254f;color:#eee;justify-content:center}
+.ban-row .content{display:flex;width:80%;justify-content:space-around;align-items:center}
+.ban-row .content .text{color:#eee;font-size:28px}
+.ban-row .content button{width:200px}
+.content-row{display:flex;width:100%;height:950px;background:#f2f2f2;flex-direction:column;align-items:center;justify-content:center}
+.content-row .cointainer{padding-top:200px;width:60%;height:800px}
+.content-row .text{display:flex;color:#9b9999;font-size:16px;flex-direction:column;align-items:center}
+.content-row .text h2{color:rgba(0,0,0,.85)}
+.content-row .block{display:flex;flex-direction:row;flex:1}
+.content-row .block .btn,.content-row .block .img{display:flex;justify-content:center}
+.content-row .block .img{width:60%;flex-direction:column}
+.content-row .block .img .el-button{margin-top:20px;width:50%;text-align:center}
+.content-row .block .content{display:flex;color:#9b9999;flex-wrap:wrap}
+.content-row .block .content .items{display:flex;margin-left:15px;padding:15px;width:40%;flex-direction:column}
+.content-row .block .content .items img{width:50px;height:50px}
+.other-row{width:100%;height:560px;background:#fff}
 
-.other-row {
-  width: 100%;
-  height: 560px;
-  background: #ffffff;
-}
 </style>
