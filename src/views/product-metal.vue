@@ -107,10 +107,7 @@
 		components: {
 			banner,
 			pictureTab
-		},
-		setup() {
-			console.log('ENV', ENV);
-		},
+		}
 	}
 </script>
 

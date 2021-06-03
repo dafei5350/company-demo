@@ -63,6 +63,7 @@
 	.askd{
 		max-width: 1400px;
 		padding: 0px 120px;
+		margin: 0 auto;
 	}
 	.askd-top{
 		display: flex;
