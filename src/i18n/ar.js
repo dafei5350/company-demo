@@ -1,5 +1,5 @@
 export default {
   index: {
-      btn: 'En'
+      btn: '阿拉伯'
   }
 }

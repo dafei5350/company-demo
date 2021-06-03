@@ -6,7 +6,7 @@
     @select="handleSelect"
     router
   >
-    <img src="@/assets/logo.png" class="logo" alt="logo" srcset="" />
+    <img src="../assets/logo.png" route="/" class="logo" alt="logo" srcset="" />
     <el-submenu index="2">
       <template #title>关于Attuare Pty.Ltd</template>
       <el-menu-item index="2-1" route="/about-me">关于Attuare Pty.Ltd</el-menu-item>
@@ -84,6 +84,7 @@ export default {
     };
   },
 };
+console.log(window.localStorage.setItem);
 </script>
 <style scoped>
 .el-menu-demo {

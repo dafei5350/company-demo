@@ -8,7 +8,7 @@
             “Attuare Pty.
             Ltd.提供我所需要的交易工具、交易知识和专业的相关服务，让我可以随时随地在世界上任何一个角落轻松交易。”
           </h1>
-          <el-button class="btn" type="primary">开始交易</el-button>
+          <el-button class="btn" type="primary"><router-link to="/">{{ $t("index.btn") }}</router-link></el-button>
         </div>
       </el-carousel-item>
       <el-carousel-item class="fenye02">

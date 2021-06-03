@@ -1,9 +1,9 @@
 <template>
   <footer class="footer">
-    <img class="bg" src="@/assets/footerBg.jpg" alt="尾部背景图片" srcset="">
+    <img class="bg" src="../assets/footerBg.jpg" alt="尾部背景图片" srcset="">
     <div class="block">
       <div class="logo">
-        <img src="@/assets/logo.png" alt="" srcset="">
+        <img src="../assets/logo.png" alt="" srcset="">
       </div>
       <div class="items">
         <div class="title">关于我们</div>

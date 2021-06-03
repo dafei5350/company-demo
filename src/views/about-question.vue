@@ -368,7 +368,7 @@
 	}
 </script>
 
-<style scoped="scoped">
+<style scoped>
 	.question-main>>>.el-tabs__content {
 		padding: 50px;
 	}
