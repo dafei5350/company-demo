@@ -107,10 +107,7 @@
 		components: {
 			banner,
 			pictureTab
-		},
-		setup() {
-			console.log('ENV', ENV);
-		},
+		}
 	}
 </script>
 
@@ -147,6 +144,8 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 	
 
@@ -174,6 +173,13 @@
 	.quick-title {
 		color: #013B81;
 		font-size: 22px;
+		padding-left: 130px;
+	}
+
+	.quick-main {
+		line-height: 1.9rem;
+		padding: 30px 130px;
+		color: #9B9999;
 	}
 
 	.minbar {
@@ -259,10 +265,27 @@
 		font-size: 30px;
 	}
 
+	@media screen and (max-width: 1300px) {
+		.quick-title{
+			padding-left: 110px;
+		}
+		.quick-main{
+			padding: 30px 110px;
+		}
+	}
+
 	@media screen and (max-width: 1200px) {
 		.fourth-big {
 			font-size: 25px;
 			line-height: 60px;
+		}
+		.quick-title{
+			padding-left: 80px;
+			font-size: 16px;
+		}
+		.quick-main{
+			padding: 10px 60px;
+			font-size: 12px;
 		}
 	}
 

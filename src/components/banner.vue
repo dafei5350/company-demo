@@ -54,4 +54,42 @@
 		margin: 0 auto;
 		text-align: left;
 	}
+	
+	@media screen and (max-width: 1000px) {
+		body {
+			font-size: 14px;
+		}
+	
+		.banner-text {
+			top: 10%;
+		}
+	
+		.banner-text-title {
+			font-size: 1.5rem;
+		}
+	
+		.banner-text-main {
+			width: 600px;
+		}
+	
+		.el-tabs__item {
+			font-size: 16px !important;
+			line-height: 80px !important;
+			height: 80px !important;
+		}
+	}
+	
+	@media screen and (max-width: 800px) {
+		body {
+			font-size: 13px;
+		}
+	
+		.banner-text {
+			top: 5%;
+		}
+	
+		.banner-text-title {
+			line-height: 3rem;
+		}
+	}
 </style>
