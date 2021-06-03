@@ -1,6 +1,6 @@
 <template>
 <div class="layout">
-
+<router-link to="/">{{ $t("header.home") }}</router-link>
   <el-container direction="vertical">
     <el-header>
       <NavBar></NavBar> 
