@@ -390,7 +390,7 @@
 		max-width: 1200px;
 		margin: 0 auto;
 	}
-	.edge-big>>>.el-carousel__container{
+	.edge-big:deep().el-carousel__container{
 		height: 800px;
 	}
 	.edge-img{
@@ -428,7 +428,7 @@
 		margin: 0 auto;
 	}
 
-	.trait-big>>>.el-carousel__container {
+	.trait-big:deep().el-carousel__container {
 		height: 600px;
 	}
 
