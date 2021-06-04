@@ -117,6 +117,79 @@
 			</el-carousel-item>
 		</el-carousel>
 	</el-row>
+	<div class="financial-top" style="margin-bottom: 0;">
+		<div class="financial-title">
+			电脑端 - MetaTrader 4
+		</div>
+		<div class="financial-main">
+			<p>MT4交易平台是世界上最受欢迎的在线交易平台，拥有无比可拟的直观和可定制的用户界面特性。只需客户简单登录账户信息即可。</p>
+		</div>
+	</div>
+	<div class="button-big">
+		<a href="" class="button-a">
+			<div class="fourth-button">
+				立即下载
+			</div>
+		</a>
+	</div>
+	<div class="financial-top">
+		<div class="financial-title">
+			网页交易平台特点
+		</div>
+	</div>
+	<el-row class="edge-big">
+		<el-carousel indicator-position="outside">
+			<el-carousel-item v-for="item in edgeMsgB" :key="item">
+				<div>
+					<div class="edge-img">
+						<img :src="item.src">
+					</div>
+					<div class="edge-bot">
+						<div class="edge-bot-big">
+							<div class="edge-bot-title">
+								{{item.titleA}}
+							</div>
+							<div class="edge-bot-main">
+								{{item.mainA}}
+							</div>
+						</div>
+						<div class="edge-bot-big side-border">
+							<div class="edge-bot-title">
+								{{item.titleB}}
+							</div>
+							<div class="edge-bot-main">
+								{{item.mainB}}
+							</div>
+						</div>
+						<div class="edge-bot-big">
+							<div class="edge-bot-title">
+								{{item.titleC}}
+							</div>
+							<div class="edge-bot-main">
+								{{item.mainC}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</el-carousel-item>
+		</el-carousel>
+	</el-row>
+	<div class="fourth">
+		<img src="../assets/index/dq.png">
+		<div class="fourth-big">
+			<div class="fourth-text">
+				体验市场波动最大的交易品种，开仓
+			</div>
+			<div class="fourth-text">
+				不错过任何交易机会。
+			</div>
+			<a href="" class="button-a">
+				<div class="fourth-button">
+					立即开通
+				</div>
+			</a>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -155,6 +228,34 @@
 						mainB: '指标按照类型分为成交量指标、趋势指标、震荡指标等，每种指标都有各自的优势，熟练运用指标能帮助投资者获得盈利。',
 						titleC: '',
 						mainC: ''
+					}
+				],
+				edgeMsgB: [{
+						src: 'src/assets/index/zh_mt4_web1.jpg',
+						titleA: '适用于任何操作系统',
+						mainA: '包含PC端、网页端Windows、Mac 和Linux、移动端iOS和安卓系统。',
+						titleB: '无需安装软件',
+						mainB: '只需打开网页链接即可输入用户名和密码登陆，无需下载软件及APP等。',
+						titleC: '各大浏览器均可打开',
+						mainC: '支持谷歌、IE 、360和火狐浏览器等。'
+					},
+					{
+						src: 'src/assets/index/zh_mt4_web2.jpg',
+						titleA: '60余种技术指标分析',
+						mainA: '指标按照类型分为成交量指标、趋势指标、震荡指标等，每种指标都有各自的优势，熟练运用指标能帮助投资者获得盈利。',
+						titleB: '广泛的分析工具和覆盖图',
+						mainB: '18种画线工具,9个交易周期图表选项,60余种国际领先技术指标和声音预警提示，分析行情走势得心应手。',
+						titleC: '可查看交易记录',
+						mainC: '所有下单记录均有迹可循，清楚了解自己的每一笔交易。'
+					},
+					{
+						src: 'src/assets/index/zh_mt4_web3.jpg',
+						titleA: '一键管理交易账户',
+						mainA: '拥有一键开仓平仓跟踪止损划线下单等功能，助您无忧下单。',
+						titleB: '图表显示您的动态订单',
+						mainB: '交易中的订单始终显示在图标最显眼的地方，时刻提醒您订单走势。',
+						titleC: '即时交易',
+						mainC: '在下单的过程中，当设定价格一旦触及，系统可以很迅速下单或平仓，投资者的交易时间不会被浪费掉。'
 					}
 				],
 				trait: [
@@ -239,11 +340,30 @@
 		justify-content: space-around;
 	}
 
+	.fourth {
+		position: relative;
+		background-color: #F5F5F5;
+	}
+	
+	.fourth img {
+		width: 30% !important;
+		height: 40% !important;
+		margin-left: 10% !important;
+	}
+	
 	.fourth-button {
 		display: inline-block;
 		width: 100px;
 		height: 30px;
 		background: #013B81;
+	}
+	
+	.fourth-big {
+		position: absolute;
+		top: 25%;
+		right: 15%;
+		line-height: 80px;
+		font-size: 30px;
 	}
 
 	.button-a {
@@ -342,5 +462,11 @@
 	.trait-main{
 		line-height: 30px;
 		margin-bottom: 20px;
+	}
+	@media screen and (max-width: 1200px) {
+		.fourth-big {
+			font-size: 25px;
+			line-height: 60px;
+		}
 	}
 </style>
