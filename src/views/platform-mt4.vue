@@ -29,9 +29,9 @@
 	<el-row class="edge-big">
 		<el-carousel indicator-position="outside">
 			<el-carousel-item v-for="item in edgeMsg" :key="item">
-				<div >
+				<div>
 					<div class="edge-img">
-						<img :src="item.src" >
+						<img :src="item.src">
 					</div>
 					<div class="edge-bot">
 						<div class="edge-bot-big">
@@ -58,8 +58,8 @@
 								{{item.mainC}}
 							</div>
 						</div>
+					</div>
 				</div>
-			</div>
 			</el-carousel-item>
 		</el-carousel>
 	</el-row>
@@ -74,15 +74,49 @@
 	<div class="buttonb-big">
 		<a href="">
 			<div class="button-b">
-				<img src="../assets/index/IOS_Download-en.png" >
+				<img src="../assets/index/IOS_Download-en.png">
 			</div>
 		</a>
 		<a href="">
 			<div class="button-b">
-				<img src="../assets/index/anzou.jpg" >
+				<img src="../assets/index/anzou.jpg">
 			</div>
 		</a>
 	</div>
+	<div class="financial-top">
+		<div class="financial-title">
+			移动交易平台特点
+		</div>
+	</div>
+	<el-row class="trait-big">
+		<el-carousel indicator-position="outside">
+			<el-carousel-item v-for="item in trait">
+				<div class="trait-img">
+					<img :src="item.src" >
+				</div>
+				<div class="trait-text">
+					<div class="trait-title">
+						{{item.title}}
+					</div>
+					<div class="trait-main">
+						{{item.mainA}}
+					</div>
+					<div class="trait-main">
+						{{item.mainB}}
+					</div>
+					<div class="trait-main">
+						{{item.mainC}}
+					</div>
+					<div class="trait-main">
+						{{item.mainD}}
+					</div>
+					<div class="trait-main">
+						{{item.mainE}}
+					</div>
+				</div>
+			</el-carousel-item>
+		</el-carousel>
+	</el-row>
 </template>
 
 <script>
@@ -95,8 +129,7 @@
 					title: 'MetaTrader 4',
 					main: 'Attuare Pty. Ltd.使用MetaTrader 4交易平台（MT4），交易速度高达50毫秒。我们使用全球顶级服务器，让您轻松交易。 您可以在我们的网站上下载适用PC和移动设备的平台客户端。'
 				}, ],
-				edgeMsg: [
-					{
+				edgeMsg: [{
 						src: 'src/assets/index/zh_mt4_pc1.jpg',
 						titleA: '高效可靠的执行速度',
 						mainA: 'Attuare Pty. Ltd.服务器连接延迟速度低至30ms，采用全球顶级服务器，全年99.97% 不掉线。',
@@ -122,6 +155,44 @@
 						mainB: '指标按照类型分为成交量指标、趋势指标、震荡指标等，每种指标都有各自的优势，熟练运用指标能帮助投资者获得盈利。',
 						titleC: '',
 						mainC: ''
+					}
+				],
+				trait: [
+					{
+						src: 'src/assets/index/zh_mt4_mobile1.jpg',
+						title: '触控交易',
+						mainA: 'MT4服务器接口可以因你的要求而定制平台的工作模式。API能解决一系列广泛的问题。',
+						mainB: '轻松设定止盈止损',
+						mainC: '多账户轻松切换',
+						mainD: '',
+						mainE: '',
+					},
+					{
+						src: 'src/assets/index/zh_mt4_mobile2.jpg',
+						title: '交互式图表',
+						mainA: '可以经验总结编写成指标，并应用于图表；或者根据自己的习惯，做出适合自己的指标，让交易参考更加的MACD多元化。',
+						mainB: '实时互动图表',
+						mainC: '多种图表种类',
+						mainD: '多重时间架构',
+						mainE: '涵盖18种画线工具及30种技术指标',
+					},
+					{
+						src: 'src/assets/index/zh_mt4_mobile3.jpg',
+						title: '账户管理',
+						mainA: '管理程序允许你集中客户于一个伺服器商，你只需一个伺服器便可处IB和客户所有账户和指令。',
+						mainB: '账户资金及交易信息轻松查看',
+						mainC: '与PC端交易平台自动同步',
+						mainD: '',
+						mainE: '',
+					},
+					{
+						src: 'src/assets/index/zh_mt4_mobile4.jpg',
+						title: '交易历史查询',
+						mainA: '在MT4平台中的终端窗口中点击账户历史的时候，由于MT4平台的账户历史会不定期的清除，您可以查看部分时间的历史记录。',
+						mainB: '可一键查询已平仓交易记录',
+						mainC: '',
+						mainD: '',
+						mainE: '',
 					}
 				]
 			}
@@ -184,50 +255,92 @@
 		line-height: 30px;
 		font-size: 12px;
 	}
-	
-	.button-b{
+
+	.button-b {
 		width: 200px;
 		height: 80px;
 	}
-	
-	.button-b img{
+
+	.button-b img {
 		width: 100%;
 	}
-	
-	.edge-big{
+
+	.edge-big {
 		width: 90%;
 		max-width: 1200px;
 		margin: 0 auto;
 	}
-	.edge-big>>>.el-carousel__container{
+
+	.edge-big>>>.el-carousel__container {
 		height: 800px;
 	}
-	.edge-img{
+
+	.edge-img {
 		width: 70%;
 		margin: 0 auto;
 	}
-	.edge-img img{
+
+	.edge-img img {
 		width: 100%;
 	}
-	.edge-bot{
+
+	.edge-bot {
 		width: 80%;
 		margin: 0 auto;
 		margin-top: 100px;
 		display: flex;
 	}
-	.edge-bot-big{
+
+	.edge-bot-big {
 		width: 33%;
-		padding:20px 40px;
+		padding: 20px 40px;
 	}
-	.edge-bot-title{
+
+	.edge-bot-title {
 		margin-bottom: 10px;
 		font-weight: bold;
 	}
-	.edge-bot-main{
+
+	.edge-bot-main {
 		color: #9B9999;
 	}
-	.side-border{
+
+	.side-border {
 		border-left: 1px solid #F5F5F5;
 		border-right: 1px solid #F5F5F5;
+	}
+	
+	.trait-big {
+		width: 80%;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	
+	.trait-big>>>.el-carousel__container {
+		height: 600px;
+	}
+	
+	.trait-img {
+		width: 50%;
+		float: left;
+	}
+	
+	.trait-img img{
+		width: 60%;
+	}
+	
+	.trait-text{
+		width: 50%;
+		float: right;
+		margin-top: 50px;
+	}
+	.trait-title{
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.trait-main{
+		line-height: 30px;
+		margin-bottom: 20px;
 	}
 </style>

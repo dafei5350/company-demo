@@ -2,7 +2,7 @@
 	<banner :bannerList="bannera"></banner>
 	<el-tabs model-value="first" @tab-click="handleClick" stretch="true" class="question-main">
 		<el-tab-pane label="交易问题" name="first">
-			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseA">
+			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseA" :key="item.name">
 				<el-collapse-item :title="item.title" :name="item.name">
 					<div>{{item.textA}}</div>
 					<div>{{item.textB}}</div>
@@ -12,7 +12,7 @@
 			</el-collapse>
 		</el-tab-pane>
 		<el-tab-pane label="市场问题" name="second">
-			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseB">
+			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseB" :key="item.name">
 				<el-collapse-item :title="item.title" :name="item.name">
 					<div>{{item.textA}}</div>
 					<div>{{item.textB}}</div>
@@ -22,7 +22,7 @@
 			</el-collapse>
 		</el-tab-pane>
 		<el-tab-pane label="MT4平台问题" name="third">
-			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseC">
+			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseC" :key="item.name">
 				<el-collapse-item :title="item.title" :name="item.name">
 					<div>{{item.textA}}</div>
 					<div>{{item.textB}}</div>
@@ -32,7 +32,7 @@
 			</el-collapse>
 		</el-tab-pane>
 		<el-tab-pane label="开户问题" name="fourth">
-			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseD">
+			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseD" :key="item.name">
 				<el-collapse-item :title="item.title" :name="item.name">
 					<div>{{item.textA}}</div>
 					<div>{{item.textB}}</div>
@@ -42,7 +42,7 @@
 			</el-collapse>
 		</el-tab-pane>
 		<el-tab-pane label="出入金问题" name="fifth">
-			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseE">
+			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseE" :key="item.name">
 				<el-collapse-item :title="item.title" :name="item.name">
 					<div>{{item.textA}}</div>
 					<div>{{item.textB}}</div>
@@ -54,7 +54,7 @@
 			</el-collapse>
 		</el-tab-pane>
 		<el-tab-pane label="交易点差" name="sixth">
-			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseF">
+			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseF" :key="item.name">
 				<el-collapse-item :title="item.title" :name="item.name">
 					<div>{{item.textA}}</div>
 					<div>{{item.textB}}</div>
@@ -63,7 +63,7 @@
 			</el-collapse>
 		</el-tab-pane>
 		<el-tab-pane label="增值服务" name="seventh">
-			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseG">
+			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseG" :key="item.name">
 				<el-collapse-item :title="item.title" :name="item.name">
 					<div>{{item.textA}}</div>
 					<div>{{item.textB}}</div>
@@ -72,7 +72,7 @@
 			</el-collapse>
 		</el-tab-pane>
 		<el-tab-pane label="交易账户" name="eighth">
-			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseH">
+			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseH" :key="item.name">
 				<el-collapse-item :title="item.title" :name="item.name">
 					<div>{{item.textA}}</div>
 					<div>{{item.textB}}</div>
