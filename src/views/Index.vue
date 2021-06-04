@@ -138,8 +138,7 @@
           <img src="../assets/index/execution_speed.png" alt="" />
           <b>急速订单执行</b>
           <p>交易速度快达30ms</p>
-        </div>
-        <div class="items">
+        </div>wan
           <img src="../assets/index/time.png" alt="" />
           <b>深度市场流动性</b>
           <p>来自16家全球顶级银行的报价</p>
@@ -154,7 +153,7 @@
         </router-link>
       </div>
     </div>
-  </div>
+
   <div class="other-row">
     <div class="content">
       <h1>优质交易资源及深入市场分析</h1>
