@@ -5,8 +5,10 @@
     mode="horizontal"
     @select="handleSelect"
     router
-  >
-    <img src="../assets/logo.png" route="/" class="logo" alt="logo" srcset="" />
+  > 
+    <router-link to="/">
+      <img src="../assets/logo.png" class="logo" alt="logo" srcset="" />
+    </router-link>
     <el-submenu index="2">
       <template #title>关于Attuare Pty.Ltd</template>
       <el-menu-item index="2-1" route="/about-me">关于Attuare Pty.Ltd</el-menu-item>

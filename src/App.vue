@@ -43,4 +43,7 @@ body {
 .el-footer{
   padding: 0 !important;
 }
+.clearA{
+  text-decoration: none;
+}
 </style>

@@ -369,29 +369,29 @@
 </script>
 
 <style scoped>
-	.question-main>>>.el-tabs__content {
+	.question-main :deep().el-tabs__content {
 		padding: 50px;
 	}
 
-	.question-main>>>.el-collapse-item__header {
+	.question-main :deep().el-collapse-item__header {
 		font-size: 20px !important;
 	}
 
-	.question-main>>>.el-collapse {
+	.question-main :deep().el-collapse {
 		border-top: 1px solid #9B9999;
 		border-bottom: 2px solid #9B9999;
 	}
 
-	.question-main>>>.el-collapse-item__header {
+	.question-main:deep().el-collapse-item__header {
 		height: 80px;
 	}
 
-	.question-main>>>.el-collapse-item__content {
+	.question-main:deep().el-collapse-item__content {
 		font-size: 16px !important;
 		color: #9B9999 !important;
 	}
 
-	.question-main>>>.el-tabs__item {
+	.question-main:deep().el-tabs__item {
 		font-size: 18px;
 	}
 
