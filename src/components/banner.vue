@@ -1,5 +1,5 @@
 <template>
-	<div class="banner" v-for="bannera in bannerList">
+	<div class="banner" v-for="bannera in bannerList" :key="bannera.title">
 		<div class="banner-img">
 			<img :src="bannera.imga">
 		</div>
