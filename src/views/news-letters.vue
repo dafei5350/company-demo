@@ -1,7 +1,7 @@
 <template>
 	<banner :bannerList="bannera"></banner>
 	<div class="analyse">
-		<div class="analyse-big">
+		<router-link to="/news-main" class="analyse-big">
 			<div class="analyse-img">
 				<img src="../assets/index/guanyuwom1.png">
 			</div>
@@ -11,8 +11,8 @@
 			<div class="analyse-title">
 				“里根经济学之父”谈经济在美国大选sadasdasdsadasdaasdsadas
 			</div>
-		</div>
-		<div class="analyse-big">
+		</router-link>
+		<router-link to="/news-main" class="analyse-big">
 			<div class="analyse-img">
 				<img src="../assets/index/guanyuwom1.png">
 			</div>
@@ -22,8 +22,8 @@
 			<div class="analyse-title">
 				“里根经济学之父”谈经济在美国大选sadasdasdsadasdaasdsadas
 			</div>
-		</div>
-		<div class="analyse-big">
+		</router-link>
+		<router-link to="/news-main" class="analyse-big">
 			<div class="analyse-img">
 				<img src="../assets/index/guanyuwom1.png">
 			</div>
@@ -33,8 +33,8 @@
 			<div class="analyse-title">
 				“里根经济学之父”谈经济在美国大选sadasdasdsadasdaasdsadas
 			</div>
-		</div>
-		<div class="analyse-big">
+		</router-link>
+		<router-link to="/news-main" class="analyse-big">
 			<div class="analyse-img">
 				<img src="../assets/index/guanyuwom1.png">
 			</div>
@@ -44,8 +44,8 @@
 			<div class="analyse-title">
 				“里根经济学之父”谈经济在美国大选sadasdasdsadasdaasdsadas
 			</div>
-		</div>
-		<div class="analyse-big">
+		</router-link>
+		<router-link to="/news-main" class="analyse-big">
 			<div class="analyse-img">
 				<img src="../assets/index/guanyuwom1.png">
 			</div>
@@ -55,8 +55,8 @@
 			<div class="analyse-title">
 				“里根经济学之父”谈经济在美国大选sadasdasdsadasdaasdsadas
 			</div>
-		</div>
-		<div class="analyse-big">
+		</router-link>
+		<router-link to="/news-main" class="analyse-big">
 			<div class="analyse-img">
 				<img src="../assets/index/guanyuwom1.png">
 			</div>
@@ -66,10 +66,10 @@
 			<div class="analyse-title">
 				“里根经济学之父”谈经济在美国大选sadasdasdsadasdaasdsadas
 			</div>
-		</div>
+		</router-link>
 	</div>
-	<el-pagination background layout="prev, pager, next" :total="1000" class="pagebar">
-		
+	<el-pagination background layout="prev, pager, next" :total="1000" pager-count="3" class="pagebar">
+
 	</el-pagination>
 </template>
 
@@ -101,40 +101,54 @@
 		justify-content: space-around;
 	}
 
-	.analyse-big {
-		width: 30%;
+	.analyse .analyse-big {
+		width: 40%;
 		margin: 20px 0;
+		text-decoration: none;
 	}
 
-	.analyse-img {
+	.analyse .analyse-big .analyse-img {
 		width: 300px;
 		height: 200px;
 		overflow: hidden;
 		margin: 0 auto;
 	}
 
-	.analyse-img img {
+	.analyse .analyse-big .analyse-img img {
 		width: 300px;
 	}
 
-	.analyse-data {
+	.analyse .analyse-big .analyse-data {
 		color: #9B9999;
 		font-size: 14px;
 		width: 300px;
 		margin: 0 auto;
 	}
 
-	.analyse-title {
+	.analyse .analyse-big .analyse-title {
 		font-size: 18px;
 		text-overflow: ellipsis;
 		overflow: hidden;
 		white-space: nowrap;
 		width: 300px;
 		margin: 0 auto;
+		color: #333333;
 	}
-	
-	.pagebar{
-		width: 400px;
+
+	.pagebar {
+		width: 250px;
 		margin: 50px auto;
+	}
+
+	@media screen and (max-width: 768px) {
+		.analyse .analyse-big {
+			width: 100%;
+		}
+	}
+
+	@media screen and (min-width: 1200px) {
+		.analyse .analyse-big {
+			width: 30%;
+		}
 	}
 </style>

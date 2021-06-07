@@ -72,4 +72,16 @@
 	.el-tab-pane {
 		padding: 50px !important;
 	}
+	@media screen and (max-width: 768px){
+		.el-tab-pane {
+			padding: 0px !important;
+		}
+		.picture-text {
+			width: 280px;
+			position: initial;
+			padding: 10px;
+			margin: 0;
+			height: 180px;
+		}
+	}
 </style>

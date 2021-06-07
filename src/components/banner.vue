@@ -91,5 +91,13 @@
 		.banner-text-title {
 			line-height: 3rem;
 		}
+		.banner-text-main{
+			width: 80%;
+		}
+	}
+	@media screen and (max-width: 768px) {
+		.banner-img img{
+			height: 35vh;
+		}
 	}
 </style>

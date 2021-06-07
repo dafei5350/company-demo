@@ -367,9 +367,33 @@
 			width: 600px;
 		}
 
+		.fourth{
+			height: 250px;
+		}
 		.fourth-big {
 			font-size: 20px;
 			line-height: 40px;
+			right: 5%;
+		}
+		.fourth img{
+			display: none;
+		}
+		.quick-big {
+			padding: 0 30px;
+		}
+		.quick-img {
+			width: 100%;
+		}
+		.quick-text{
+			width: 100%;
+		}
+		.quick-main{
+			padding: 10px;
+		}
+		.quick-title{
+			padding-left: 0;
+			text-align: center;
+			margin-top: 10px;
 		}
 	}
 </style>

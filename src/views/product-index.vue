@@ -247,7 +247,7 @@
 		}
 	}
 
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 768px) {
 		body {
 			font-size: 13px;
 		}
@@ -264,9 +264,30 @@
 			width: 600px;
 		}
 
+		.minbar-big{
+			width: 100%;
+			text-align: center;
+		}
+		.minbar-text{
+			margin: 0 0 20px 0;
+			text-align: left;
+		}
+		.thirdbar-big{
+			width: 100%;
+		}
+		.thirdbar-main{
+			padding: 20px;
+		}
+		.fourth{
+			height: 250px;
+		}
 		.fourth-big {
 			font-size: 20px;
 			line-height: 40px;
+			right: 5%;
+		}
+		.fourth img{
+			display: none;
 		}
 	}
 </style>

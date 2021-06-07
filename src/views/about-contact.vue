@@ -103,7 +103,7 @@
 
 	}
 
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 768px) {
 		body {
 			font-size: 13px;
 		}
@@ -115,6 +115,14 @@
 		.banner-text-title {
 			line-height: 3rem;
 		}
-
+		.askd{
+			padding: 0px 10px;
+		}
+		.askd-top{
+			margin: 50px 0;
+		}
+		.ask-title{
+			padding: 10px;
+		}
 	}
 </style>

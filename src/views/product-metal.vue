@@ -313,7 +313,7 @@
 		}
 	}
 
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 768px) {
 		body {
 			font-size: 13px;
 		}
@@ -325,14 +325,38 @@
 		.banner-text-title {
 			line-height: 3rem;
 		}
+		.minbar-big{
+			width: 100%;
+			text-align: center;
+		}
+		.minbar-text{
+			margin: 0 0 20px 0;
+			text-align: left;
+		}
 
 		.thirdbar-big {
 			width: 600px;
 		}
 
+		.fourth{
+			height: 250px;
+		}
 		.fourth-big {
 			font-size: 20px;
 			line-height: 40px;
+			right: 5%;
+		}
+		.fourth img{
+			display: none;
+		}
+		.quick-big {
+			padding: 0 30px;
+		}
+		.quick-img {
+			width: 100%;
+		}
+		.quick-text{
+			width: 100%;
 		}
 	}
 </style>

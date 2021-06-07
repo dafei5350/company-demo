@@ -444,18 +444,35 @@
 		}
 	}
 
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 768px) {
 		body {
 			font-size: 13px;
 		}
-
+		.question-main :deep().el-tabs__content {
+			padding: 0px;
+		}
+		.question-main :deep().el-collapse-item__header {
+			font-size: 14px !important;
+			line-height: 18px;
+		}
+		.question-main:deep().el-collapse-item__content {
+			font-size: 14px !important;
+		}
 		.thirdbar-big {
 			width: 600px;
 		}
 
+		
+		.fourth{
+			height: 250px;
+		}
 		.fourth-big {
 			font-size: 20px;
 			line-height: 40px;
+			right: 5%;
+		}
+		.fourth img{
+			display: none;
 		}
 	}
 </style>

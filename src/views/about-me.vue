@@ -118,13 +118,13 @@
 
 <style scoped>
 	.financial{
-		width: 80%;
+		width: 90%;
 		max-width: 1200px;
 		margin: 80px auto;
 	}
 	
 	.financial-top{
-		width: 80%;
+		width: 90%;
 		max-width: 800px;
 		margin: 80px auto;
 	}
@@ -145,7 +145,7 @@
 	}
 	
 	.financial-img img{
-		width: 80%;
+		width: 90%;
 	}
 	.doubleQuick{
 		margin: 50px 0;
@@ -252,6 +252,9 @@
 			font-size: 25px;
 			line-height: 60px;
 		}
+		.fourth {
+			padding: 100px 0;
+		}
 		.quick-title{
 			padding-left: 80px;
 		}
@@ -260,10 +263,30 @@
 			font-size: 12px;
 		}
 	}
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 768px) {
 		.fourth-big {
-			font-size: 20px;
-			line-height: 40px;
+			font-size: 16px;
+			line-height: 20px;
+			right: 5%;
+		}
+		.financial{
+			width: 90%;
+			margin: 20px auto;
+		}
+		.financial-img img{
+			width: 90%;
+		}
+		.financial-top{
+			margin: 20px auto;
+		}
+		.quick-big {
+			padding: 0 30px;
+		}
+		.quick-img {
+			width: 100%;
+		}
+		.quick-text{
+			width: 100%;
 		}
 	}
 </style>

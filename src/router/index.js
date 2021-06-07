@@ -18,6 +18,7 @@ import PlatformMt5 from '@/views/platform-mt5.vue'
 
 import NewsAnalysis from '@/views/news-analysis.vue'
 import NewsLetters from '@/views/news-letters.vue'
+import NewsMain from '@/views/news-main.vue'
 
 import CoopIB from '@/views/coop-ib.vue'
 import CoopIntem from '@/views/coop-intem.vue'
@@ -90,6 +91,11 @@ const router = createRouter({
       name: '市场快报',
       component: NewsLetters
     },
+	{
+		path: '/news-main',
+		name: '市场内容',
+		component: NewsMain
+	},
     {
       path: '/coop-ib',
       name: 'IB代理计划',
