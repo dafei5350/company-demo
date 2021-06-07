@@ -4,6 +4,7 @@ import App from './App.vue'
 import router from '@/router'
 import i18n from '@/i18n'
 import "amfe-flexible/index.js";
+import animated from 'animate.css'
 
 
 import "amfe-flexible/index.js";

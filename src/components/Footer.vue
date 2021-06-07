@@ -87,12 +87,14 @@
   display: flex;
   justify-content: center;
 }
-.footer .bg{
+
+.footer .bg {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.footer .block{
+
+.footer .block {
   width: 80%;
   color: #fff;
   position: absolute;

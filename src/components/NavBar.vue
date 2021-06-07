@@ -117,6 +117,5 @@ console.log(window.localStorage.setItem);
 }
 @media screen and (min-width: 1200px){
 
-}
 </style>
 
