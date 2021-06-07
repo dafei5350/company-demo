@@ -3,7 +3,7 @@
 
   <el-container direction="vertical">
     <el-header>
-      <NavBar></NavBar> 
+      <NavBar></NavBar>
     </el-header>
     <el-main>
       <router-view></router-view>
@@ -45,5 +45,11 @@ body {
 }
 .clearA{
   text-decoration: none;
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (min-width: 1200px){
+
 }
 </style>

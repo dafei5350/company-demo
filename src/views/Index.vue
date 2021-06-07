@@ -1,9 +1,9 @@
 <template>
   <div class="block">
-    <el-carousel height="790px">
+    <el-carousel>
        <el-carousel-item class="fenye01">
         <img src="../assets/index/carousel.jpg" alt="" srcset="" />
-        <div class="block">
+        <div class="block animated bounceInDown">
           <h1 class="title">
             “Attuare Pty.
             Ltd.提供我所需要的交易工具、交易知识和专业的相关服务，让我可以随时随地在世界上任何一个角落轻松交易。”
@@ -139,6 +139,7 @@
           <b>急速订单执行</b>
           <p>交易速度快达30ms</p>
         </div>
+
         <div class="items">
           <img src="../assets/index/time.png" alt="" />
           <b>深度市场流动性</b>
@@ -149,9 +150,11 @@
           <b>真正的ECN交易模式</b>
           <p>订单直接递交至流动性提供商</p>
         </div>
+
         <router-link to="/">
           <el-button type="primary">了解更多</el-button>
         </router-link>
+      </div>
       </div>
     </div>
 
@@ -263,7 +266,10 @@ export default {
 
 
 <style>
-.fenye01{position:relative}
+.el-carousel__container{
+  height: 700px !important;
+}
+.fenye01{position:relative;}
 .fenye01 .block,.fenye01 img{position:absolute}
 .fenye01 .block{top:200px;left:280px;width:650px;height:280px;color:#eee;font-size:30px;line-height:48px}
 .fenye01 .block .btn{display:flex;width:260px;height:50px;font-size:22px;transition:all 0.25s ease-in-out;justify-content:center;align-items:center}
@@ -276,7 +282,7 @@ export default {
 .fenye02 .block-text .btn .items{display:flex;width:260px;height:50px;font-size:22px;transition:all 0.25s ease-in-out;flex-direction:row;justify-content:center;align-items:center;text-decoration:none}
 .fenye02 .block-text .btn .items:hover{transform:scale(1.2)}
 .fenye02 img{position:absolute;top:-134px;z-index:-1;width:156%;max-width:unset}
-.ban-row{position:absolute;display:flex;width:100%;height:120px;background:#01254f;color:#eee;justify-content:center}
+.ban-row{display:flex;width:100%;height:120px;background:#01254f;color:#eee;justify-content:center}
 .ban-row .content{display:flex;width:80%;justify-content:space-around;align-items:center}
 .ban-row .content .text{color:#eee;font-size:28px}
 .ban-row .content button{width:200px}
@@ -286,9 +292,9 @@ export default {
 .content-row .text h2{color:rgba(0,0,0,0.85)}
 .content-row .block{display:flex;flex-direction:row;flex:1}
 .content-row .block .btn,.content-row .block .img{display:flex;justify-content:center;text-decoration:none}
-.content-row .block .img{width:60%;flex-direction:column}
+.content-row .block .img{width:50%;flex-direction:column}
 .content-row .block .img .el-button{margin-top:20px;width:50%;text-align:center}
-.content-row .block .content{display:flex;color:#9b9999;flex-wrap:wrap}
+.content-row .block .content{display:flex;color:#9b9999;flex-wrap:wrap; font-size: 12px;}
 .content-row .block .content .items{display:flex;margin-left:15px;padding:15px;width:40%;flex-direction:column}
 .content-row .block .content .items img{width:50px;height:50px}
 .zy-row{display:flex;width:100%;height:950px;background:#f2f2f2;flex-direction:column;align-items:center;justify-content:center}
@@ -324,4 +330,88 @@ export default {
 .py-row .block .items img{width: 60px; height: 60px;}
 .py-row .block .items span{color: #9b9999}
 .py-row .pay{text-align: center}
+
+@media screen and (max-width: 768px){
+  .el-carousel__container{
+    width: 100%;
+    height: 300px !important;
+
+  }
+  .fenye01 .block, .fenye01 img{
+    height: 100%;
+  }
+  .fenye02 img{
+    height: 100%;
+  }
+  .ban-row{
+    height: auto;
+  }
+  .ban-row .content{
+    flex-wrap: wrap;
+  }
+  .ban-row .content .items{
+    width: 50%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-row .block{
+    flex-direction: column;
+  }
+  .content-row{
+    height: auto;
+  }
+  .content-row .cointainer{
+    padding-top: 0;
+    width: 90%;
+    height: auto;
+  }
+
+  .content-row .block .img{
+    width: 100%;
+  }
+  .content-row .block .content{
+    display: flex;
+    align-items: center;
+  }
+  .content-row .block .content .items{
+    width: 30%;
+    align-items: center;
+  }
+
+  .zy-row{
+    display: none;
+  }
+  .pt-row{
+    display: none;
+  }
+  .other-row .content{
+    width: 90%;
+  }
+  .js-row{
+    display: none;
+  }
+  .py-row .title{
+    width: 90%;
+    font-size: 20px;
+  }
+  .py-row .block{
+    width: 100%;
+    height: 370px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .py-row .block .items{
+    width: 150px;
+    height: 160px;
+  }
+  .py-row .pay img{
+    width: 95%;
+  }
+
+}
+@media screen and (min-width: 1200px){
+
+}
 </style>
