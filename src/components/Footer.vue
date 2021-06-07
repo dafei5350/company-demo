@@ -105,7 +105,7 @@
 }
 .footer .block .logo img{
   width:120px;
-  height: 100px; 
+  height: 100px;
 }
 .footer .tips{
   font-size: 12px;
