@@ -7,33 +7,63 @@
       </div>
       <div class="items">
         <div class="title">关于我们</div>
-        <p>关于我们</p>
-        <p>监管信息</p>
-        <p>常见问题解答</p>
-        <p>公告</p>
-        <p>联系我们</p>
+		<router-link to="/" class="clearA">
+			<p>关于我们</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>监管信息</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>常见问题解答</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>公告</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>联系我们</p>
+		</router-link>
       </div>
       <div class="items">
         <div class="title">交易产品</div>
-        <p>外汇</p>
-        <p>贵金属</p>
-        <p>股票指数</p>
+		<router-link to="/" class="clearA">
+			<p>外汇</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>贵金属</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>股票指数</p>
+		</router-link>
       </div>
       <div class="items">
         <div class="title">交易平台</div>
-        <p>MT4</p>
-        <p>MT5</p>
+		<router-link to="/" class="clearA">
+			<p>MT4</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>MT5</p>
+		</router-link>
       </div>
       <div class="items">
         <div class="title">新闻动态</div>
-        <p>市场分析</p>
-        <p>市场快报</p>
+		<router-link to="/" class="clearA">
+			<p>市场分析</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>市场快报</p>
+		</router-link>
       </div>
       <div class="items">
         <div class="title">合作伙伴</div>
-        <p>IB代理计划</p>
-        <p>区域代理</p>
-        <p>国际合作</p>
+		<router-link to="/" class="clearA">
+			<p>IB代理计划</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>区域代理</p>
+		</router-link>
+		<router-link to="/" class="clearA">
+			<p>国际合作</p>
+		</router-link>
       </div>
     </div>
     <div class="tips">
@@ -46,6 +76,9 @@
 
 
 <style scoped>
+.clearA{
+	color: #F5F5F5;
+}
 .footer {
   padding: 0px !important;
   width: 100%;
