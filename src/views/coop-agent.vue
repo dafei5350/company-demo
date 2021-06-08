@@ -185,18 +185,30 @@
 
 	}
 
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 768px) {
 		body {
 			font-size: 13px;
 		}
-
-		.banner-text {
-			top: 5%;
+		.el-tabs__item {
+			font-size: 14px !important;
+			line-height: 20px !important;
+			height: 20px !important;
 		}
-
-		.banner-text-title {
-			line-height: 3rem;
+		.quick-big {
+			padding: 0 30px;
 		}
-
+		.quick-img {
+			width: 100%;
+		}
+		.quick-text{
+			width: 100%;
+		}
+		.quick-main{
+			padding: 10px;
+		}
+		.quick-title{
+			padding-left: 0;
+			text-align: center;
+		}
 	}
 </style>

@@ -64,8 +64,9 @@
 .news-main .news-content .news-img{width:80%;margin:0 auto;}
 .news-main .news-content .news-img img{width:100%;}
 @media screen and (max-width: 768px){
-	.news-main .news-title{font-size:18px}
-	.news-main .news-date{font-size:12px;}
+	.news-main .news-title{font-size:16px}
+	.news-main .news-date{font-size:12px;margin:10px 0;}
 	.news-main .news-content .news-text{font-size:14px}
+	.news-main .news-content .news-img{width:90%;}
 }
 </style>

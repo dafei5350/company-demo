@@ -288,5 +288,16 @@
 		.quick-text{
 			width: 100%;
 		}
+		.fourth{
+			height: 250px;
+		}
+		.fourth-big {
+			font-size: 20px;
+			line-height: 40px;
+			right: 5%;
+		}
+		.fourth img{
+			display: none;
+		}
 	}
 </style>

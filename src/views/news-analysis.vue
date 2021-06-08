@@ -95,10 +95,10 @@
 <style scoped>
 .analyse{width:90%;max-width:1400px;margin:50px auto;display:flex;flex-wrap:wrap;justify-content:space-around;}
 .analyse .analyse-big{width:40%;margin:20px 0;text-decoration:none;}
-.analyse .analyse-big .analyse-img{width:300px;height:200px;overflow:hidden;margin:0 auto;}
-.analyse .analyse-big .analyse-img img{width:300px;}
-.analyse .analyse-big .analyse-data{color:#9B9999;font-size:14px;width:300px;margin:0 auto;}
-.analyse .analyse-big .analyse-title{font-size:18px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:300px;margin:0 auto;color:#333333;}
+.analyse .analyse-big .analyse-img{width:280px;height:200px;overflow:hidden;margin:0 auto;}
+.analyse .analyse-big .analyse-img img{width:280px;}
+.analyse .analyse-big .analyse-data{color:#9B9999;font-size:14px;width:280px;margin:0 auto;}
+.analyse .analyse-big .analyse-title{font-size:18px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:280px;margin:0 auto;color:#333333;}
 .pagebar{width:250px;margin:50px auto;}
 @media screen and (max-width: 768px) {
 		.analyse .analyse-big {

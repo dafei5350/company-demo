@@ -114,11 +114,6 @@ console.log(window.localStorage.setItem);
     display: none;
   }
 }
-@media screen and (max-width: 1200px){
-  .el-menu-demo{
-    display: none;
-  }
-}
 @media screen and (min-width: 1200px){
 
 }

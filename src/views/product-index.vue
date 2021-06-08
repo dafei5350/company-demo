@@ -264,6 +264,10 @@
 			width: 600px;
 		}
 
+		.minbar{
+			margin: 10px 0;
+		}
+
 		.minbar-big{
 			width: 100%;
 			text-align: center;

@@ -108,20 +108,20 @@
 	}
 
 	.analyse .analyse-big .analyse-img {
-		width: 300px;
+		width: 280px;
 		height: 200px;
 		overflow: hidden;
 		margin: 0 auto;
 	}
 
 	.analyse .analyse-big .analyse-img img {
-		width: 300px;
+		width: 280px;
 	}
 
 	.analyse .analyse-big .analyse-data {
 		color: #9B9999;
 		font-size: 14px;
-		width: 300px;
+		width: 280px;
 		margin: 0 auto;
 	}
 
@@ -130,7 +130,7 @@
 		text-overflow: ellipsis;
 		overflow: hidden;
 		white-space: nowrap;
-		width: 300px;
+		width: 280px;
 		margin: 0 auto;
 		color: #333333;
 	}

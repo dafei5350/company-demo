@@ -71,33 +71,25 @@
 		.banner-text-main {
 			width: 600px;
 		}
-	
-		.el-tabs__item {
-			font-size: 16px !important;
-			line-height: 80px !important;
-			height: 80px !important;
-		}
 	}
-	
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 768px) {
 		body {
-			font-size: 13px;
+			font-size: 12px;
 		}
-	
+			
 		.banner-text {
 			top: 5%;
 		}
-	
+			
 		.banner-text-title {
-			line-height: 3rem;
+			line-height: 2rem;
 		}
 		.banner-text-main{
 			width: 80%;
+			line-height: 20px;
 		}
-	}
-	@media screen and (max-width: 768px) {
 		.banner-img img{
-			height: 35vh;
+			height: 80vw;
 		}
 	}
 </style>

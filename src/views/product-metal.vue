@@ -358,5 +358,12 @@
 		.quick-text{
 			width: 100%;
 		}
+		.quick-main{
+			padding: 10px;
+		}
+		.quick-title{
+			padding-left: 0;
+			text-align: center;
+		}
 	}
 </style>

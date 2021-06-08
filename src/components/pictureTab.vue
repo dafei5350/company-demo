@@ -77,11 +77,10 @@
 			padding: 0px !important;
 		}
 		.picture-text {
-			width: 280px;
+			width: 100%;
 			position: initial;
-			padding: 10px;
+			padding: 0px;
 			margin: 0;
-			height: 180px;
 		}
 	}
 </style>
