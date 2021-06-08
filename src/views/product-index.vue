@@ -15,7 +15,7 @@
 		</div>
 	</div>
 	<div class="thirdbar">
-		<div class="thirdbar-big">
+		<div class="thirdbar-big" data-aos="fade-up">
 			<div class="thirdbar-text">
 				零点差交易
 			</div>

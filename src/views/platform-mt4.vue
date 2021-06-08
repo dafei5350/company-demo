@@ -9,7 +9,7 @@
 				制图功能和创新的订单管理工具，确保您能够快速且有效地管理持仓。</p>
 		</div>
 	</div>
-	<div class="button-big">
+	<div class="button-big" data-aos="fade-up">
 		<a href="" class="button-a">
 			<div class="fourth-button">
 				立即下载
@@ -27,7 +27,7 @@
 		</div>
 	</div>
 	<el-row class="edge-big">
-		<el-carousel indicator-position="outside">
+		<el-carousel indicator-position="outside" data-aos="fade-up">
 			<el-carousel-item v-for="item in edgeMsg" :key="item">
 				<div>
 					<div class="edge-img">
@@ -63,7 +63,7 @@
 			</el-carousel-item>
 		</el-carousel>
 	</el-row>
-	<div class="financial-top" style="margin-bottom: 0;">
+	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-up">
 		<div class="financial-title">
 			移动版 - MetaTrader 4
 		</div>
@@ -83,12 +83,12 @@
 			</div>
 		</a>
 	</div>
-	<div class="financial-top">
+	<div class="financial-top" data-aos="fade-up">
 		<div class="financial-title">
 			移动交易平台特点
 		</div>
 	</div>
-	<el-row class="trait-big">
+	<el-row class="trait-big" data-aos="fade-up">
 		<el-carousel indicator-position="outside">
 			<el-carousel-item v-for="item in trait">
 				<div class="trait-img">
@@ -117,7 +117,7 @@
 			</el-carousel-item>
 		</el-carousel>
 	</el-row>
-	<div class="financial-top" style="margin-bottom: 0;">
+	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-up">
 		<div class="financial-title">
 			电脑端 - MetaTrader 4
 		</div>
@@ -125,19 +125,19 @@
 			<p>MT4交易平台是世界上最受欢迎的在线交易平台，拥有无比可拟的直观和可定制的用户界面特性。只需客户简单登录账户信息即可。</p>
 		</div>
 	</div>
-	<div class="button-big">
+	<div class="button-big" data-aos="fade-up">
 		<a href="" class="button-a">
 			<div class="fourth-button">
 				立即下载
 			</div>
 		</a>
 	</div>
-	<div class="financial-top">
+	<div class="financial-top" data-aos="fade-up">
 		<div class="financial-title">
 			网页交易平台特点
 		</div>
 	</div>
-	<el-row class="edge-big">
+	<el-row class="edge-big" data-aos="fade-up">
 		<el-carousel indicator-position="outside">
 			<el-carousel-item v-for="item in edgeMsgB" :key="item">
 				<div>

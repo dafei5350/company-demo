@@ -34,7 +34,7 @@
       </el-carousel-item>
     </el-carousel>
   </div>
-  <div class="ban-row hvr-bounce-in">
+  <div class="ban-row">
     <div class="content">
       <div class="items">
         <h3>0.1-0.8</h3>
@@ -71,39 +71,39 @@
         </p>
       </div>
       <div class="block">
-        <div class="img">
+        <div class="img hvr-bounce-in">
           <img src="../assets/index/diannaotupian.png" alt="" />
           <div class="btn">
             <el-button plain type="primary">开户体验</el-button>
           </div>
         </div>
         <div class="content">
-          <div class="items">
+          <div class="items hvr-bounce-in">
             <img src="../assets/index/lost_cost_trading.png" alt="" />
             <b>卓越交易体验</b>
             <p>超低交易成本 | 闪电般订单执行速度 | 原始点差</p>
           </div>
-          <div class="items">
+          <div class="items hvr-bounce-in">
             <img src="../assets/index/execution_speed.png" alt="" />
             <b>深入市场分析</b>
             <p>早市和下午时间段市场行情分析 | 交易策略</p>
           </div>
-          <div class="items">
+          <div class="items hvr-bounce-in">
             <img src="../assets/index/time.png" alt="" />
             <b>多资产类别提供商</b>
             <p>外汇 | 股指 | 大宗商品 | 股票 | 数字货币</p>
           </div>
-          <div class="items">
+          <div class="items hvr-bounce-in">
             <img src="../assets/index/education.png" alt="" />
             <b>一对一账户经理</b>
             <p>致力于为您提供交易支持</p>
           </div>
-          <div class="items">
+          <div class="items hvr-bounce-in">
             <img src="../assets/index/no_dealing_desk.png" alt="" />
             <b>优质教育资源</b>
             <p>结构化和可定制的交易解决方案</p>
           </div>
-          <div class="items">
+          <div class="items hvr-bounce-in">
             <img src="../assets/index/regulation.png" alt="" />
             <b>多重监管</b>
           </div>
@@ -129,23 +129,23 @@
       </div>
       <div class="muens">
         <p>在这里，客户可以获得行业内最优的交易体验，我们提供点差低至0的超低交易成本、急速订单执行、来自全球顶级银行的流动性报价、直接连接位于纽约和亚洲的Equinix服务器以及无交易员模式。</p>
-        <div class="items">
+        <div class="items hvr-bounce-in">
           <img src="../assets/index/lost_cost_trading.png" alt="" />
           <b>超低交易成本</b>
           <p>点差低至0</p>
         </div>
-        <div class="items">
+        <div class="items hvr-bounce-in">
           <img src="../assets/index/execution_speed.png" alt="" />
           <b>急速订单执行</b>
           <p>交易速度快达30ms</p>
         </div>
 
-        <div class="items">
+        <div class="items hvr-bounce-in">
           <img src="../assets/index/time.png" alt="" />
           <b>深度市场流动性</b>
           <p>来自16家全球顶级银行的报价</p>
         </div>
-        <div class="items">
+        <div class="items hvr-bounce-in">
           <img src="../assets/index/no_dealing_desk.png" alt="" />
           <b>真正的ECN交易模式</b>
           <p>订单直接递交至流动性提供商</p>
@@ -159,7 +159,7 @@
     </div>
 
   <div class="other-row">
-    <div class="content">
+    <div class="content" data-aos="fade-up" data-aos-duration="2000">
       <h1>优质交易资源及深入市场分析</h1>
       <div>交易成功的关键在于发展正确的交易模式。交易者通过获取优质的教育教学资源、工具和市场动态知识可以显著的提高其阅读市场和交易执行的能力。</div>
       <div>我们的教学资源和深入市场的分析将帮助您夯实交易基础以及快速掌握交易动态，助您制定更清晰的交易策略并开启您的成功投资之旅。</div>
@@ -226,22 +226,22 @@
       <h3> 在Attuare Pty. Ltd.开始交易只需简单几步</h3>
     </div>
     <div class="block">
-      <div class="items">
+      <div class="items hvr-bounce-in">
         <img src="../assets/index/time.png" alt="">
         <p>开设账户</p>
         <span>约4分钟</span>
       </div>
-      <div class="items">
+      <div class="items hvr-bounce-in">
         <img src="../assets/index/lost_cost_trading.png" alt="">
         <p>上传您的证件</p>
         <span>验证您的个人信息</span>
       </div>
-      <div class="items">
+      <div class="items hvr-bounce-in">
         <img src="../assets/index/no_dealing_desk.png" alt="">
         <p>存入资金</p>
         <span>6种付款方式可供选择</span>
       </div>
-      <div class="items">
+      <div class="items hvr-bounce-in">
         <img src="../assets/index/execution_speed.png" alt="">
         <p>开始交易</p>
         <span>外汇 | 股票 | 指数 |

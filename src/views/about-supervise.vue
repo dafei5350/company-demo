@@ -1,7 +1,7 @@
 <template>
 	<banner :bannerList="bannera"></banner>
 	<div class="financial">
-		<div class="financial-top">
+		<div class="financial-top" data-aos="fade-up">
 			<div class="financial-title">
 				金融服务监管信息
 			</div>
@@ -14,7 +14,7 @@
 			<img src="../assets/index/regulations.png">
 		</div>
 	</div>
-	<div class="financial-top" style="margin-bottom: 0;">
+	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-up">
 		<div class="financial-title">
 			资金安全
 		</div>
@@ -24,7 +24,7 @@
 		</div>
 	</div>
 	<pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
-	<div class="doubleQuick">
+	<div class="doubleQuick" data-aos="fade-up">
 		<div class="quick">
 			<div class="quick-big">
 				<div class="quick-img">
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="financial-top" style="margin-bottom: 0;">
+	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-up">
 		<div class="financial-title">
 			隐私保护
 		</div>

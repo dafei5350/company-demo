@@ -32,7 +32,7 @@
 				由于MT5出色的交易可能性和技术分析工具，并允许使用自动交易系统和复制交易，成为现代交易者的最佳选择。MT5是其前身MT4的进阶版，MT4被认为是全球外汇交易者最受欢迎的交易平台。除了用于外汇、期货等交易外，MT5还提供股票、期权等金融投资产品的实时行情和交易，让交易更丰富。
 			</div>
 		</div>
-		<div class="function-right">
+		<div class="function-right hvr-bounce-in">
 			<div class="function-right-top">
 				功能升级
 			</div>
@@ -125,7 +125,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="top-bottom">
+	<div class="top-bottom" data-aos="fade-up">
 		<a href="">
 			<button type="button">立即下载</button>
 		</a>
@@ -133,7 +133,7 @@
 			<button type="button">模拟账户</button>
 		</a>
 	</div>
-	<div class="move">
+	<div class="move" data-aos="fade-up">
 		<div class="move-left">
 			<div class="move-title">
 				MT5移动版
@@ -152,7 +152,7 @@
 			<img src="../assets/index/mt5-iphone-4-en.png">
 		</div>
 	</div>
-	<div class="move">
+	<div class="move" data-aos="fade-up">
 		<div class="move-right">
 			<img src="../assets/index/mt5-web-1-en.png">
 		</div>
@@ -171,7 +171,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="pc">
+	<div class="pc" data-aos="fade-up">
 		<div class="pc-left">
 			<div class="pc-left-title">
 				MT5电脑端的优势

@@ -5,7 +5,7 @@
 			<div class="quick-img">
 				<img src="../assets/index/indices1.jpg">
 			</div>
-			<div class="quick-text">
+			<div class="quick-text" data-aos="fade-up">
 				<div class="quick-title">
 					什么是差价合约交易？
 				</div>

@@ -1,6 +1,6 @@
 <template>
 	<banner :bannerList="bannera"></banner>
-	<div class="analyse">
+	<div class="analyse" data-aos="fade-up">
 		<router-link to="/news-main" class="analyse-big">
 			<div class="analyse-img">
 				<img src="../assets/index/guanyuwom1.png">

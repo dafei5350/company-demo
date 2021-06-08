@@ -1,6 +1,6 @@
 <template>
 	<banner :bannerList="bannera"></banner>
-	<div class="quick">
+	<div class="quick" data-aos="fade-up">
 		<div class="quick-big">
 			<div class="quick-text">
 				<div class="quick-title">
@@ -121,6 +121,10 @@
 		position: relative;
 		margin: .5% 0;
 		text-align: left;
+	}
+	
+	.quick-img img{
+		height: 100%;
 	}
 	
 	.quick-text {

@@ -1,19 +1,19 @@
 <template>
 	<banner :bannerList="bannera"></banner>
 	<div class="financial">
-		<div class="financial-img">
+		<div class="financial-img" data-aos="fade-up">
 			<img src="../assets/index/guanyuwom1.png">
 		</div>
 		<div class="financial-top">
-			<div class="financial-title">
+			<div class="financial-title" data-aos="fade-up">
 				交易支持
 			</div>
-			<div class="financial-main">
+			<div class="financial-main" data-aos="fade-up">
 				<p>我们坚信，成功交易员需要全方位的支持和资源。在Attuare Pty. Ltd.，您将享受到屡获殊荣的客服团队的专业服务。我们为您答疑解惑，并确保您的交易体验颇有收获。无论您是入市尚浅的初学者还是经验丰富的交易员，我们的多语种客服都能为您的交易带来便捷。我们专业的客户经理会根据客户的背景，经验和水平，为客户提供有效可行的培训方案。</p>
 			</div>
 		</div>
 	</div>
-	<div class="doubleQuick">
+	<div class="doubleQuick" data-aos="fade-up">
 		<div class="quick">
 			<div class="quick-big">
 				<div class="quick-img">
@@ -58,7 +58,7 @@
 		</div>
 	</div>
 	<div class="financial">
-		<div class="financial-top">
+		<div class="financial-top" data-aos="fade-up">
 			<div class="financial-title">
 				超速服务器
 			</div>
@@ -66,11 +66,11 @@
 				<p>Attuare Pty. Ltd.运用光纤网络系统链接我们全球的交易服务器，这保证了每一项交易的闪电急速执行-稳定率99.99%MT4运行时间，提升了78%执行速度，能够链接多达46家不同的流行性服务商，每分钟超过10,000价格报价更新，高达100GB/S宽带速度，高达18内核，高达3.2GHZ频率。</p>
 			</div>
 		</div>
-		<div class="financial-img">
+		<div class="financial-img" data-aos="fade-up">
 			<img src="../assets/index/acy_servers_chinese.jpg">
 		</div>
 	</div>
-	<div class="financial-top">
+	<div class="financial-top" data-aos="fade-up">
 		<div class="financial-title">
 			法规遵从
 		</div>
