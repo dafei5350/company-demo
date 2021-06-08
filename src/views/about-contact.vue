@@ -94,7 +94,7 @@
 		}
 
 		.banner-text-title {
-			font-size: 1.5rem;
+			font-size: 24px;
 		}
 
 		.banner-text-main {
@@ -113,7 +113,7 @@
 		}
 
 		.banner-text-title {
-			line-height: 3rem;
+			line-height: 48px;
 		}
 		.askd{
 			padding: 0px 10px;

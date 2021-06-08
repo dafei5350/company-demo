@@ -177,7 +177,7 @@
 	}
 
 	.quick-main {
-		line-height: 1.9rem;
+		line-height: 30px;
 		padding: 30px 130px;
 		color: #9B9999;
 	}
@@ -229,7 +229,7 @@
 	}
 
 	.thirdbar-text {
-		font-size: 1.375rem;
+		font-size: 22px;
 		text-align: center;
 	}
 
@@ -299,7 +299,7 @@
 		}
 
 		.banner-text-title {
-			font-size: 1.5rem;
+			font-size: 24px;
 		}
 
 		.banner-text-main {
@@ -323,7 +323,7 @@
 		}
 
 		.banner-text-title {
-			line-height: 3rem;
+			line-height: 40px;
 		}
 		.minbar-big{
 			width: 100%;

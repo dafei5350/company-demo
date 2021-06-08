@@ -197,7 +197,7 @@
 	}
 	
 	.quick-main {
-		line-height: 1.9rem;
+		line-height: 30px;
 		padding: 30px 130px;
 		color: #9B9999;
 	}

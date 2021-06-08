@@ -4,8 +4,7 @@
     class="el-menu-demo"
     mode="horizontal"
     @select="handleSelect"
-    router
-  > 
+    router>
     <router-link to="/">
       <img src="../assets/logo.png" class="logo" alt="logo" srcset="" />
     </router-link>
@@ -44,11 +43,13 @@
       <el-menu-item index="9-1">简体中文</el-menu-item>
       <el-menu-item index="9-2">繁体中文</el-menu-item>
       <el-menu-item index="9-2">English</el-menu-item>
+      <el-menu-item index="9-2">阿拉伯语</el-menu-item>
+      <el-menu-item index="9-2">日语</el-menu-item>
     </el-submenu>
     <el-menu-item index="7"><el-button class="navbtn">登入</el-button></el-menu-item>
     <el-menu-item index="8"><el-button class="navbtn" type="primary">注册账户</el-button></el-menu-item>
   </el-menu>
-</template>  
+</template>
 
 <script>
 import { reactive, toRefs } from "vue";
@@ -118,3 +119,4 @@ console.log(window.localStorage.setItem);
 
 }
 </style>
+

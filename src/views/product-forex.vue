@@ -180,7 +180,7 @@
 	}
 
 	.thirdbar-text {
-		font-size: 1.375rem;
+		font-size: 22px;
 		text-align: center;
 	}
 
@@ -232,7 +232,7 @@
 		}
 
 		.banner-text-title {
-			font-size: 1.5rem;
+			font-size: 24px;
 		}
 
 		.banner-text-main {
@@ -256,7 +256,7 @@
 		}
 
 		.banner-text-title {
-			line-height: 3rem;
+			line-height: 48px;
 		}
 
 		.thirdbar-big {

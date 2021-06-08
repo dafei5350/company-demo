@@ -44,8 +44,8 @@
 
 	.banner-text-title {
 		text-align: center;
-		font-size: 1.75rem;
-		line-height: 5rem;
+		font-size: 28px;
+		line-height: 50px;
 	}
 
 	.banner-text-main {
@@ -65,7 +65,7 @@
 		}
 	
 		.banner-text-title {
-			font-size: 1.5rem;
+			font-size: 24px;
 		}
 	
 		.banner-text-main {
@@ -82,7 +82,8 @@
 		}
 			
 		.banner-text-title {
-			line-height: 2rem;
+			font-size: 20px;
+			line-height: 30px;
 		}
 		.banner-text-main{
 			width: 80%;

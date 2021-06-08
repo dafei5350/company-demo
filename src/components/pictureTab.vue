@@ -73,6 +73,9 @@
 		padding: 50px !important;
 	}
 	@media screen and (max-width: 768px){
+		.title{
+			font-size: 20px;
+		}
 		.el-tab-pane {
 			padding: 0px !important;
 		}

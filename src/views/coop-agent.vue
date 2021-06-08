@@ -141,7 +141,7 @@
 	}
 	
 	.quick-main {
-		line-height: 1.9rem;
+		line-height: 30px;
 		padding: 20px 130px;
 		color: #9B9999;
 	}
@@ -176,7 +176,7 @@
 		}
 
 		.banner-text-title {
-			font-size: 1.5rem;
+			font-size: 24px;
 		}
 
 		.banner-text-main {
