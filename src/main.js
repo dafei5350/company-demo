@@ -4,11 +4,9 @@ import App from './App.vue'
 import router from '@/router'
 import i18n from '@/i18n'
 import "amfe-flexible/index.js";
-import animated from 'animate.css'
-
-
-import "amfe-flexible/index.js";
-import animated from 'animate.css'
+import AOS from "aos";
+import "aos/dist/aos.css"
+import "hover.css/css/hover.css"
 
 
 // 自定义主题
@@ -18,10 +16,12 @@ import 'element-plus/lib/theme-chalk/display.css';
 
 
 const app = createApp(App)
+AOS.init();
+
 app.use(i18n)
    .use(ElementPlus)
    .use(router)
-    .use(animated)
-   .mount('#app')
+   .mount('#app');
+
 
 

@@ -3,7 +3,7 @@
     <el-carousel>
        <el-carousel-item class="fenye01">
         <img src="../assets/index/carousel.jpg" alt="" srcset="" />
-        <div class="block animated bounceInDown">
+        <div class="block">
           <h1 class="title">
             “Attuare Pty.
             Ltd.提供我所需要的交易工具、交易知识和专业的相关服务，让我可以随时随地在世界上任何一个角落轻松交易。”
@@ -34,7 +34,7 @@
       </el-carousel-item>
     </el-carousel>
   </div>
-  <div class="ban-row">
+  <div class="ban-row hvr-bounce-in">
     <div class="content">
       <div class="items">
         <h3>0.1-0.8</h3>
@@ -111,7 +111,7 @@
       </div>
     </div>
   </div>
-  <div class="ban-row">
+  <div class="ban-row" data-aos="fade-up" data-aos-duration="2000">
     <div class="content">
       <div class="text">即刻申请Attuare Pty. Ltd.真实交易账户!</div>
       <router-link to="/"><el-button plain>开户体验</el-button></router-link>
@@ -203,7 +203,9 @@
     </div>
   </div>
 
-  <div class="js-row">
+  <div class="js-row" data-aos="fade-right"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine">
     <div class="items">
       <div class="title">
         <h3>行业领先的账户管理后台 Attuare Pty. Ltd. 平台</h3>
@@ -254,12 +256,15 @@
 </template>
 
 <script>
+
+
+
 const ENV = import.meta.env;
 export default {
   name: "Index",
   setup() {
     console.log("ENV", ENV);
-  },
+  }
 };
 </script>
 
