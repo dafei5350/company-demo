@@ -1,25 +1,25 @@
 <template>
 	<banner :bannerList="bannera"></banner>
 	<div class="financial">
-		<div class="financial-img">
+		<div class="financial-img" data-aos="fade-up">
 			<img src="../assets/index/guanyuwom1.png">
 		</div>
-		<div class="financial-top" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-			<div class="financial-title">
+		<div class="financial-top">
+			<div class="financial-title" data-aos="fade-up">
 				交易支持
 			</div>
-			<div class="financial-main">
+			<div class="financial-main" data-aos="fade-up">
 				<p>我们坚信，成功交易员需要全方位的支持和资源。在Attuare Pty. Ltd.，您将享受到屡获殊荣的客服团队的专业服务。我们为您答疑解惑，并确保您的交易体验颇有收获。无论您是入市尚浅的初学者还是经验丰富的交易员，我们的多语种客服都能为您的交易带来便捷。我们专业的客户经理会根据客户的背景，经验和水平，为客户提供有效可行的培训方案。</p>
 			</div>
 		</div>
 	</div>
-	<div class="doubleQuick">
+	<div class="doubleQuick" data-aos="fade-up">
 		<div class="quick">
 			<div class="quick-big">
-				<div class="quick-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+				<div class="quick-img">
 					<img src="../assets/index/guanyuwom2.png">
 				</div>
-				<div class="quick-text" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+				<div class="quick-text">
 					<div class="quick-title">
 						以客户为中心
 					</div>
@@ -37,7 +37,7 @@
 		</div>
 		<div class="quick">
 			<div class="quick-big">
-				<div class="quick-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+				<div class="quick-text">
 					<div class="quick-title">
 						增值服务
 					</div>
@@ -51,14 +51,14 @@
 						无交易员平台的风险管理模式，提供最佳的交易环境。低点差及高流通性，最佳报价。MetaTrader 4平台融合公司的创新科技，提供量身订制的稳定交易环境。
 					</div>
 				</div>
-				<div class="quick-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+				<div class="quick-img">
 					<img src="../assets/index/guanyuwom3.png">
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="financial">
-		<div class="financial-top" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+		<div class="financial-top" data-aos="fade-up">
 			<div class="financial-title">
 				超速服务器
 			</div>
@@ -66,11 +66,11 @@
 				<p>Attuare Pty. Ltd.运用光纤网络系统链接我们全球的交易服务器，这保证了每一项交易的闪电急速执行-稳定率99.99%MT4运行时间，提升了78%执行速度，能够链接多达46家不同的流行性服务商，每分钟超过10,000价格报价更新，高达100GB/S宽带速度，高达18内核，高达3.2GHZ频率。</p>
 			</div>
 		</div>
-		<div class="financial-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+		<div class="financial-img" data-aos="fade-up">
 			<img src="../assets/index/acy_servers_chinese.jpg">
 		</div>
 	</div>
-	<div class="financial-top" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+	<div class="financial-top" data-aos="fade-up">
 		<div class="financial-title">
 			法规遵从
 		</div>
@@ -122,39 +122,39 @@
 		max-width: 1200px;
 		margin: 80px auto;
 	}
-	
+
 	.financial-top{
 		width: 90%;
 		max-width: 800px;
 		margin: 80px auto;
 	}
-	
+
 	.financial-title{
 		text-align: center;
 		font-size: 18px;
 	}
-	
+
 	.financial-main{
 		color: #9B9999;
 		line-height: 30px;
 	}
-	
+
 	.financial-img{
 		display: flex;
 		justify-content: space-around
 	}
-	
+
 	.financial-img img{
 		width: 90%;
 	}
 	.doubleQuick{
 		margin: 50px 0;
 	}
-	
+
 	.quick {
 		width: 100%;
 	}
-	
+
 	.quick-big {
 		padding: 0px 120px;
 		display: flex;
@@ -163,8 +163,8 @@
 		max-width: 1200px;
 		margin: 0 auto;
 	}
-	
-	
+
+
 	.quick-img {
 		display: flex;
 		justify-content: center;
@@ -174,11 +174,11 @@
 		margin: .5% 0;
 		text-align: left;
 	}
-	
+
 	.quick-img img{
 		height: 100%;
 	}
-	
+
 	.quick-text {
 		display: flex;
 		justify-content: center;
@@ -190,38 +190,43 @@
 		text-align: left;
 		background-color: #F5F5F5;
 	}
-	
+
 	.quick-title {
 		color: #013B81;
 		padding-left: 130px;
 	}
-	
+
 	.quick-main {
 		line-height: 30px;
 		padding: 30px 130px;
 		color: #9B9999;
 	}
-	
+
 	.fourth {
 		margin-top: 80px;
 		position: relative;
 		background-color: #F5F5F5;
 		padding: 80px 0;
 	}
-	
+
 	.fourth img {
 		width: 30% !important;
 		height: 40% !important;
 		margin-left: 15% !important;
 	}
-	
+
 	.fourth-button {
+    border-radius: 5px;
 		display: inline-block;
-		width: 100px;
-		height: 30px;
+		width: 150px;
+		height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 		background: #013B81;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 40%), 0px 0px 20px rgb(0 0 0 / 10%) inset;
 	}
-	
+
 	.fourth-big {
 		position: absolute;
 		top: 25%;
@@ -246,7 +251,7 @@
 			padding: 30px 110px;
 		}
 	}
-	
+
 	@media screen and (max-width: 1200px) {
 		.fourth-big {
 			font-size: 25px;
