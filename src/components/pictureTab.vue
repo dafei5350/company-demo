@@ -2,7 +2,7 @@
 	<div class="title">{{tabTitle}}</div>
 	<div class="picture-demo">
 		<el-tabs model-value="first" stretch @tab-click="handleClick" class="tabtop">
-			<el-tab-pane v-for="tabtop in tablist" :key="tabtop.label"  :label="tabtop.label" :name="tabtop.name">
+			<el-tab-pane v-for="tabtop in tablist" :key="tabtop.label"  :label="tabtop.label" :name="tabtop.name" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 				<img :src="tabtop.imga">
 				<div class="picture-text">
 					{{tabtop.text}}

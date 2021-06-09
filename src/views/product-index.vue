@@ -8,7 +8,7 @@
 				波动最大的交易产品，为您在国际金融市场提供无限机会。
 			</div>
 			<a href="" class="button-a">
-				<div class="minbar-button">
+				<div class="minbar-button hvr-sweep-to-right">
 					立即交易
 				</div>
 			</a>
@@ -26,7 +26,9 @@
 		</div>
 	</div>
 	<div class="fourth">
-		<img src="../assets/index/dq.png">
+		<div class="fourth-img">
+			<img src="../assets/index/dq.png">
+		</div>
 		<div class="fourth-big">
 			<div class="fourth-text">
 				体验市场波动最大的交易品种，开仓
@@ -35,7 +37,7 @@
 				不错过任何交易机会。
 			</div>
 			<a href="" class="button-a">
-				<div class="fourth-button">
+				<div class="fourth-button hvr-sweep-to-right">
 					立即开通
 				</div>
 			</a>
@@ -156,6 +158,9 @@
 		width: 100px;
 		height: 30px;
 		background: #013B81;
+		border-radius:10px;
+		overflow: hidden;
+		box-shadow: 0px 2px 4px rgb(0 0 0 / 80%), 0px 0px 20px rgb(0 0 0 / 10%) inset;
 	}
 
 	.button-a {
@@ -202,10 +207,15 @@
 	}
 
 	.fourth-button {
-		display: inline-block;
-		width: 100px;
-		height: 30px;
+		display: flex;
+		width: 200px;
+		height: 40px;
+		align-items: center;
+		justify-content: center;
 		background: #013B81;
+		border-radius:5px;
+		overflow: hidden;
+		box-shadow: 0px 2px 4px rgb(0 0 0 / 40%), 0px 0px 20px rgb(0 0 0 / 10%) inset;
 	}
 
 	.fourth-big {
@@ -283,15 +293,33 @@
 			padding: 20px;
 		}
 		.fourth{
-			height: 250px;
+			padding: 50px 0;
+		}
+		.fourth-img{
+			width: 280px;
+			height: 180px;
+			margin: 0 auto;
+		}
+		.fourth-img img{
+			width: 280px !important;
+			height: 240px !important;
+			margin: 0 !important;
 		}
 		.fourth-big {
 			font-size: 20px;
 			line-height: 40px;
-			right: 5%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			position: initial;
 		}
-		.fourth img{
-			display: none;
+		.fourth-button{
+			margin: 0 auto;
+		}
+		.fourth-text{
+			width: 200px;
+			margin: 0 auto;
+			text-align: left;
 		}
 	}
 </style>
