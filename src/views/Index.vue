@@ -296,20 +296,21 @@ export default {
 .ban-row .content .text{color:#eee;font-size:28px}
 .ban-row .content button{width:200px}
 .content-row{display:flex;width:100%;height:950px;background:#f2f2f2;flex-direction:column;align-items:center;justify-content:center}
-.content-row .cointainer{padding-top:200px;width:60%;height:800px}
+.content-row .cointainer{padding-top:200px;width:80%;height:800px;max-width: 1200px;}
 .content-row .text{display:flex;color:#9b9999;font-size:16px;flex-direction:column;align-items:center}
 .content-row .text h2{color:rgba(0,0,0,0.85)}
 .content-row .block{display:flex;flex-direction:row;flex:1}
 .content-row .block .btn,.content-row .block .img{display:flex;justify-content:center;text-decoration:none}
-.content-row .block .img{width:50%;flex-direction:column}
+.content-row .block .img{width:50%;flex-direction:column;margin-right:15px;}
 .content-row .block .img .el-button{margin-top:20px;width:50%;text-align:center}
-.content-row .block .content{display:flex;color:#9b9999;flex-wrap:wrap; font-size: 12px;}
-.content-row .block .content .items{display:flex;margin-left:15px;padding:15px;width:40%;flex-direction:column}
+.content-row .block .content{display:flex;color:#9b9999;flex-wrap:wrap; font-size: 12px;width: 50%;}
+.content-row .block .content .items{display:flex;padding:15px;width:40%;flex-direction:column}
 .content-row .block .content .items img{width:50px;height:50px}
 .zy-row{display:flex;width:100%;height:950px;background:#f2f2f2;flex-direction:column;align-items:center;justify-content:center}
 .zy-row .items .title{font-size:22px;margin-bottom:20px}
 .zy-row .items-rig{width:80%;color:#9b9999;display:flex;flex-direction:row}
-.zy-row .items-rig .block img{height:450px}
+.zy-row .items-rig .block{width: 60%;margin-top: 100px;}
+.zy-row .items-rig .block img{width: 100%;}
 .zy-row .items-rig .muens{width:50%;display:flex;flex-direction:row;flex-wrap:wrap}
 .zy-row .items-rig .muens .items{width:50%;display:flex;flex-direction:column}
 .zy-row .items-rig .muens .items img{width:50px;height:50px}
@@ -383,9 +384,10 @@ export default {
   .content-row .block .content{
     display: flex;
     align-items: center;
+	width: 100%;
   }
   .content-row .block .content .items{
-    width: 30%;
+    width: 100%;
     align-items: center;
   }
 
