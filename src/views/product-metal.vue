@@ -2,10 +2,10 @@
 	<banner :bannerList="bannera"></banner>
 	<div class="quick">
 		<div class="quick-big">
-			<div class="quick-img">
+			<div class="quick-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 				<img src="../assets/index/indices1.jpg">
 			</div>
-			<div class="quick-text" data-aos="fade-up">
+			<div class="quick-text"  data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 				<div class="quick-title">
 					什么是差价合约交易？
 				</div>

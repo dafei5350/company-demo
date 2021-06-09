@@ -3,7 +3,7 @@
 		<div class="banner-img">
 			<img :src="bannera.imga">
 		</div>
-		<div class="banner-text" data-aos="fade-up">
+		<div class="banner-text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 			<div class="banner-text-title">
 				{{bannera.title}}
 			</div>

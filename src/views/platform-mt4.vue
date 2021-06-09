@@ -1,6 +1,6 @@
 <template>
 	<banner :bannerList="bannera"></banner>
-	<div class="financial-top" style="margin-bottom: 0;">
+	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-up">
 		<div class="financial-title">
 			桌面版 MetaTrader 4
 		</div>
@@ -73,12 +73,12 @@
 	</div>
 	<div class="buttonb-big">
 		<a href="">
-			<div class="button-b">
+			<div class="button-b" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 				<img src="../assets/index/IOS_Download-en.png">
 			</div>
 		</a>
 		<a href="">
-			<div class="button-b">
+			<div class="button-b" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 				<img src="../assets/index/anzou.jpg">
 			</div>
 		</a>

@@ -24,7 +24,7 @@
 		</div>
 	</div>
 	<div class="function">
-		<div class="function-left">
+		<div class="function-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="function-title">
 				MetaTrader 5
 			</div>
@@ -32,7 +32,7 @@
 				由于MT5出色的交易可能性和技术分析工具，并允许使用自动交易系统和复制交易，成为现代交易者的最佳选择。MT5是其前身MT4的进阶版，MT4被认为是全球外汇交易者最受欢迎的交易平台。除了用于外汇、期货等交易外，MT5还提供股票、期权等金融投资产品的实时行情和交易，让交易更丰富。
 			</div>
 		</div>
-		<div class="function-right hvr-bounce-in">
+		<div class="function-right hvr-bounce-in" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="function-right-top">
 				功能升级
 			</div>
@@ -71,12 +71,12 @@
 		</div>
 	</div>
 	<div class="financial-top">
-		<div class="financial-title">
+		<div class="financial-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300">
 			MetaTrader 5交易平台优势
 		</div>
 	</div>
 	<div class="advantage">
-		<div class="advantage-big">
+		<div class="advantage-big" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="advantage-title">
 				快速执行速度
 			</div>
@@ -84,7 +84,7 @@
 				位于纽约的Equinix交易服务器，保证了每一项交易的闪电急速执行和稳定性。
 			</div>
 		</div>
-		<div class="advantage-big">
+		<div class="advantage-big" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
 			<div class="advantage-title">
 				灵活的下单量
 			</div>
@@ -92,7 +92,7 @@
 				Attuare Pty. Ltd.对日内高频交易者不做任何限制，允许在点差之间下订单，最小交易0.01手，包括止损止盈以及跟踪订单功能，可以根据需要尽可能地接近市场价格。
 			</div>
 		</div>
-		<div class="advantage-big">
+		<div class="advantage-big" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="advantage-title">
 				市场深度
 			</div>
@@ -100,7 +100,7 @@
 				无论您在哪个市场交易，价格的透明度都是关键。 MT5允许您直接从我们的流动性报价中查看完整的市场深度。
 			</div>
 		</div>
-		<div class="advantage-big">
+		<div class="advantage-big" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="advantage-title">
 				高级工具
 			</div>
@@ -108,7 +108,7 @@
 				您可以对冲当前头寸，查询订单中的其中一部分，查看完整的市场深度，并决定更广泛的挂单类型。
 			</div>
 		</div>
-		<div class="advantage-big">
+		<div class="advantage-big"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
 			<div class="advantage-title">
 				免费工具
 			</div>
@@ -116,7 +116,7 @@
 				MT5平台提供21种时间表，只需点击一下按钮即可获得更多技术指标，用户可以方便、快捷地使用MT5进行交易、分析和查看历史记录等操作。
 			</div>
 		</div>
-		<div class="advantage-big">
+		<div class="advantage-big" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="advantage-title">
 				自动交易和EA
 			</div>
@@ -133,8 +133,8 @@
 			<button type="button">模拟账户</button>
 		</a>
 	</div>
-	<div class="move" data-aos="fade-up">
-		<div class="move-left">
+	<div class="move">
+		<div class="move-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="move-title">
 				MT5移动版
 			</div>
@@ -148,15 +148,15 @@
 				<a href=""><img src="../assets/index/google_Play_download-en.png"></a>
 			</div>
 		</div>
-		<div class="move-right">
+		<div class="move-right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<img src="../assets/index/mt5-iphone-4-en.png">
 		</div>
 	</div>
 	<div class="move" data-aos="fade-up">
-		<div class="move-right">
+		<div class="move-right" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<img src="../assets/index/mt5-web-1-en.png">
 		</div>
-		<div class="move-left">
+		<div class="move-left" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="move-title">
 				MT5电脑端
 			</div>
@@ -171,8 +171,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="pc" data-aos="fade-up">
-		<div class="pc-left">
+	<div class="pc">
+		<div class="pc-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="pc-left-title">
 				MT5电脑端的优势
 			</div>
@@ -185,7 +185,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="pc-right">
+		<div class="pc-right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="pc-right-big" v-for="item in pcList">
 				<div class="pc-right-img">
 					<img :src="item.src">

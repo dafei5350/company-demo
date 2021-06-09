@@ -1,25 +1,25 @@
 <template>
 	<banner :bannerList="bannera"></banner>
 	<div class="financial">
-		<div class="financial-img" data-aos="fade-up">
+		<div class="financial-img">
 			<img src="../assets/index/guanyuwom1.png">
 		</div>
-		<div class="financial-top">
-			<div class="financial-title" data-aos="fade-up">
+		<div class="financial-top" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+			<div class="financial-title">
 				交易支持
 			</div>
-			<div class="financial-main" data-aos="fade-up">
+			<div class="financial-main">
 				<p>我们坚信，成功交易员需要全方位的支持和资源。在Attuare Pty. Ltd.，您将享受到屡获殊荣的客服团队的专业服务。我们为您答疑解惑，并确保您的交易体验颇有收获。无论您是入市尚浅的初学者还是经验丰富的交易员，我们的多语种客服都能为您的交易带来便捷。我们专业的客户经理会根据客户的背景，经验和水平，为客户提供有效可行的培训方案。</p>
 			</div>
 		</div>
 	</div>
-	<div class="doubleQuick" data-aos="fade-up">
+	<div class="doubleQuick">
 		<div class="quick">
 			<div class="quick-big">
-				<div class="quick-img">
+				<div class="quick-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 					<img src="../assets/index/guanyuwom2.png">
 				</div>
-				<div class="quick-text">
+				<div class="quick-text" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 					<div class="quick-title">
 						以客户为中心
 					</div>
@@ -37,7 +37,7 @@
 		</div>
 		<div class="quick">
 			<div class="quick-big">
-				<div class="quick-text">
+				<div class="quick-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 					<div class="quick-title">
 						增值服务
 					</div>
@@ -51,14 +51,14 @@
 						无交易员平台的风险管理模式，提供最佳的交易环境。低点差及高流通性，最佳报价。MetaTrader 4平台融合公司的创新科技，提供量身订制的稳定交易环境。
 					</div>
 				</div>
-				<div class="quick-img">
+				<div class="quick-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 					<img src="../assets/index/guanyuwom3.png">
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="financial">
-		<div class="financial-top" data-aos="fade-up">
+		<div class="financial-top" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 			<div class="financial-title">
 				超速服务器
 			</div>
@@ -66,11 +66,11 @@
 				<p>Attuare Pty. Ltd.运用光纤网络系统链接我们全球的交易服务器，这保证了每一项交易的闪电急速执行-稳定率99.99%MT4运行时间，提升了78%执行速度，能够链接多达46家不同的流行性服务商，每分钟超过10,000价格报价更新，高达100GB/S宽带速度，高达18内核，高达3.2GHZ频率。</p>
 			</div>
 		</div>
-		<div class="financial-img" data-aos="fade-up">
+		<div class="financial-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<img src="../assets/index/acy_servers_chinese.jpg">
 		</div>
 	</div>
-	<div class="financial-top" data-aos="fade-up">
+	<div class="financial-top" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 		<div class="financial-title">
 			法规遵从
 		</div>

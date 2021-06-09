@@ -1,7 +1,7 @@
 <template>
 	<banner :bannerList="bannera"></banner>
 	<div class="financial">
-		<div class="financial-top" data-aos="fade-up">
+		<div class="financial-top" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="financial-title">
 				金融服务监管信息
 			</div>
@@ -10,11 +10,11 @@
 				<p>2，Attuare Pty. Ltd.受加拿大委员会监管和许可（FINTRAC:M19008229）。Attuare Pty. Ltd.接受非澳大利亚居民。</p>
 			</div>
 		</div>
-		<div class="financial-img">
+		<div class="financial-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<img src="../assets/index/regulations.png">
 		</div>
 	</div>
-	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-up">
+	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 		<div class="financial-title">
 			资金安全
 		</div>
@@ -24,13 +24,13 @@
 		</div>
 	</div>
 	<pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
-	<div class="doubleQuick" data-aos="fade-up">
+	<div class="doubleQuick">
 		<div class="quick">
 			<div class="quick-big">
-				<div class="quick-img">
+				<div class="quick-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 					<img src="../assets/index/regulations4.png">
 				</div>
-				<div class="quick-text">
+				<div class="quick-text" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 					<div class="quick-title">
 						金融专业会员资格
 					</div>
@@ -42,7 +42,7 @@
 		</div>
 		<div class="quick">
 			<div class="quick-big">
-				<div class="quick-text">
+				<div class="quick-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 					<div class="quick-title">
 						反洗钱法规定
 					</div>
@@ -50,13 +50,13 @@
 						根据国际反洗钱法规定，在开通真实交易账户时，Attuare Pty. Ltd.需要您提供完整、真实的身份证明及地址证明。您的入金仅能由您名下的银行卡支付，出金仅能出至您名下的银行卡中。Attuare Pty. Ltd.不支持任何形式的第三方出入金，也不支持任何形式的跨境换汇。
 					</div>
 				</div>
-				<div class="quick-img">
+				<div class="quick-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 					<img src="../assets/index/regulations5.png">
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-up">
+	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 		<div class="financial-title">
 			隐私保护
 		</div>

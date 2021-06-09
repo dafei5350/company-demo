@@ -1,8 +1,8 @@
 <template>
 	<banner :bannerList="bannera"></banner>
-	<div class="quick" data-aos="fade-up">
+	<div class="quick">
 		<div class="quick-big">
-			<div class="quick-text">
+			<div class="quick-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 				<div class="quick-title">
 					后台支持
 				</div>
@@ -12,7 +12,7 @@
 					<p>我们致力于为合作商提供最有效的商业模式，使您的公司能够快速发展，提高收益率，从而实现利润最大化。</p>
 				</div>
 			</div>
-			<div class="quick-img">
+			<div class="quick-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 				<img src="../assets/index/white1.png">
 			</div>
 		</div>
