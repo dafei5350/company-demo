@@ -76,7 +76,11 @@
 		body {
 			font-size: 12px;
 		}
-			
+		
+		.banner{
+			margin-bottom: 50px;
+		}
+		
 		.banner-text {
 			top: 5%;
 		}

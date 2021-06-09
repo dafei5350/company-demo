@@ -11,11 +11,15 @@
 				集外汇，股票和期货交易一体
 			</div>
 			<div class="top-bottom">
-				<a href="">
-					<button type="button">立即下载</button>
+				<a href="" style="text-decoration: none;color: #FFFFFF;">
+					<div class="fourth-button hvr-sweep-to-right">
+						立即下载
+					</div>
 				</a>
-				<a href="">
-					<button type="button">模拟账户</button>
+				<a href="" style="text-decoration: none;color: #FFFFFF;">
+					<div class="fourth-button hvr-sweep-to-right">
+						模拟账户
+					</div>
 				</a>
 			</div>
 			<div class="top-img">
@@ -126,11 +130,15 @@
 		</div>
 	</div>
 	<div class="top-bottom" data-aos="fade-up">
-		<a href="">
-			<button type="button">立即下载</button>
+		<a href="" style="text-decoration: none;color: #FFFFFF;">
+			<div class="fourth-button hvr-sweep-to-right">
+				立即下载
+			</div>
 		</a>
-		<a href="">
-			<button type="button">模拟账户</button>
+		<a href="" style="text-decoration: none;color: #FFFFFF;">
+			<div class="fourth-button hvr-sweep-to-right">
+				模拟账户
+			</div>
 		</a>
 	</div>
 	<div class="move">
@@ -165,8 +173,10 @@
 				<p>您可以查看相同的报价，深度流动性和点差低至0。</p>
 			</div>
 			<div class="top-bottom-b">
-				<a href="">
-					<button type="button">立即下载</button>
+				<a href="" style="text-decoration: none;color: #FFFFFF;">
+					<div class="fourth-button sbutton hvr-sweep-to-right">
+						立即下载
+					</div>
 				</a>
 			</div>
 		</div>
@@ -180,8 +190,10 @@
 				使用Attuare Pty. Ltd. MT5交易平台，为您在国际金融市场提供无限机会。
 			</div>
 			<div class="top-bottom-b">
-				<a href="">
-					<button type="button">立即下载</button>
+				<a href="" style="text-decoration: none;color: #FFFFFF;">
+					<div class="fourth-button sbutton hvr-sweep-to-right">
+						立即下载
+					</div>
 				</a>
 			</div>
 		</div>
@@ -278,12 +290,16 @@
 		justify-content: space-between;
 	}
 
-	.top-bottom button {
+	.fourth-button {
+		display: flex;
 		width: 320px;
 		height: 60px;
-		background-color: #013B81;
-		color: #FFFFFF;
-		font-size: 18px;
+		align-items: center;
+		justify-content: center;
+		background: #013B81;
+		border-radius:5px;
+		overflow: hidden;
+		box-shadow: 0px 2px 4px rgb(0 0 0 / 40%), 0px 0px 20px rgb(0 0 0 / 10%) inset;
 	}
 
 	.top-img {
@@ -459,15 +475,6 @@
 		color: #9B9999;
 	}
 
-	.top-bottom-b button {
-		height: 40px;
-		width: 270px;
-		background-color: #013B81;
-		color: #FFFFFF;
-		font-size: 18px;
-		margin: 15px;
-	}
-
 	.pc-right {
 		display: flex;
 		justify-content: space-between;
@@ -492,6 +499,11 @@
 		color: #9B9999;
 		margin-bottom: 50px;
 	}
+	.sbutton{
+		width: 200px;
+		height: 40px;
+		margin-top: 10px;
+	}
 	@media screen and (max-width: 768px) {
 		.bigimg img{
 			height: 400px;
@@ -501,14 +513,18 @@
 			padding: 20px 0;
 		}
 		.top-bottom{
-			flex-direction: column;
 			width: 100%;
-			align-items: center
+			flex-direction: column;
+			align-items: center;
 		}
-		.top-bottom button{
-			width: 160px;
-			height: 32px;
-			margin-bottom: 10px;
+		.top-bottom-b{
+			width: 200px;
+			margin: 0 auto;
+		}
+		.fourth-button{
+			width: 200px;
+			height: 40px;
+			margin: 10px 0;
 		}
 		.top-content{
 			height: 550px;
@@ -554,14 +570,17 @@
 		}
 		.pc-right-big{
 			width: 100%;
-			padding: 10px;
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
 		.pc-right-title{
 			margin: 10px 0;
 		}
-		.top-bottom-b button{
-			width: 160px;
-			height: 32px;
+		.pc-right-main{
+			margin: 0;
+			width: 200px;
 		}
 	}
 </style>

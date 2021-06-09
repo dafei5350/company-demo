@@ -114,7 +114,9 @@
   <div class="ban-row">
     <div class="content">
       <div class="text">即刻申请Attuare Pty. Ltd.真实交易账户!</div>
-      <router-link to="/"><el-button plain>开户体验</el-button></router-link>
+      <div class="btn">
+        <el-button plain type="primary">开户体验</el-button>
+      </div>
     </div>
   </div>
   <div class="zy-row">
@@ -129,30 +131,30 @@
       </div>
       <div class="muens" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <p>在这里，客户可以获得行业内最优的交易体验，我们提供点差低至0的超低交易成本、急速订单执行、来自全球顶级银行的流动性报价、直接连接位于纽约和亚洲的Equinix服务器以及无交易员模式。</p>
-        <div class="items hvr-bounce-in">
+        <div class="items">
           <img src="../assets/index/lost_cost_trading.png" alt="" />
           <b>超低交易成本</b>
           <p>点差低至0</p>
         </div>
-        <div class="items hvr-bounce-in">
+        <div class="items">
           <img src="../assets/index/execution_speed.png" alt="" />
           <b>急速订单执行</b>
           <p>交易速度快达30ms</p>
         </div>
 
-        <div class="items hvr-bounce-in">
+        <div class="items">
           <img src="../assets/index/time.png" alt="" />
           <b>深度市场流动性</b>
           <p>来自16家全球顶级银行的报价</p>
         </div>
-        <div class="items hvr-bounce-in">
+        <div class="items">
           <img src="../assets/index/no_dealing_desk.png" alt="" />
           <b>真正的ECN交易模式</b>
           <p>订单直接递交至流动性提供商</p>
         </div>
 
         <router-link to="/">
-          <el-button type="primary">了解更多</el-button>
+          <el-button type="primary hvr-sweep-to-right">了解更多</el-button>
         </router-link>
       </div>
       </div>
@@ -168,7 +170,11 @@
   <div class="ban-row">
     <div class="content">
       <div class="text">即刻申请Attuare Pty. Ltd.真实交易账户!</div>
-      <router-link to="/"><el-button plain>模拟账户</el-button></router-link>
+      <router-link to="/" style="text-decoration: none;">
+		  <div class="btn">
+            <el-button plain type="primary">模拟账户</el-button>
+          </div>
+	  </router-link>
     </div>
   </div>
   <div class="pt-row">
@@ -281,7 +287,7 @@ export default {
 .fenye02 .block-text{position:absolute;top:200px;left:280px;width:650px;height:280px;color:#01254f;font-size:30px;line-height:48px;text-decoration:none}
 .fenye02 .block-text p{width:100%;color:rgba(0,0,0,0.85);font-size:24px;line-height:32px}
 .fenye02 .block-text .clearA .btn{width:150px}
-.fenye02 .block-text .btn{display:flex;justify-content:space-between}
+ .btn{display:flex;justify-content:space-between}
 .fenye02 .block-text .btn .items{display:flex;width:260px;height:50px;font-size:22px;transition:all 0.25s ease-in-out;flex-direction:row;justify-content:center;align-items:center;text-decoration:none}
 .fenye02 .block-text .btn .items:hover{transform:scale(1.2)}
 .fenye02 img{position:absolute;top:-134px;z-index:-1;width:156%;max-width:unset}
@@ -315,7 +321,7 @@ export default {
 .pt-row .items-rig .pingtai{width:35%;display:flex;flex-wrap:wrap}
 .pt-row .items-rig .pingtai .items{width:50%;display:flex;align-items:center;justify-content:space-around}
 .pt-row .items-rig .pingtai .items:last-child{width:100%}
-.pt-row .items-rig .pingtai .items img:first-child{width:60px;height:60px}
+.pt-row .items-rig .pingtai .items img:first-child{width:80px;height:80px}
 .other-row{width:100%;height:560px;background:#fff;display:flex;justify-content:space-evenly}
 .other-row .content{width:60%;display:flex;flex-direction:column;justify-content:center;color:#9b9999;font-size:18px}
 .other-row .content h1{text-align:center;color:rgba(0,0,0,.85)}
