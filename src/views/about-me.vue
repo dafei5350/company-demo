@@ -124,39 +124,39 @@
 		max-width: 1200px;
 		margin: 80px auto;
 	}
-	
+
 	.financial-top{
 		width: 90%;
 		max-width: 800px;
 		margin: 80px auto;
 	}
-	
+
 	.financial-title{
 		text-align: center;
 		font-size: 18px;
 	}
-	
+
 	.financial-main{
 		color: #9B9999;
 		line-height: 30px;
 	}
-	
+
 	.financial-img{
 		display: flex;
 		justify-content: space-around
 	}
-	
+
 	.financial-img img{
 		width: 90%;
 	}
 	.doubleQuick{
 		margin: 50px 0;
 	}
-	
+
 	.quick {
 		width: 100%;
 	}
-	
+
 	.quick-big {
 		padding: 0px 120px;
 		display: flex;
@@ -165,8 +165,8 @@
 		max-width: 1200px;
 		margin: 0 auto;
 	}
-	
-	
+
+
 	.quick-img {
 		display: flex;
 		justify-content: center;
@@ -176,11 +176,11 @@
 		margin: .5% 0;
 		text-align: left;
 	}
-	
+
 	.quick-img img{
 		height: 100%;
 	}
-	
+
 	.quick-text {
 		display: flex;
 		justify-content: center;
@@ -192,31 +192,31 @@
 		text-align: left;
 		background-color: #F5F5F5;
 	}
-	
+
 	.quick-title {
 		color: #013B81;
 		padding-left: 130px;
 	}
-	
+
 	.quick-main {
 		line-height: 30px;
 		padding: 30px 130px;
 		color: #9B9999;
 	}
-	
+
 	.fourth {
 		margin-top: 80px;
 		position: relative;
 		background-color: #F5F5F5;
 		padding: 80px 0;
 	}
-	
+
 	.fourth img {
 		width: 30% !important;
 		height: 40% !important;
 		margin-left: 15% !important;
 	}
-	
+
 	.fourth-button {
 		display: flex;
 		width: 200px;
@@ -226,9 +226,9 @@
 		background: #013B81;
 		border-radius:5px;
 		overflow: hidden;
-		box-shadow: 0px 2px 4px rgb(0 0 0 / 40%), 0px 0px 20px rgb(0 0 0 / 10%) inset;
+		box-shadow: 0px 2px 4px rgb(0 0 0 / 40%), 0px 0px 20px rgb(0 0 0 / 10%), inset;
 	}
-	
+
 	.fourth-big {
 		position: absolute;
 		top: 25%;
@@ -244,7 +244,7 @@
 		width: 100%;
 		line-height: 40px;
 		font-size: 12px;
-		
+
 	}
 	@media screen and (max-width: 1300px) {
 		.quick-title{
@@ -254,7 +254,7 @@
 			padding: 30px 110px;
 		}
 	}
-	
+
 	@media screen and (max-width: 1200px) {
 		.fourth-big {
 			font-size: 25px;

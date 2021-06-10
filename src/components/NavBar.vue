@@ -33,18 +33,18 @@
       <el-menu-item index="5-2" route="/news-letters">市场快报</el-menu-item>
     </el-submenu>
     <el-submenu index="6">
-      <template #title>合作伙伴</template>
+      <template #title>{{ $t('nav.coop')}}</template>
       <el-menu-item index="6-1" route="/coop-ib">IB代理计划</el-menu-item>
       <el-menu-item index="6-2" route="/coop-intem">区域代理</el-menu-item>
-	  <el-menu-item index="6-3" route="/coop-agent">白标合作</el-menu-item>
+	  <el-menu-item index="6-3" route="/coop-agent">国际合作</el-menu-item>
     </el-submenu>
     <el-submenu index="9">
-      <template #title>English</template>
-      <el-menu-item index="9-1">简体中文</el-menu-item>
-      <el-menu-item index="9-2">繁体中文</el-menu-item>
-      <el-menu-item index="9-2">English</el-menu-item>
-      <el-menu-item index="9-2">阿拉伯语</el-menu-item>
-      <el-menu-item index="9-2">日语</el-menu-item>
+      <template #title>{{ lang }}</template>
+      <el-menu-item index="9-1" @click="changeCn">简体中文</el-menu-item>
+      <el-menu-item index="9-2" @click="changeTw">繁体中文</el-menu-item>
+      <el-menu-item index="9-2" @click="changeEn">English</el-menu-item>
+      <el-menu-item index="9-2" @click="changeAr">بالعربية</el-menu-item>
+      <el-menu-item index="9-2" @click="changeJa">日本語</el-menu-item>
     </el-submenu>
     <el-menu-item index="7"><el-button class="navbtn hvr-sweep-to-right">登入</el-button></el-menu-item>
     <el-menu-item index="8"><el-button class="navbtn" type="primary hvr-sweep-to-right">注册账户</el-button></el-menu-item>
@@ -55,17 +55,38 @@
 import { reactive, toRefs } from "vue";
 import { useRouter } from "vue-router";
 export default {
+  name: "NavBar",
   data() {
     return {
       activeIndex: "1",
+      lang: 'English'
     };
   },
-  methods: {
-    handleSelect(key, keyPath) {
-      console.log(key, keyPath);
-    },
+  components: {
+
   },
-  name: "NavBar",
+  methods: {
+    changeEn() {
+      this.$i18n.locale = 'en'
+      this.lang = 'English'
+    },
+    changeCn() {
+      this.$i18n.locale = 'zh-cn'
+      this.lang = '简体中文'
+    },
+    changeTw() {
+      this.$i18n.locale = 'tw'
+      this.lang = '繁体中文'
+    },
+    changeJa() {
+      this.$i18n.locale = 'ja'
+      this.lang = '日本語'
+    },
+    changeAr() {
+      this.$i18n.locale = 'ar'
+      this.lang = 'بالعربية'
+    }
+  },
   setup() {
     const router = useRouter();
     const pathMap = {
@@ -106,7 +127,7 @@ console.log(window.localStorage.setItem);
 .router{
   text-decoration: none;
   color: #4a4a4a;
-  border-bottom: 1p solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   margin-top: 3px;
   font-weight: 600;
 }

@@ -28,7 +28,7 @@ const messages = {
         ...localeLangAr,
         ...elementlangAr,
     },
-    'Ja': {
+    'ja': {
         ...localeLangJa,
         ...elementlangJa,
     }
