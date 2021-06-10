@@ -2,15 +2,12 @@
 	<div class="title">{{tabTitle}}</div>
 	<div class="picture-demo">
 		<el-tabs model-value="first" stretch @tab-click="handleClick" class="tabtop">
-			<el-tab-pane v-for="tabtop in tablist"
-                   :key="tabtop.label"
-                   :label="tabtop.label"
-                   :name="tabtop.name">
-				<img :src="tabtop.imga">
-				<div class="picture-text">
-					{{tabtop.text}}
-				</div>
-			</el-tab-pane>
+				<el-tab-pane v-for="tabtop in tablist" :key="tabtop.label" :label="tabtop.label" :name="tabtop.name" id="tabimg">
+					<img :src="tabtop.imga" data-aos="fade-up" v-if="show" :key="show">
+					<div class="picture-text" data-aos="fade-up" data-aos-duration="1500" v-if="show" :key="show">
+						{{tabtop.text}}
+					</div>
+				</el-tab-pane>
 		</el-tabs>
 	</div>
 </template>
@@ -19,21 +16,30 @@
 	export default {
 		data() {
 			return {
+				show: 1,
 				tabTitle: '',
 				tablist: ''
 			}
 		},
-    methods: {
-
-    },
 		props: [
 			'tabTitle',
 			'tablist'
-		]
+		],
+		methods: {
+			handleClick(tab,event) {
+				this.show += 1
+			}
+		}
 	}
 </script>
 
 <style scoped>
+	.fade-enter-active, .fade-leave-active {
+	  transition: opacity .5s;
+	}
+	.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+	  opacity: 0;
+	}
 	.title {
 		text-align: center;
 		width: 100%;
