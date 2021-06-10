@@ -106,7 +106,7 @@ console.log(window.localStorage.setItem);
 .router{
   text-decoration: none;
   color: #4a4a4a;
-  border-bottom: 1p solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   margin-top: 3px;
   font-weight: 600;
 }
