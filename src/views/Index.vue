@@ -26,11 +26,59 @@
             </router-link>
           </div>
         </div>
-        <img
-          src="../assets/index/mobile-banner1-background.jpg"
-          alt=""
-          srcset=""
-        />
+        <div class="icon-container">
+  <div class="parent-Alibaba">
+    <i class="sprite-home sprite-Alibaba delay-1s"></i>
+  </div>
+  <div class="parent-Alphabet">
+    <i class="sprite-home sprite-Alphabet delay-7s"></i>
+  </div>
+  <div class="parent-Amazon">
+    <i class="sprite-home sprite-Amazon delay-5s"></i>
+  </div>
+  <div class="parent-BHP">
+    <i class="sprite-home sprite-BHP delay-4s"></i>
+  </div>
+  <div class="parent-Bitcoin">
+    <i class="sprite-home sprite-Bitcoin delay-2s"></i>
+  </div>
+  <div class="parent-Commbank">
+    <i class="sprite-home sprite-Commbank delay-3s"></i>
+  </div>
+  <div class="parent-Dollar">
+    <i class="sprite-home sprite-Dollar delay-6s"></i>
+  </div>
+  <div class="parent-Euro">
+    <i class="sprite-home sprite-Euro delay-3s"></i>
+  </div>
+  <div class="parent-Facebook">
+    <i class="sprite-home sprite-Facebook delay-5s"></i>
+  </div>
+  <div class="parent-Gold">
+    <i class="sprite-home sprite-Gold delay-2s"></i>
+  </div>
+  <div class="parent-Microsoft">
+    <i class="sprite-home sprite-Microsoft delay-7s"></i>
+  </div>
+  <div class="parent-Netflix">
+    <i class="sprite-home sprite-Netflix"></i>
+  </div>
+  <div class="parent-Oil">
+    <i class="sprite-home sprite-Oil delay-1s"></i>
+  </div>
+  <div class="parent-Pound">
+    <i class="sprite-home sprite-Pound delay-2s"></i>
+  </div>
+  <div class="parent-Telsa">
+    <i class="sprite-home sprite-Telsa delay-4s"></i>
+  </div>
+  <div class="parent-Yen">
+    <i class="sprite-home sprite-Yen"></i>
+  </div>
+  <div class="parent-apple">
+    <i class="sprite-home sprite-apple"></i>
+  </div>
+</div>
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -291,6 +339,9 @@ export default {
 .fenye02 .block-text .btn .items{display:flex;width:260px;height:50px;font-size:22px;transition:all 0.25s ease-in-out;flex-direction:row;justify-content:center;align-items:center;text-decoration:none}
 .fenye02 .block-text .btn .items:hover{transform:scale(1.2)}
 .fenye02 img{position:absolute;top:-134px;z-index:-1;width:156%;max-width:unset}
+.fenye02 .icon-container .sprite-home {background-image: url(../assets/home-spritesheet.png); background-repeat:no-repeat;display:block; animation-name:floating; animation-iteration-count:infinite; animation-direction:alternate; animation-play-state: running; animation-timing-function: ease-in-out; -webkit-animation-duration: 4s;}
+
+
 .ban-row{display:flex;width:100%;height:120px;background:#01254f;color:#eee;justify-content:center}
 .ban-row .content{display:flex;width:80%;justify-content:space-around;align-items:center}
 .ban-row .content .text{color:#eee;font-size:28px}
@@ -341,6 +392,60 @@ export default {
 .py-row .block .items span{color: #9b9999}
 .py-row .pay{text-align: center}
 
+
+.fenye02 .icon-container .parent-Alibaba{position: absolute; top: 30%; right: 100px; transform:scale(.7); z-index: -1;}
+.fenye02 .icon-container .parent-Alibaba .sprite-Alibaba {width: 161px; height: 160px; background-position: -5px -5px;}
+.parent-Amazon {position:absolute;bottom:100px;left:80px;transform:scale(.7);z-index:-1}
+.sprite-Amazon {width:161px;height:160px;background-position:-346px -5px}
+.parent-BHP {position:absolute;bottom:100px;right:380px;transform:scale(0.6);z-index:-1}
+.sprite-BHP {width:161px;height:160px;background-position:-517px -5px}
+.parent-Bitcoin {position:absolute;top:100px;left:154px;transform:scale(.85);z-index:-1}
+.sprite-Bitcoin {width:160px;height:160px;background-position:-5px -175px}
+.parent-Commbank {position:absolute;top:350px;right:200px;transform:scale(.6);z-index:-1}
+.sprite-Commbank {width:161px;height:160px;background-position:-175px -175px}
+.parent-Dollar {position:absolute;top:10px;left:290px;transform:scale(.6);z-index:-1}
+.sprite-Dollar {width:160px;height:160px;background-position:-346px -175px}
+.parent-Euro {position:absolute;top:270px;left:20;transform:scale(.5);z-index:-1}
+.sprite-Euro {width:161px;height:160px;background-position:-516px -175px}
+.parent-Facebook {position:absolute;top:187px;right:411px;transform:scale(1);z-index:-1}
+.sprite-Facebook {width:160px;height:160px;background-position:-5px -345px;transform:scale(1.1)}
+.parent-Gold {position:absolute;bottom:50px;left:453px;transform:scale(.8);z-index:-1}
+.sprite-Gold {width:160px;height:160px;background-position:-175px -345px}
+.parent-Microsoft {position:absolute;bottom:10px;left:725px;transform:scale(1);z-index:-1}
+.sprite-Microsoft {width:160px;height:160px;background-position:-345px -345px}
+.parent-Netflix {position:absolute;top:80px;right:450px;transform:scale(.9);z-index:-1}
+.sprite-Netflix {width:160px;height:160px;background-position:-515px -345px}
+.parent-Oil {position:absolute;top:150px;right:600px;transform:scale(.6);z-index:-1}
+.sprite-Oil {width:161px;height:160px;background-position:-5px -515px}
+.parent-Pound {position:absolute;top:10px;right:250px;transform:scale(.5);z-index:-1}
+.sprite-Pound {width:161px;height:160px;background-position:-176px -515px}
+.parent-Telsa {position:absolute;top:120px;right:50%;transform:scale(1);z-index:-1}
+.sprite-Telsa {width:161px;height:160px;background-position:-347px -515px}
+.parent-Yen {position:absolute;top:170px;left:970px;transform:scale(.6);z-index:-1}
+.sprite-Yen {width:161px;height:160px;background-position:-518px -515px}
+.parent-apple {position:absolute;top:375px;left:60%;transform:scale(1.2);z-index:-1}
+.sprite-apple {width:160px;height:160px;background-position:-688px -5px}
+@keyframes -Pure-ECN-Pricing-icon {0% {transform:translateY(-50%) translateX(-50%)}
+    to {transform:translateY(-60%) translateX(-50%)}
+}
+@keyframes floating2 {0% {transform:translateY(-10px)}
+    to {transform:translateY(10px)}
+}
+@keyframes floating3 {0% {transform:translateY(10px)}
+    to {transform:translateY(-10px)}
+}
+@keyframes floating {0% {transform:translateY(10px) rotate3d(0,0,1,4deg)}
+    to {transform:translateY(-10px) rotate3d(0,0,1,0deg)}
+}
+.delay-1s {animation-delay:-1s}
+.delay-2s {animation-delay:-2s}
+.delay-3s {animation-delay:-3s}
+.delay-4s {animation-delay:-4s}
+.delay-5s {animation-delay:-5s}
+.delay-6s {animation-delay:-6s}
+.delay-7s {animation-delay:-7s}
+
+
 @media screen and (max-width: 768px){
   .el-carousel__container{
     width: 100%;
@@ -349,6 +454,7 @@ export default {
   }
   .fenye01 .block, .fenye01 img{
     height: 100%;
+	width: 100%;
   }
   .fenye02 img{
     height: 100%;
@@ -371,6 +477,7 @@ export default {
   }
   .content-row{
     height: auto;
+	padding-bottom: 50px;
   }
   .content-row .cointainer{
     padding-top: 0;
@@ -420,7 +527,31 @@ export default {
   .py-row .pay img{
     width: 95%;
   }
-
+	.fenye02 .icon-container .sprite-home{
+		display: none;
+	}
+	.fenye01 .block{
+		top: 0;
+		left: 0;
+		width: 100%;
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.fenye01 .block .btn{
+		margin: 0 auto;
+	}
+	.fenye02 .block-text{
+		top: 0;
+		left: 0;
+		width: 300px;
+		position: static;
+		margin: 0 auto;
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.el-main{
+		overflow-x: hidden !important;
+	}
 }
 @media screen and (min-width: 1200px){
 

@@ -1,5 +1,9 @@
 export default {
-  index: {
-      btn: 'En'
-  }
+    nav: {
+        coop: 'Partner'
+    },
+    index: {
+        btn: 'En'
+    },
+    coopid: {}
 }
