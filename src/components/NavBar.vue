@@ -5,49 +5,53 @@
     mode="horizontal"
     @select="handleSelect"
     router>
-    <router-link to="/">
-      <img src="../assets/logo.png" class="logo" alt="logo" srcset="" />
-    </router-link>
-    <el-submenu index="2">
-      <template #title>关于Attuare Pty.Ltd</template>
-      <el-menu-item index="2-1" route="/about-me">关于Attuare Pty.Ltd</el-menu-item>
-      <el-menu-item index="2-2" route="/about-question">常见问题解答</el-menu-item>
-      <el-menu-item index="2-3" route="/about-supervise">监督信息</el-menu-item>
-      <el-menu-item index="2-3" route="/about-contact">联系我们</el-menu-item>
-      <el-menu-item index="2-3" route="/about-notice">公告</el-menu-item>
+    <div class="mobile">
+      <router-link to="/">
+        <img src="../assets/logo.png" class="logo" alt="logo" srcset="" />
+      </router-link>
+      <i class="el-icon-menu noPcShow icon-menu" @click="navShow"></i>
+    </div>
+      <el-submenu index="2" :class="{ isShow: isNavShow}">
+        <template #title>{{$t('nav.navGYAP1991')}}</template>
+        <el-menu-item index="2-1" route="/about-me">{{$t('nav.nav_GYAP1813')}}</el-menu-item>
+        <el-menu-item index="2-2" route="/about-question">{{ $t('nav.navCJWTJD21') }}</el-menu-item>
+        <el-menu-item index="2-3" route="/about-supervise">{{ $t('nav.navJDXX1507') }}</el-menu-item>
+        <el-menu-item index="2-3" route="/about-contact">{{ $t('nav.navLXWM6305') }}</el-menu-item>
+        <el-menu-item index="2-3" route="/about-notice">{{ $t('nav.navGG177606') }}</el-menu-item>
+      </el-submenu>
+    <el-submenu index="3" :class="{ isShow: isNavShow}">
+      <template #title>{{ $t('nav.navJYCP1123') }}</template>
+      <el-menu-item index="3-1" route="/product-forex">{{ $t('nav.navWH160310') }}</el-menu-item>
+      <el-menu-item index="3-2" route="/product-index">{{ $t('nav.navGJS85108') }}</el-menu-item>
+      <el-menu-item index="3-3" route="/product-metal">{{ $t('nav.navGPZS2050') }}</el-menu-item>
     </el-submenu>
-    <el-submenu index="3">
-      <template #title>交易产品</template>
-      <el-menu-item index="3-1" route="/product-forex">外汇</el-menu-item>
-      <el-menu-item index="3-2" route="/product-index">贵金属</el-menu-item>
-      <el-menu-item index="3-3" route="/product-metal">股票指数</el-menu-item>
+    <el-submenu index="4" :class="{ isShow: isNavShow}">
+      <template #title>{{ $t('nav.navJYPT8929') }}</template>
+      <el-menu-item index="4-1" route="/platform-mt4">{{ $t('nav.navM2034109') }}</el-menu-item>
+      <el-menu-item index="4-2" route="/platform-mt5">{{ $t('nav.navM4915488') }}</el-menu-item>
     </el-submenu>
-    <el-submenu index="4">
-      <template #title>交易平台</template>
-      <el-menu-item index="4-1" route="/platform-mt4">MT4</el-menu-item>
-      <el-menu-item index="4-2" route="/platform-mt5">MT5</el-menu-item>
+    <el-submenu index="5" :class="{ isShow: isNavShow}">
+      <template #title>{{ $t('nav.navXWDT4981') }}</template>
+      <el-menu-item index="5-1" route="/news-analysis">{{ $t('nav.navSCFX1879') }}</el-menu-item>
+      <el-menu-item index="5-2" route="/news-letters">{{ $t('nav.navSCKB1871') }}</el-menu-item>
     </el-submenu>
-    <el-submenu index="5">
-      <template #title>新闻动态</template>
-      <el-menu-item index="5-1" route="/news-analysis">市场分析</el-menu-item>
-      <el-menu-item index="5-2" route="/news-letters">市场快报</el-menu-item>
+    <el-submenu index="6" :class="{ isShow: isNavShow}">
+      <template #title>{{ $t('nav.navT1930177') }}</template>
+      <el-menu-item index="6-1" route="/coop-ib">{{ $t('nav.navIDLJH488') }}</el-menu-item>
+      <el-menu-item index="6-2" route="/coop-intem">{{ $t('nav.navQYDL4988') }}</el-menu-item>
+	  <el-menu-item index="6-3" route="/coop-agent">{{ $t('nav.navGJHZ3022') }}</el-menu-item>
     </el-submenu>
-    <el-submenu index="6">
-      <template #title>{{ $t('nav.coop')}}</template>
-      <el-menu-item index="6-1" route="/coop-ib">IB代理计划</el-menu-item>
-      <el-menu-item index="6-2" route="/coop-intem">区域代理</el-menu-item>
-	  <el-menu-item index="6-3" route="/coop-agent">国际合作</el-menu-item>
-    </el-submenu>
-    <el-submenu index="9">
+    <el-submenu index="9" :class="{ isShow: isNavShow}">
       <template #title>{{ lang }}</template>
-      <el-menu-item index="9-1" @click="changeCn">简体中文</el-menu-item>
-      <el-menu-item index="9-2" @click="changeTw">繁体中文</el-menu-item>
-      <el-menu-item index="9-2" @click="changeEn">English</el-menu-item>
-      <el-menu-item index="9-2" @click="changeAr">بالعربية</el-menu-item>
-      <el-menu-item index="9-2" @click="changeJa">日本語</el-menu-item>
+      <el-menu-item @click="changeCn">简体中文</el-menu-item>
+      <el-menu-item @click="changeTw">繁体中文</el-menu-item>
+      <el-menu-item @click="changeEn">English</el-menu-item>
+      <el-menu-item @click="changeAr">بالعربية</el-menu-item>
+      <el-menu-item @click="changeJa">日本語</el-menu-item>
     </el-submenu>
-    <el-menu-item index="7"><el-button class="navbtn hvr-sweep-to-right">登入</el-button></el-menu-item>
-    <el-menu-item index="8"><el-button class="navbtn" type="primary hvr-sweep-to-right">注册账户</el-button></el-menu-item>
+    <el-menu-item index="7" :class="{ isShow: isNavShow}"><el-button class="navbtn hvr-sweep-to-right"><router-link to="https://crm.attuarefx.com/">{{ $t('nav.navDR126636') }}</router-link></el-button></el-menu-item>
+    <el-menu-item index="8" :class="{ isShow: isNavShow}"><el-button class="navbtn" type="primary hvr-sweep-to-right"><router-link to="https://crm.attuarefx.com/customer/registration"> {{ $t('nav.navZCZH1611') }}</router-link></el-button></el-menu-item>
+
   </el-menu>
 </template>
 
@@ -59,10 +63,15 @@ export default {
   data() {
     return {
       activeIndex: "1",
-      lang: 'English'
+      lang: 'English',
+      isNavShow: this.isMobile(),
     };
   },
-  components: {
+  computed: {
+
+
+  },
+  watch: {
 
   },
   methods: {
@@ -85,32 +94,33 @@ export default {
     changeAr() {
       this.$i18n.locale = 'ar'
       this.lang = 'بالعربية'
+    },
+    navShow() {
+      this.isNavShow = !this.isNavShow
+    },
+    isMobile() {
+      this.flag = navigator.userAgent.match(
+          /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+      );
+      if(this.flag === null) {
+        return this.isNavShow = false;
+      }else {
+        return this.isNavShow = true;
+      }
     }
-  },
-  setup() {
-    const router = useRouter();
-    const pathMap = {
-      index: "首页",
-      add: "添加商品",
-    };
-    const state = reactive({
-      name: "首页",
-    });
-    router.afterEach((to) => {
-      console.log("to", to);
-      // to 能获取到路由相关信息。
-      const { id } = to.query;
-      state.name = pathMap[to.name];
-    });
-
-    return {
-      ...toRefs(state),
-    };
-  },
+  }
 };
-console.log(window.localStorage.setItem);
 </script>
 <style scoped>
+.icon-menu{
+ font-size: 25px;
+}
+.noPcShow{
+  display: none;
+}
+.isShow{
+  display: none;
+}
 .el-menu-demo {
   display: flex;
   justify-content: center;
@@ -132,8 +142,23 @@ console.log(window.localStorage.setItem);
   font-weight: 600;
 }
 @media screen and (max-width: 768px){
+  .mobile{
+    width: 85%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .el-menu-demo{
-    display: none;
+    flex-direction: column;
+    height: auto;
+  }
+  .el-menu-demo .logo{
+    height: 60px;
+    width: 60px;
+  }
+  .noPcShow{
+    display: block;
   }
 }
 @media screen and (min-width: 1200px){

@@ -2,9 +2,10 @@
 <div class="layout">
 
   <el-container direction="vertical">
-    <el-header>
-      <NavBar></NavBar>
-    </el-header>
+    <NavBar></NavBar>
+<!--    <el-header>-->
+<!--      -->
+<!--    </el-header>-->
     <el-main>
       <router-view></router-view>
     </el-main>
