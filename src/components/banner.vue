@@ -1,14 +1,16 @@
 <template>
 	<div class="banner" v-for="bannera in bannerList" :key="bannera.title">
 		<div class="banner-img">
-			<img :src="bannera.imga">
+			<img :src="$t(bannera.imga)">
 		</div>
 		<div class="banner-text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 			<div class="banner-text-title">
-				{{bannera.title}}
+				<!-- {{bannera.title}} -->
+				{{$t(bannera.title)}}
 			</div>
 			<div class="banner-text-main">
-				{{bannera.main}}
+				<!-- {{bannera.main}} -->
+				{{$t(bannera.main)}}
 			</div>
 		</div>
 	</div>

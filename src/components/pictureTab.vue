@@ -1,5 +1,5 @@
 <template>
-	<div class="title">{{tabTitle}}</div>
+	<div class="title">{{$t(tabTitle)}}</div>
 	<div class="picture-demo">
 		<el-tabs model-value="first" stretch @tab-click="handleClick" class="tabtop">
 				<el-tab-pane v-for="tabtop in tablist" :key="tabtop.label" :label="tabtop.label" :name="tabtop.name" id="tabimg">

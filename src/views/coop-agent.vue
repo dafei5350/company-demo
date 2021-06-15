@@ -1,24 +1,19 @@
 <template>
-	<banner :bannerList="bannera"></banner>
-	<div class="quick">
-		<div class="quick-big">
-			<div class="quick-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-				<div class="quick-title">
-					后台支持
-				</div>
-				<div class="quick-main">
-					<p>Attuare Pty. Ltd.提供后台的技术和清算支持，我们不会参与和客户的直接沟通与服务。也就是说，客户从开户前到开户后的在线服务，都是由合作伙伴自己掌控。</p>
-					<p>我们专业的机构客户经理会在实施的过程中全程提供1对1服务，确保所有的平台设置都符合您的要求。在白标方案完成后，还会在业务拓展方面为您提供支持，包括市场推广，营销培训和客服培训。</p>
-					<p>我们致力于为合作商提供最有效的商业模式，使您的公司能够快速发展，提高收益率，从而实现利润最大化。</p>
-				</div>
-			</div>
-			<div class="quick-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-				<img src="../assets/index/white1.png">
-			</div>
-		</div>
-	</div>
-	<pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
-	<div style="height: 80px;"></div>
+  <banner :bannerList="bannera"></banner>
+  <div class="quick">
+    <div class="quick-big">
+      <div class="quick-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="quick-title">{{ $t('coop.coopHTZC9959') }}</div>
+        <div class="quick-main"><p>{{ $t('coop.coopAPLTGHTD') }}</p>
+          <p>{{ $t('coop.coopWMZYDJGK') }}</p>
+          <p>{{ $t('coop.coopWMZLYWHZ') }}</p></div>
+      </div>
+      <div class="quick-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"><img
+          src="../assets/index/white1.png"></div>
+    </div>
+  </div>
+  <pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
+  <div style="height: 80px;"></div>
 </template>
 
 <script>
@@ -28,37 +23,37 @@
 		data() {
 			return {
 				activeName: 'second',
-				tabTitlea: '白标合作优势',
+				tabTitlea:  'coop.coopBBHZYS19',
 				tablista: [{
-						label: '低点差，高流通性',
+						label: 'coop.coopDDCGLTX8',
 						name: 'first',
 						imga: 'src/assets/index/white2.png',
-						text: '接通16家流通性提供商，确保提供最低的点差报价给到投资者。',
+						text: 'coop.coopJTJLTXTG',
 					},
 					{
-						label: '完善便捷的客户管理系统',
+						label: 'coop.coopWSBJDKHG',
 						imga: 'src/assets/index/white2.png',
 						name: 'second',
-						text: '能够快速拥有自己的MT4交易平台和MT4产品，并且能够以机构自己的经纪公司品牌进行业务拓展。',
+						text: 'coop.coopNGKSYYZJ',
 					},
 					{
-						label: '持久性高额回报',
+						label: 'coop.coopCJXGEHB1',
 						name: 'third',
 						imga: 'src/assets/index/white2.png',
-						text: '基于交易数量的佣金收取，名下客户交易数量越多，佣金越丰厚。',
+						text: 'coop.coopJYJYSLDY',
 					},
 					{
-						label: '强大的后盾，专业的培训',
+						label: 'coop.coopQDDHDZYD',
 						name: 'fourth',
 						imga: 'src/assets/index/white2.png',
-						text: '高端后台计划，为您定制专属的投资计划和返佣体系，确保您的事业开向蓝海。',
+						text: 'coop.coopGDHTJHWN',
 					},
 				],
 				bannera: [
 					{
 						imga:'src/assets/index/bg-download.jpg',
-						title:'白标合作计划',
-						main:'白标服务也称为贴牌服务。Attuare Pty. Ltd.白标计划有多种类多层次的设计，以配合客户开办或设立经纪公司，并帮助您把业务提升到一个新的水平。白标合作伙伴计划是一个总控解决方案，从而您将可以连接到我们市场领先的流动性和技术。同时，您将保存自己公司的品牌延续性和完整性，不需要担心客户的流失。这样，从第一天起您就可以拥有自己的外汇公司品牌。'
+						title:'coop.coopBBHZJH33',
+						main:'coop.coopBBFWYCWT',
 					},
 				],
 			};

@@ -1,20 +1,12 @@
 <template>
   <banner :bannerList="bannera"></banner>
   <div class="askd">
-  	<div class="askd-top">
-  		<div class="ask-logo">
-  			<img src="../assets/index/contact_email.svg" >
-  		</div>
-		<div class="ask-title">
-			企业电邮
-		</div>
-		<div class="ask-mail">
-			service@attuare.com
-		</div>
-  	</div>
-	<div class="ask-picture">
-		<img src="../assets/index/contact_operahouse.jpg" >
-	</div>
+    <div class="askd-top">
+      <div class="ask-logo"><img src="../assets/index/contact_email.svg"></div>
+      <div class="ask-title">{{ $t('about.aboutQYDY1761') }}</div>
+      <div class="ask-mail">{{ $t('about.aboutS1067339') }}</div>
+    </div>
+    <div class="ask-picture"><img src="../assets/index/contact_operahouse.jpg"></div>
   </div>
 </template>
 
@@ -26,8 +18,8 @@
 				bannera: [
 					{
 						imga:'src/assets/index/choose_acy_banner.jpg',
-						title:'联系我们',
-						main:'Attuare Pty. Ltd.总部设在澳大利亚悉尼，是一家支持各种交易方式，为日内交易者、高频交易者以及新入市交易者提供真正ECN模式的外汇经纪商。作为行业的领导者，我们业务遍布全球，服务享誉海内外。投资者可受惠于由Attuare Pty. Ltd.提供的低点差高流通性，并以尖端科技让我们能在世界最庞大的外汇市场中得到最佳报价。'
+						title:'about.aboutLXWM2996',
+						main:'about.aboutAPLZBSZA'
 					},
 				],
 			};

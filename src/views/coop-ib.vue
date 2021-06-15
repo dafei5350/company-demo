@@ -11,37 +11,37 @@
 		data() {
 			return {
 				activeName: 'second',
-				tabTitlea: '区域代理优势',
+				tabTitlea: 'coop.coopQYDLYS19',
 				tablista: [{
-						label: '收入共享模式',
+						label: 'coop.coopSRGXMS10',
 						name: 'first',
 						imga: 'src/assets/index/regional1.png',
-						text: '无论您是交易培训公司，机构操盘手还是为交易者提供其它增值服务的公司等，只要您有客户资源，即可申请加入Attuare Pty. Ltd.。',
+						text: 'coop.coopWLNSJYPX',
 					},
 					{
-						label: '简单的客户入驻',
+						label: 'coop.coopJDDKHRZ2',
 						imga: 'src/assets/index/regional1.png',
 						name: 'second',
-						text: '简单便捷交易界面一目了然，确保交易者可以专注于交易本身，而无需被繁复的操作功能所打扰。',
+						text: 'coop.coopJDBJJYJM',
 					},
 					{
-						label: '佣金直接到账',
+						label: 'coop.coopYJZJDZ91',
 						name: 'third',
 						imga: 'src/assets/index/regional1.png',
-						text: '基于交易数量的佣金收取，名下客户交易数量越多，佣金越丰厚，佣金也将直接汇入代理机构的交易者，您可自行提取也可用于交易。',
+						text: 'coop.coopJYJYSLDY',
 					},
 					{
-						label: '完全透明性',
+						label: 'coop.coopWQTMX312',
 						name: 'fourth',
 						imga: 'src/assets/index/regional1.png',
-						text: 'Attuare Pty. Ltd.致力于提供全面的透明性，代理客户可以在后台查询旗下的交易帐户的每一笔交易订单',
+						text: 'coop.coopAPLZLYTG',
 					},
 				],
 				bannera: [
 					{
 						imga:'src/assets/index/bg-download.jpg',
-						title:'区域代理',
-						main:'Attuare Pty. Ltd.的区域代理扩展计划为您提供优秀交易产品，享受巨大的收入潜力。我们的交易产品保证让您的客户在外汇市场取得特殊优势，并走在市场前列。Attuare Pty. Ltd.区域代理分支机构从字面上理解就是负责品牌在某一个区域业务扩展，使其品牌得到开发和延续性。加入我们专业的区域代理扩展计划，您可以获得更多的潜在收益，并成为推动区域代理的重要抓手。'
+						title:'coop.coopQYDL1743',
+						main:'coop.coopAPLDQYDL',
 					},
 				],
 			};

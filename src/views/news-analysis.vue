@@ -75,6 +75,8 @@
 
 <script>
 	import banner from '@/components/banner.vue'
+  import axios from '@/utils/axios'
+
 	export default {
 		data() {
 			return {
@@ -83,12 +85,12 @@
 					title: '市场分析',
 					main: ''
 				}],
-
 			}
 		},
 		components: {
 			banner
 		},
+
 	}
 </script>
 

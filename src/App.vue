@@ -2,9 +2,10 @@
 <div class="layout">
 
   <el-container direction="vertical">
-    <el-header>
-      <NavBar></NavBar>
-    </el-header>
+    <NavBar></NavBar>
+<!--    <el-header>-->
+<!--      -->
+<!--    </el-header>-->
     <el-main>
       <router-view></router-view>
     </el-main>
@@ -33,6 +34,7 @@ export default {
 body {
   margin: 0 !important;
   font-size: 16px !important;
+  padding-top: 96px !important;
 }
 .el-header{
   padding: 0 !important;
@@ -50,6 +52,7 @@ body {
 @media screen and (max-width: 768px){
 	body{
 		font-size: 12px !important;
+		padding-top: 80px !important;
 	}
 }
 @media screen and (min-width: 1200px){

@@ -1,85 +1,57 @@
 <template>
-	<banner :bannerList="bannera"></banner>
-	<div class="financial">
-		<div class="financial-top" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="financial-title">
-				金融服务监管信息
-			</div>
-			<div class="financial-main">
-				<p>1，Attuare Pty. Ltd.受澳大利亚证券和投资委员会监管和许可(ASIC AFSL: 271471 )。 Attuare Pty. Ltd.仅接受澳大利亚居民或ASIC 所接受的客户并严格遵守澳大利亚法规。</p>
-				<p>2，Attuare Pty. Ltd.受加拿大委员会监管和许可（FINTRAC:M19008229）。Attuare Pty. Ltd.接受非澳大利亚居民。</p>
-			</div>
-		</div>
-		<div class="financial-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<img src="../assets/index/regulations.png">
-		</div>
-	</div>
-	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-		<div class="financial-title">
-			资金安全
-		</div>
-		<div class="financial-main">
-			<p>Attuare Pty. Ltd.推出了统一账户多样化的金融产品，其中包含外汇、贵金属、股指、原油等其他大宗商品。为了满足客户在交易活动中要求的资产安全保障，Attuare Pty. Ltd.提供多种不同出入金解决方案，确保我们客户的资金安全性达到极致。为客户提供最高级别的资金安全是我们的生存之本。</p>
-			<p>资金安全包含资金隔离、出入金便捷、反洗钱规定、金融专业会员资格等。</p>
-		</div>
-	</div>
-	<pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
-	<div class="doubleQuick">
-		<div class="quick">
-			<div class="quick-big">
-				<div class="quick-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-					<img src="../assets/index/regulations4.png">
-				</div>
-				<div class="quick-text" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-					<div class="quick-title">
-						金融专业会员资格
-					</div>
-					<div class="quick-main">
-						金融申诉服务机构是解决金融服务纠纷的专业机构。Attuare Pty. Ltd.致力于为投资者、基金管理人和个人交易者提供卓越的服务。我们的目标是为所有交易者提供一个公平、专业、便捷的交易环境。
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="quick">
-			<div class="quick-big">
-				<div class="quick-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-					<div class="quick-title">
-						反洗钱法规定
-					</div>
-					<div class="quick-main">
-						根据国际反洗钱法规定，在开通真实交易账户时，Attuare Pty. Ltd.需要您提供完整、真实的身份证明及地址证明。您的入金仅能由您名下的银行卡支付，出金仅能出至您名下的银行卡中。Attuare Pty. Ltd.不支持任何形式的第三方出入金，也不支持任何形式的跨境换汇。
-					</div>
-				</div>
-				<div class="quick-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-					<img src="../assets/index/regulations5.png">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="financial-top" style="margin-bottom: 0;" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-		<div class="financial-title">
-			隐私保护
-		</div>
-		<div class="financial-main">
-			<p>Attuare Pty. Ltd.遵照1988年颁布的隐私法，履行其保障隐私的义务。隐私保护包括我们如何搜集、使用、公开及保护来自申请和接受我们服务的用户的个人信息。</p>
-			<p>了解更多关于隐私保护的信息，请 与我们联系。</p>
-		</div>
-	</div>
-	<div class="fourth">
-		<div class="fourth-img">
-			<img src="../assets/index/dq.png">
-		</div>
-		<div class="fourth-big">
-			<div class="fourth-text">
-				免费申请真实交易账户
-			</div>
-			<a href="" class="button-a">
-				<div class="fourth-button hvr-sweep-to-right">
-					立即开通
-				</div>
-			</a>
-		</div>
-	</div>
+  <banner :bannerList="bannera"></banner>
+  <div class="financial">
+    <div class="financial-top" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="financial-title">{{ $t('about.aboutJRFWJGXX') }}</div>
+      <div class="financial-main"><p>{{ $t('about.aboutAPLSADLY') }}</p>
+        <p>{{ $t('about.aboutAPLSJNDW') }}</p></div>
+    </div>
+    <div class="financial-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"><img
+        src="../assets/index/regulations.png"></div>
+  </div>
+  <div class="financial-top" style="margin-bottom: 0;" data-aos="fade-down" data-aos-easing="linear"
+       data-aos-duration="1500">
+    <div class="financial-title">{{ $t('about.aboutZJAQ2303') }}</div>
+    <div class="financial-main"><p>{{ $t('about.aboutAPLTCLTY') }}</p>
+      <p>{{ $t('about.aboutZJAQBHZJ') }}</p></div>
+  </div>
+  <pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
+  <div class="doubleQuick">
+    <div class="quick">
+      <div class="quick-big">
+        <div class="quick-img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><img
+            src="../assets/index/regulations4.png"></div>
+        <div class="quick-text" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <div class="quick-title">{{ $t('about.aboutJRZYHYZG') }}</div>
+          <div class="quick-main">{{ $t('about.aboutJRSSFWJG') }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="quick">
+      <div class="quick-big">
+        <div class="quick-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <div class="quick-title">{{ $t('about.aboutFXQFGD37') }}</div>
+          <div class="quick-main">{{ $t('about.aboutGJGJFXQF') }}</div>
+        </div>
+        <div class="quick-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"><img
+            src="../assets/index/regulations5.png"></div>
+      </div>
+    </div>
+  </div>
+  <div class="financial-top" style="margin-bottom: 0;" data-aos="fade-down" data-aos-easing="linear"
+       data-aos-duration="1500">
+    <div class="financial-title">{{ $t('about.aboutYSBH1538') }}</div>
+    <div class="financial-main"><p>{{ $t('about.aboutAPLZZNBB') }}</p>
+      <p>{{ $t('about.aboutLJGDGYYS') }}</p></div>
+  </div>
+  <div class="fourth">
+    <div class="fourth-img"><img src="../assets/index/dq.png"></div>
+    <div class="fourth-big">
+      <div class="fourth-text">{{ $t('about.aboutMFSQZSJY') }}</div>
+      <a href="" class="button-a">
+        <div class="fourth-button hvr-sweep-to-right">{{ $t('about.aboutLJKT5479') }}</div>
+      </a></div>
+  </div>
 </template>
 
 <script>
@@ -92,22 +64,22 @@
 			return {
 				tabTitlea: '',
 				tablista: [{
-						label: '资金隔离',
+						label: 'about.aboutAAAAAAA1',
 						name: 'first',
 						imga: 'src/assets/index/regulations1.png',
-						text: '根据监管要求，客户资金被隔离到世界一级银行信托账户，与Attuare Pty. Ltd.运营账户完全隔离。同时存放在国际大型银行开设的隔离式账户下，处理客户用于交易之外，不允许以任何缘由挪作他用。因为根据相关监管部门的要求，Attuare Pty. Ltd.有责任将客户的资金视为客户财产，非公司所有。',
+						text: 'about.aboutAAAAAAA2',
 					},
 					{
-						label: '出入金便捷',
+						label: 'about.aboutAAAAAAA3',
 						imga: 'src/assets/index/regulations1.png',
 						name: 'second',
-						text: '为确保客户资金得到妥善的运用和安全，Attuare Pty. Ltd.提供了电汇和银联的出入金模式，其中银联入金即时到账，提取资金在执行审批后最快当天或下个工作日到达客户银行账号。Attuare Pty. Ltd.与各大银行有紧密的合作关系，确保各个渠道都是稳定和便捷，让交易者能第一时间安排自己的资产。同时，Attuare Pty. Ltd.还安排每天18小时的取款专员，通过邮件、电话、即时聊天等方式，及时辅助交易者完成取款申请，让您在取款的过程中感受到不一样的服务。',
+						text: 'about.aboutAAAAAAA4',
 					},
 				],
 				bannera: [{
 					imga: 'src/assets/index/choose_acy_banner.jpg',
-					title: '监管信息',
-					main: '我们的目标只有一个，为您的成功，为您的获利，奉献我们的所有。因此，尽我们最大的努力，提供给您无以伦比的价格和执行，以及卓越的杠杆机会，最低的点差和无干扰交易执行。此外，同样重要的还有，我们提供的高度的安全性和优质的服务，因此您可以完全放心交易。以下您可以了解到，我们如何通过资质和监管建立我们的客户信任关系。'
+					title: 'about.aboutAAAAAAA5',
+					main: 'about.aboutAAAAAAA6'
 				}, ],
 			};
 		},
