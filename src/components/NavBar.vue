@@ -50,8 +50,20 @@
       <el-menu-item @click="changeAr">بالعربية</el-menu-item>
       <el-menu-item @click="changeJa">日本語</el-menu-item>
     </el-submenu>
-    <el-menu-item index="7" :class="{ isShow: isNavShow}"><el-button class="navbtn hvr-sweep-to-right"><router-link to="https://crm.attuarefx.com/">{{ $t('nav.navDR126636') }}</router-link></el-button></el-menu-item>
-    <el-menu-item index="8" :class="{ isShow: isNavShow}"><el-button class="navbtn" type="primary hvr-sweep-to-right"><router-link to="https://crm.attuarefx.com/customer/registration"> {{ $t('nav.navZCZH1611') }}</router-link></el-button></el-menu-item>
+    <el-menu-item index="7" to="/" :class="{ isShow: isNavShow}">
+      <a href="https://crm.attuarefx.com/">
+      <el-button class="navbtn hvr-sweep-to-right">
+          {{ $t('nav.navDR126636') }}
+      </el-button>
+      </a>
+    </el-menu-item>
+    <el-menu-item index="8" to="/" :class="{ isShow: isNavShow}">
+      <a href="https://crm.attuarefx.com/customer/registration">
+      <el-button class="navbtn" type="primary hvr-sweep-to-right">
+          {{ $t('nav.navZCZH1611') }}
+      </el-button>
+      </a>
+    </el-menu-item>
 
   </el-menu>
 </template>
@@ -130,9 +142,10 @@ export default {
   width: 80px;
 }
 .navbtn a{
-	text-decoration: none;
+	/*text-decoration: none;*/
 }
 .navbtn{
+
   width: 100px;
 }
 .router{

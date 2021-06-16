@@ -1,6 +1,6 @@
 export default {
   development: {
-    baseUrl: 'http://atc.test/api/v1' // 测试接口域名
+    baseUrl: '/api' // 测试接口域名
   },
   beta: {
     baseUrl: '' // 测试接口域名

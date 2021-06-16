@@ -59,7 +59,7 @@
 			banner
 		},
     setup(){
-		  axios.get('baidu.com').then(res => {
+		  axios.get('announcement?type=1&page=1&limit=2').then(res => {
 		    console.log(res)
       }).catch(err =>{
         console.log(err)
