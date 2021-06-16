@@ -277,8 +277,8 @@
 		position: absolute;
 		top: 25%;
 		right: 15%;
-		line-height: 80px;
 		font-size: 30px;
+		width: 510px;
 	}
 
 	@media screen and (max-width: 1300px) {
@@ -366,6 +366,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			position: initial;
+			width: auto;
 		}
 		.fourth-button{
 			margin: 0 auto;

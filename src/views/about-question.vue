@@ -438,8 +438,8 @@
 		position: absolute;
 		top: 25%;
 		right: 15%;
-		line-height: 80px;
 		font-size: 30px;
+		width: 510px;
 	}
 
 	.button-a {
@@ -497,6 +497,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			position: initial;
+			width: auto;
 		}
 		.fourth-button{
 			margin: 0 auto;

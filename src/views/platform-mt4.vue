@@ -5,9 +5,9 @@
     <div class="financial-main"><p>{{ $t('plat.platAPLDZMBM') }}</p></div>
   </div>
   <div class="button-big" data-aos="fade-up"><a href="" class="button-a">
-    <div class="minbar-button hvr-sweep-to-right">{{ $t('plat.platLJXZ1518') }}</div>
+    <div class="fourth-button hvr-sweep-to-right">{{ $t('plat.platLJXZ1518') }}</div>
   </a><a href="" class="button-a">
-    <div class="minbar-button hvr-sweep-to-right">{{ $t('plat.platKHTY1108') }}</div>
+    <div class="fourth-button hvr-sweep-to-right">{{ $t('plat.platKHTY1108') }}</div>
   </a></div>
   <div class="financial-top">
     <div class="financial-title">{{ $t('plat.platZMBMYS16') }}</div>
@@ -293,7 +293,7 @@
 
 	.button-big {
 		display: flex;
-		width: 200px;
+		width: 410px;
 		margin: 0 auto;
 	}
 
@@ -342,8 +342,8 @@
 		position: absolute;
 		top: 25%;
 		right: 15%;
-		line-height: 80px;
 		font-size: 30px;
+		width: 510px;
 	}
 
 	.button-a {
@@ -371,7 +371,7 @@
 		margin: 0 auto;
 	}
 	.edge-big:deep().el-carousel__container{
-		height: 800px;
+		height: 800px !important;
 	}
 	.edge-img{
 		width: 70%;
@@ -492,6 +492,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			position: initial;
+			width: auto;
 		}
 		.fourth-button{
 			margin: 0 auto;

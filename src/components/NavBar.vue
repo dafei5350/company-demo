@@ -119,7 +119,7 @@ export default {
   display: flex;
   position: fixed;
   top: 0;
-  z-index: 9999;
+  z-index: 10;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -160,9 +160,6 @@ export default {
   }
   .noPcShow{
     display: block;
-  }
-  .el-button{
-	  display: none;
   }
   .el-menu-demo{
 	  justify-content: flex-start;

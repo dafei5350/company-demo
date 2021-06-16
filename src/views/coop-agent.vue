@@ -131,21 +131,22 @@
 		margin: .5% 0;
 		text-align: left;
 		background-color: #F5F5F5;
+		align-items: center
 	}
 
 	.quick-title {
 		color: #013B81;
 		font-size: 22px;
-		padding-left: 130px;
+		padding-top: 10px;
 	}
 
 	.quick-main {
-		line-height: 30px;
-		padding: 20px 130px;
+		line-height: 20px;
+		padding: 0px 50px;
 		color: #9B9999;
 	}
 
-	@media screen and (max-width: 1300px) {
+/* 	@media screen and (max-width: 1300px) {
 		.quick-title{
 			padding-left: 110px;
 		}
@@ -163,7 +164,7 @@
 			padding: 10px 60px;
 			font-size: 12px;
 		}
-	}
+	} */
 
 	@media screen and (max-width: 1000px) {
 		body {

@@ -193,8 +193,8 @@
 		position: absolute;
 		top: 25%;
 		right: 20%;
-		line-height: 40px;
 		font-size: 30px;
+		width: 510px;
 	}
 	.button-a {
 		text-decoration: none;
@@ -271,6 +271,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			position: initial;
+			width: auto;
 		}
 		.fourth-button{
 			margin: 0 auto;

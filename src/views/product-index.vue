@@ -5,7 +5,7 @@
     <div class="minbar-big">
       <div class="minbar-text">{{ $t('product.platBDZDDJYC') }}</div>
       <a href="" class="button-a">
-        <div class="minbar-button hvr-sweep-to-right">{{ $t('product.platLJJY1290') }}</div>
+        <div class="fourth-button hvr-sweep-to-right">{{ $t('product.platLJJY1290') }}</div>
       </a></div>
   </div>
   <div class="thirdbar">
@@ -60,7 +60,7 @@
 						text: 'product.platSXJYBTLG',
 					},
 					{
-						label: 'product.platTXSKBJDJ',
+						label: 'product.platTXSKBJDD',
 						name: 'fifth',
 						imga: 'src/assets/index/metal_slider5.jpg',
 						text: 'product.platTXSKBJDJ',
@@ -202,8 +202,8 @@
 		position: absolute;
 		top: 25%;
 		right: 15%;
-		line-height: 80px;
 		font-size: 30px;
+		width: 510px;
 	}
 
 	@media screen and (max-width: 1200px) {
@@ -292,6 +292,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			position: initial;
+			width: auto;
 		}
 		.fourth-button{
 			margin: 0 auto;

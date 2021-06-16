@@ -15,7 +15,7 @@
     <div class="minbar-big">
       <div class="minbar-text">{{ $t('product.platBDZDDJYC') }}</div>
       <a href="" class="button-a">
-        <div class="minbar-button hvr-sweep-to-right">{{ $t('product.platLJJY1868') }}</div>
+        <div class="fourth-button hvr-sweep-to-right">{{ $t('product.platLJJY1868') }}</div>
       </a></div>
   </div><!-- <div class="thirdbar"><div class="thirdbar-big"><div class="thirdbar-text">{{ $t('product.platLDCJY184') }}</div><div class="thirdbar-main">{{ $t('product.platAPLKLDBT') }}</div></div></div>-->
   <div class="fourth">
@@ -44,19 +44,19 @@
 						text: 'product.platNGZQQSCS',
 					},
 					{
-						label: 'product.platZQQGGGPZ',
+						label: 'product.platZQQGGGPA',
 						imga: 'src/assets/index/forex_slider3.jpg',
 						name: 'second',
 						text: 'product.platZQQGGGPZ',
 					},
 					{
-						label: 'product.platMYZDHZKX',
+						label: 'product.platMYZDHZKA',
 						name: 'third',
 						imga: 'src/assets/index/metal_slider4.jpg',
 						text: 'product.platMYZDHZKX',
 					},
 					{
-						label: 'product.platCDDBZJYQ',
+						label: 'product.platCDDBZJYA',
 						name: 'fourth',
 						imga: 'src/assets/index/indices_slider4.jpg',
 						text: 'product.platCDDBZJYQ',
@@ -240,8 +240,8 @@
 		position: absolute;
 		top: 25%;
 		right: 15%;
-		line-height: 80px;
 		font-size: 30px;
+		width: 510px;
 	}
 
 	@media screen and (max-width: 1300px) {
@@ -337,6 +337,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			position: initial;
+			width: auto;
 		}
 		.fourth-button{
 			margin: 0 auto;
