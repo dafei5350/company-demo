@@ -3,6 +3,7 @@
     :default-active="activeIndex"
     class="el-menu-demo"
     mode="horizontal"
+    unique-opened= true
     @select="handleSelect"
     router>
     <div class="mobile">
@@ -56,7 +57,6 @@
 </template>
 
 <script>
-import { reactive, toRefs } from "vue";
 import { useRouter } from "vue-router";
 export default {
   name: "NavBar",
@@ -64,15 +64,8 @@ export default {
     return {
       activeIndex: "1",
       lang: 'English',
-      isNavShow: this.isMobile(),
+      isNavShow: this.isMobile()
     };
-  },
-  computed: {
-
-
-  },
-  watch: {
-
   },
   methods: {
     changeEn() {
@@ -97,6 +90,7 @@ export default {
     },
     navShow() {
       this.isNavShow = !this.isNavShow
+      console.log("111")
     },
     isMobile() {
       this.flag = navigator.userAgent.match(

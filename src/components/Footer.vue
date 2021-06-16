@@ -48,7 +48,7 @@
 .footer {
   padding: 0px !important;
   width: 100%;
-  height: 520px;
+  height: 580px;
   position: relative;
   display: flex;
   justify-content: center;

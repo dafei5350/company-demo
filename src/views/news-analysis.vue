@@ -34,41 +34,9 @@
 				达里奥：若拜登获选，对市场来说sadasdasdsadasdaasdsadas
 			</div>
 		</router-link>
-		<router-link to="/news-main" class="analyse-big">
-			<div class="analyse-img">
-				<img src="../assets/index/guanyuwom1.png">
-			</div>
-			<div class="analyse-data">
-				2020-12-12
-			</div>
-			<div class="analyse-title">
-				达里奥：若拜登获选，对市场来说sadasdasdsadasdaasdsadas
-			</div>
-		</router-link>
-		<router-link to="/news-main" class="analyse-big">
-			<div class="analyse-img">
-				<img src="../assets/index/guanyuwom1.png">
-			</div>
-			<div class="analyse-data">
-				2020-12-12
-			</div>
-			<div class="analyse-title">
-				达里奥：若拜登获选，对市场来说sadasdasdsadasdaasdsadas
-			</div>
-		</router-link>
-		<router-link to="/news-main" class="analyse-big">
-			<div class="analyse-img">
-				<img src="../assets/index/guanyuwom1.png">
-			</div>
-			<div class="analyse-data">
-				2020-12-12
-			</div>
-			<div class="analyse-title">
-				达里奥：若拜登获选，对市场来说sadasdasdsadasdaasdsadas
-			</div>
-		</router-link>
+
 	</div>
-	<el-pagination background layout="prev, pager, next" :total="1000" pager-count="3" class="pagebar">
+	<el-pagination background layout="prev, pager, next" :total="1000" pager-count="5" class="pagebar">
 
 	</el-pagination>
 </template>
@@ -90,7 +58,13 @@
 		components: {
 			banner
 		},
-
+    setup(){
+		  axios.get('baidu.com').then(res => {
+		    console.log(res)
+      }).catch(err =>{
+        console.log(err)
+      })
+    }
 	}
 </script>
 
