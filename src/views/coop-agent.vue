@@ -97,7 +97,7 @@
 	.quick {
 		width: 100%;
 	}
-	
+
 	.quick-big {
 		padding: 40px 120px;
 		display: flex;
@@ -106,8 +106,8 @@
 		max-width: 1200px;
 		margin: 0 auto;
 	}
-	
-	
+
+
 	.quick-img {
 		display: flex;
 		justify-content: center;
@@ -117,11 +117,11 @@
 		margin: .5% 0;
 		text-align: left;
 	}
-	
+
 	.quick-img img{
 		height: 100%;
 	}
-	
+
 	.quick-text {
 		display: flex;
 		justify-content: center;
@@ -132,19 +132,19 @@
 		text-align: left;
 		background-color: #F5F5F5;
 	}
-	
+
 	.quick-title {
 		color: #013B81;
 		font-size: 22px;
 		padding-left: 130px;
 	}
-	
+
 	.quick-main {
 		line-height: 30px;
 		padding: 20px 130px;
 		color: #9B9999;
 	}
-	
+
 	@media screen and (max-width: 1300px) {
 		.quick-title{
 			padding-left: 110px;
@@ -153,7 +153,7 @@
 			padding: 20px 110px;
 		}
 	}
-	
+
 	@media screen and (max-width: 1200px) {
 		.quick-title{
 			padding-left: 80px;
