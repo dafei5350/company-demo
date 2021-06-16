@@ -135,6 +135,9 @@ export default {
   height: 80px;
   width: 80px;
 }
+.navbtn a{
+	text-decoration: none;
+}
 .navbtn{
   width: 100px;
 }

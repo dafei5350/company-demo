@@ -1,48 +1,28 @@
 <template>
-	<banner :bannerList="bannera"></banner>
-	<pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
-
-	<div class="minbar">
-		<div class="minbar-big">
-			<div class="minbar-text">
-				波动最大的交易产品，为您在国际金融市场提供无限机会。
-			</div>
-			<a href="" class="button-a">
-				<div class="minbar-button hvr-sweep-to-right">
-					立即交易
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="thirdbar">
-		<div class="thirdbar-big" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-			<div class="thirdbar-text">
-				零点差交易
-			</div>
-			<div class="thirdbar-main">
-				Attuare Pty. Ltd.考虑到不同类型投资者的交易需求，除了原本的 stpECN 账户类型之外，全新上线了一种账户类型 zeroECN 和 pureECN
-				零点差交易账户。无论投资者开设任何一种交易类型的账户, Attuare Pty. Ltd.都会提供专业的统一标准的交易条件, 让您始终拥有最佳的交易体验。
-			</div>
-		</div>
-	</div>
-	<div class="fourth">
-		<div class="fourth-img">
-			<img src="../assets/index/dq.png">
-		</div>
-		<div class="fourth-big">
-			<div class="fourth-text">
-				体验市场波动最大的交易品种，开仓
-			</div>
-			<div class="fourth-text">
-				不错过任何交易机会。
-			</div>
-			<a href="" class="button-a">
-				<div class="fourth-button hvr-sweep-to-right">
-					立即开通
-				</div>
-			</a>
-		</div>
-	</div>
+  <banner :bannerList="bannera"></banner>
+  <pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
+  <div class="minbar">
+    <div class="minbar-big">
+      <div class="minbar-text">{{ $t('product.platBDZDDJYC') }}</div>
+      <a href="" class="button-a">
+        <div class="minbar-button hvr-sweep-to-right">{{ $t('product.platLJJY1290') }}</div>
+      </a></div>
+  </div>
+  <div class="thirdbar">
+    <div class="thirdbar-big" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <div class="thirdbar-text">{{ $t('product.platLDCJY829') }}</div>
+      <div class="thirdbar-main">{{ $t('product.platAPLKLDBT') }}</div>
+    </div>
+  </div>
+  <div class="fourth">
+    <div class="fourth-img"><img src="../assets/index/dq.png"></div>
+    <div class="fourth-big">
+      <div class="fourth-text">{{ $t('product.platTYSCBDZD') }}</div>
+      <div class="fourth-text">{{ $t('product.platBCGRHJYJ') }}</div>
+      <a href="" class="button-a">
+        <div class="fourth-button hvr-sweep-to-right">{{ $t('product.platLJKT1369') }}</div>
+      </a></div>
+  </div>
 </template>
 
 <script>
@@ -54,43 +34,43 @@
 		data() {
 			return {
 				activeName: 'second',
-				tabTitlea: '贵金属交易优势',
+				tabTitlea: 'product.platGJSJYYS6',
 				tablista: [{
-						label: '流动性强',
+						label: 'product.platLDXQ3542',
 						name: 'first',
 						imga: 'src/assets/index/forex_slider5.jpg',
-						text: '流动性强，对接国际市场，可通过交易贵金属保值以分散风险，或跟随市场波动，以达到保值乃至增值目的。',
+						text: 'product.platLDXQDJGJ',
 					},
 					{
-						label: '高达1:100倍杠杆',
+						label: 'product.platGDBGG193',
 						imga: 'src/assets/index/indices_slider4.jpg',
 						name: 'second',
-						text: '最大杠杆高达1:100倍杠杆，通过杠杆效应减少资金占用成本，提高投资效率。',
+						text: 'product.platZDGGGDBG',
 					},
 					{
-						label: '低成本交易',
+						label: 'product.platDCBJY102',
 						name: 'third',
 						imga: 'src/assets/index/metal_slider3.jpg',
-						text: '低成本交易, 最低入金100美元。低门槛使得新手投资者也可以轻松进入贵金属市场交易。',
+						text: 'product.platDCBJYZDR',
 					},
 					{
-						label: '双向交易',
+						label: 'product.platSXJY1926',
 						name: 'fourth',
 						imga: 'src/assets/index/metal_slider4.jpg',
-						text: '双向交易，摆脱了过去只有价格上涨时投资者才能获利的局限，在贵金属价格下行时也能投资获利。',
+						text: 'product.platSXJYBTLG',
 					},
 					{
-						label: '5天24小时可不间断交易',
+						label: 'product.platTXSKBJDJ',
 						name: 'fifth',
 						imga: 'src/assets/index/metal_slider5.jpg',
-						text: '5天24小时可不间断交易，投资者可随时随地参与到全球市场的波动中，把握获利机会。',
+						text: 'product.platTXSKBJDJ',
 					},
 				],
 				bannera: [
 					{
 						imga:'src/assets/index/bg-download.jpg',
-						title:'贵金属交易',
-						main:'贵金属交易是指投资人在对贵金属市场看好的情况下，通过低买高卖赚取差价的过程。也可以是在不看好经济前景的情况下所采取的一种避险交易，以实现资产的保值增值。由于黄金的稀缺属性，黄金一直都是一种非常贵重的金属，同时它也被用来当作一种交换媒介或者作为货币使用。其价格受到政治态势、经济环境、地区冲突等多种因素的影响，经常会出现大幅波动的情况。另外，黄金是通过美元结算的，因此美元的涨跌也会影响黄金价格的波动。	'
+						title: 'product.platGJSJY117',
+						main: 'product.platGJSJYSZT'
 					},
 				],
 			};

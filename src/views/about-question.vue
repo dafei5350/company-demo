@@ -5,9 +5,9 @@
 			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseA" :key="item.name">
 				<el-collapse-item :title="$t(item.title)" :name="item.name">
 					<div>{{$t(item.textA)}}</div>
-					<div>{{item.textB}}</div>
-					<div>{{item.textC}}</div>
-					<div>{{item.textD}}</div>
+					<!-- <div>{{item.textB}}</div> -->
+					<!-- <div>{{item.textC}}</div> -->
+					<!-- <div>{{item.textD}}</div> -->
 				</el-collapse-item>
 			</el-collapse>
 		</el-tab-pane>
@@ -15,9 +15,9 @@
 			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseB" :key="item.name">
 				<el-collapse-item :title="$t(item.title)" :name="item.name">
 					<div>{{$t(item.textA)}}</div>
-					<div>{{item.textB}}</div>
-					<div>{{item.textC}}</div>
-					<div>{{item.textD}}</div>
+					<!-- <div>{{item.textB}}</div> -->
+					<!-- <div>{{item.textC}}</div> -->
+					<!-- <div>{{item.textD}}</div> -->
 				</el-collapse-item>
 			</el-collapse>
 		</el-tab-pane>
@@ -25,9 +25,9 @@
 			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseC" :key="item.name">
 				<el-collapse-item :title="$t(item.title)" :name="item.name">
 					<div>{{$t(item.textA)}}</div>
-					<div>{{item.textB}}</div>
-					<div>{{item.textC}}</div>
-					<div>{{item.textD}}</div>
+					<!-- <div>{{item.textB}}</div> -->
+					<!-- <div>{{item.textC}}</div> -->
+					<!-- <div>{{item.textD}}</div> -->
 				</el-collapse-item>
 			</el-collapse>
 		</el-tab-pane>
@@ -35,9 +35,9 @@
 			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseD" :key="item.name">
 				<el-collapse-item :title="$t(item.title)" :name="item.name">
 					<div>{{$t(item.textA)}}</div>
-					<div>{{item.textB}}</div>
-					<div>{{item.textC}}</div>
-					<div>{{item.textD}}</div>
+					<!-- <div>{{item.textB}}</div> -->
+					<!-- <div>{{item.textC}}</div> -->
+					<!-- <div>{{item.textD}}</div> -->
 				</el-collapse-item>
 			</el-collapse>
 		</el-tab-pane>
@@ -45,11 +45,11 @@
 			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseE" :key="item.name">
 				<el-collapse-item :title="$t(item.title)" :name="item.name">
 					<div>{{$t(item.textA)}}</div>
-					<div>{{item.textB}}</div>
-					<div>{{item.textC}}</div>
-					<div>{{item.textD}}</div>
-					<div>{{item.textE}}</div>
-					<div>{{item.textF}}</div>
+					<!-- <div>{{item.textB}}</div> -->
+					<!-- <div>{{item.textC}}</div> -->
+					<!-- <div>{{item.textD}}</div> -->
+					<!-- <div>{{item.textE}}</div> -->
+					<!-- <div>{{item.textF}}</div> -->
 				</el-collapse-item>
 			</el-collapse>
 		</el-tab-pane>
@@ -57,8 +57,8 @@
 			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseF" :key="item.name">
 				<el-collapse-item :title="$t(item.title)" :name="item.name">
 					<div>{{$t(item.textA)}}</div>
-					<div>{{item.textB}}</div>
-					<div>{{item.textC}}</div>
+					<!-- <div>{{item.textB}}</div> -->
+					<!-- <div>{{item.textC}}</div> -->
 				</el-collapse-item>
 			</el-collapse>
 		</el-tab-pane>
@@ -66,8 +66,8 @@
 			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseG" :key="item.name">
 				<el-collapse-item :title="$t(item.title)" :name="item.name">
 					<div>{{$t(item.textA)}}</div>
-					<div>{{item.textB}}</div>
-					<div>{{item.textC}}</div>
+					<!-- <div>{{item.textB}}</div> -->
+					<!-- <div>{{item.textC}}</div> -->
 				</el-collapse-item>
 			</el-collapse>
 		</el-tab-pane>
@@ -75,8 +75,8 @@
 			<el-collapse @change="handleChange" style="border-top-width: 0px;" v-for="item in collapseH" :key="item.name">
 				<el-collapse-item :title="$t(item.title)" :name="item.name">
 					<div>{{$t(item.textA)}}</div>
-					<div>{{item.textB}}</div>
-					<div>{{item.textC}}</div>
+					<!-- <div>{{item.textB}}</div> -->
+					<!-- <div>{{item.textC}}</div> -->
 				</el-collapse-item>
 			</el-collapse>
 		</el-tab-pane>
@@ -384,6 +384,7 @@
 
 	.question-main :deep().el-collapse-item__header {
 		font-size: 20px !important;
+		line-height: normal;
 	}
 
 	.question-main :deep().el-collapse {

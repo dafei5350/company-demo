@@ -1,48 +1,28 @@
 <template>
-	<banner :bannerList="bannera"></banner>
-	<pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
-
-	<div class="minbar">
-		<div class="minbar-big">
-			<div class="minbar-text">
-				体验市场波动最大的交易品种
-			</div>
-			<a href="" class="button-a">
-				<div class="minbar-button">
-					立即交易
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="thirdbar">
-		<div class="thirdbar-big" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-			<div class="thirdbar-text">
-				零点差交易
-			</div>
-			<div class="thirdbar-main">
-				Attuare Pty. Ltd.考虑到不同类型投资者的交易需求，除了原本的 stpECN 账户类型之外，全新上线了一种账户类型 zeroECN 和 pureECN
-				零点差交易账户。无论投资者开设任何一种交易类型的账户, Attuare Pty. Ltd.都会提供专业的统一标准的交易条件, 让您始终拥有最佳的交易体验。
-			</div>
-		</div>
-	</div>
-	<div class="fourth">
-		<div class="fourth-img">
-			<img src="../assets/index/forex_top_banner1.jpg">
-		</div>
-		<div class="fourth-big">
-			<div class="fourth-text">
-				体验市场波动最大的交易品种，开仓
-			</div>
-			<div class="fourth-text">
-				不错过任何交易机会。
-			</div>
-			<a href="" class="button-a">
-				<div class="fourth-button hvr-sweep-to-right">
-					立即开通
-				</div>
-			</a>
-		</div>
-	</div>
+  <banner :bannerList="bannera"></banner>
+  <pictureTab :tablist="tablista" :tabTitle="tabTitlea"></pictureTab>
+  <div class="minbar">
+    <div class="minbar-big">
+      <div class="minbar-text">{{ $t('product.platTYSCBDZD') }}</div>
+      <a href="" class="button-a">
+        <div class="minbar-button">{{ $t('product.platLJJY1357') }}</div>
+      </a></div>
+  </div>
+  <div class="thirdbar">
+    <div class="thirdbar-big" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <div class="thirdbar-text">{{ $t('product.platLDCJY406') }}</div>
+      <div class="thirdbar-main">{{ $t('product.platAPLKLDBT') }}</div>
+    </div>
+  </div>
+  <div class="fourth">
+    <div class="fourth-img"><img src="../assets/index/forex_top_banner1.jpg"></div>
+    <div class="fourth-big">
+      <div class="fourth-text">{{ $t('product.platTYSCBDZD') }}</div>
+      <div class="fourth-text">{{ $t('product.platBCGRHJYJ') }}</div>
+      <a href="" class="button-a">
+        <div class="fourth-button hvr-sweep-to-right">{{ $t('product.platLJKT5426') }}</div>
+      </a></div>
+  </div>
 </template>
 
 <script>
@@ -52,45 +32,45 @@
 		import.meta.env
 	export default {
 		data() {
-			return {
+      return {
 				activeName: 'second',
-				tabTitlea: '外汇交易的优势',
+				tabTitlea: 'product.platWHJYDYS1',
 				tablista: [{
-						label: '24小时市场',
+						label: 'product.platXSSC3745',
 						name: 'first',
 						imga: 'src/assets/index/forex1.png',
-						text: '5天24小时不间断交易，投资者可随时随地参与到市场波动中。',
+						text: 'product.platTXSBJDJY',
 					},
 					{
-						label: '低成本交易',
+						label: 'product.platDCBJY129',
 						imga: 'src/assets/index/forex_slider2.jpg',
 						name: 'second',
-						text: 'Attuare Pty.Ltd.推出的stpECN账户外汇平均点差1.0个点，zeroECN和pureECN账户更是低至0.1-0.8点差加佣金模式，投资者可根据个人的投资情况选择相应账户类型并享受Attuare Pty.Ltd.提供的超低点差服务。',
+						text: 'product.platAPTCDSZH',
 					},
 					{
-						label: '24上百种交易货币对',
+						label: 'product.platSBZJYHBD',
 						name: 'third',
 						imga: 'src/assets/index/forex_slider3.jpg',
-						text: '可满足投资者交易需求，并根据各国货币涨跌情况进行24小时不间断交易。',
+						text: 'product.platKMZTZZJY',
 					},
 					{
-						label: '市场公开透明',
+						label: 'product.platSCGKTM16',
 						name: 'fourth',
 						imga: 'src/assets/index/forex_slider4.jpg',
-						text: '巨大的交易量使市场不易受某一银行或机构操控价格，一秒内下单，无重复报价现象。',
+						text: 'product.platJDDJYLSS',
 					},
 					{
-						label: '全球性交易',
+						label: 'product.platQQXJY191',
 						name: 'fifth',
 						imga: 'src/assets/index/forex_slider5.jpg',
-						text: '各国货币受政策影响涨涨跌跌，投资者可根据Attuare Pty. Ltd.MT4账号进行全球性交易。',
+						text: 'product.platGGHBSZCY',
 					},
 				],
 				bannera: [
 					{
 						imga:'src/assets/index/bg-download.jpg',
-						title:'外汇',
-						main:'外汇交易市场,也称为"Foreign exchange"或"FX"市场，是世界上最大的金融市场，平均每天超过5万亿美元的资金在当中运转，相当于美国所有证券市场交易总和的30余倍。外汇交易市场比传统的股票、债券或者期货市场都要庞大许多，巨大的交易量使市场不易受某一银行或机构操控价格。通常用两种货币之间的兑换比例来表示。货币对里前面的货币是基础货币，后面的是对手货币。当你买卖货币对的时候，你是以基础货币为准。'
+						title:'product.platWH720549',
+						main:'product.platWHJYSCYC',
 					},
 				],
 			};

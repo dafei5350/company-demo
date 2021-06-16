@@ -1,212 +1,121 @@
 <template>
-	<div class="top-content">
-		<div class="bigimg">
-			<img src="../assets/index/bg-download.jpg">
-		</div>
-		<div class="top-big">
-			<div class="top-title">
-				MetaTrader 5交易平台
-			</div>
-			<div class="top-main">
-				集外汇，股票和期货交易一体
-			</div>
-			<div class="top-bottom">
-				<a href="" style="text-decoration: none;color: #FFFFFF;">
-					<div class="fourth-button hvr-sweep-to-right">
-						立即下载
-					</div>
-				</a>
-				<a href="" style="text-decoration: none;color: #FFFFFF;">
-					<div class="fourth-button hvr-sweep-to-right">
-						模拟账户
-					</div>
-				</a>
-			</div>
-			<div class="top-img">
-				<img src="../assets/index/platform-banner-1-en.png">
-			</div>
-		</div>
-	</div>
-	<div class="function">
-		<div class="function-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="function-title">
-				MetaTrader 5
-			</div>
-			<div class="function-main">
-				由于MT5出色的交易可能性和技术分析工具，并允许使用自动交易系统和复制交易，成为现代交易者的最佳选择。MT5是其前身MT4的进阶版，MT4被认为是全球外汇交易者最受欢迎的交易平台。除了用于外汇、期货等交易外，MT5还提供股票、期权等金融投资产品的实时行情和交易，让交易更丰富。
-			</div>
-		</div>
-		<div class="function-right hvr-bounce-in" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="function-right-top">
-				功能升级
-			</div>
-			<div class="function-right-main">
-				<div class="right-main-img">
-					<img src="../assets/index/icon-check.png">
-				</div>
-				<div class="right-main-text">
-					支持两种持仓模式
-				</div>
-			</div>
-			<div class="function-right-main">
-				<div class="right-main-img">
-					<img src="../assets/index/icon-check.png">
-				</div>
-				<div class="right-main-text">
-					更高级的订单选择
-				</div>
-			</div>
-			<div class="function-right-main">
-				<div class="right-main-img">
-					<img src="../assets/index/icon-check.png">
-				</div>
-				<div class="right-main-text">
-					更快的执行速度
-				</div>
-			</div>
-			<div class="function-right-main">
-				<div class="right-main-img">
-					<img src="../assets/index/icon-check.png">
-				</div>
-				<div class="right-main-text">
-					轻松登录MT5专属的Xchange账户
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="financial-top">
-		<div class="financial-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300">
-			MetaTrader 5交易平台优势
-		</div>
-	</div>
-	<div class="advantage">
-		<div class="advantage-big" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="advantage-title">
-				快速执行速度
-			</div>
-			<div class="advantage-main">
-				位于纽约的Equinix交易服务器，保证了每一项交易的闪电急速执行和稳定性。
-			</div>
-		</div>
-		<div class="advantage-big" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
-			<div class="advantage-title">
-				灵活的下单量
-			</div>
-			<div class="advantage-main">
-				Attuare Pty. Ltd.对日内高频交易者不做任何限制，允许在点差之间下订单，最小交易0.01手，包括止损止盈以及跟踪订单功能，可以根据需要尽可能地接近市场价格。
-			</div>
-		</div>
-		<div class="advantage-big" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="advantage-title">
-				市场深度
-			</div>
-			<div class="advantage-main">
-				无论您在哪个市场交易，价格的透明度都是关键。 MT5允许您直接从我们的流动性报价中查看完整的市场深度。
-			</div>
-		</div>
-		<div class="advantage-big" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="advantage-title">
-				高级工具
-			</div>
-			<div class="advantage-main">
-				您可以对冲当前头寸，查询订单中的其中一部分，查看完整的市场深度，并决定更广泛的挂单类型。
-			</div>
-		</div>
-		<div class="advantage-big"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
-			<div class="advantage-title">
-				免费工具
-			</div>
-			<div class="advantage-main">
-				MT5平台提供21种时间表，只需点击一下按钮即可获得更多技术指标，用户可以方便、快捷地使用MT5进行交易、分析和查看历史记录等操作。
-			</div>
-		</div>
-		<div class="advantage-big" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="advantage-title">
-				自动交易和EA
-			</div>
-			<div class="advantage-main">
-				MT5与Attuare Pty. Ltd.价格供应的深度流动性的结合意味着适合所有EA交易和大批量交易者。 MT5使用MQL5编码语言，使您可以轻松自动化系统。
-			</div>
-		</div>
-	</div>
-	<div class="top-bottom" data-aos="fade-up">
-		<a href="" style="text-decoration: none;color: #FFFFFF;">
-			<div class="fourth-button hvr-sweep-to-right">
-				立即下载
-			</div>
-		</a>
-		<a href="" style="text-decoration: none;color: #FFFFFF;">
-			<div class="fourth-button hvr-sweep-to-right">
-				模拟账户
-			</div>
-		</a>
-	</div>
-	<div class="move">
-		<div class="move-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="move-title">
-				MT5移动版
-			</div>
-			<div class="move-main">
-				<p>使用我们的移动版MT5，无论您身在何处，都不会错过任何交易机会。 您可以从iPhone，iPad，Android系统或Windows系统的设备上查看、编辑、更改和执行所有订单。</p>
-				<p>世界各地的交易者可以通过MT5移动应用程序访问实时流图表并交易全球数十个市场。</p>
-				<p>通过下载MT5应用程序，您可以获得即时实时报价，并且可以获得41个货币对、指数、贵金属、加密货币和大宗商品的头寸。 立即在移动设备上开始交易外汇和全球市场。</p>
-			</div>
-			<div class="move-button">
-				<a href=""><img src="../assets/index/IOS_Download-en.png"></a>
-				<a href=""><img src="../assets/index/google_Play_download-en.png"></a>
-			</div>
-		</div>
-		<div class="move-right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<img src="../assets/index/mt5-iphone-4-en.png">
-		</div>
-	</div>
-	<div class="move" data-aos="fade-up">
-		<div class="move-right" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<img src="../assets/index/mt5-web-1-en.png">
-		</div>
-		<div class="move-left" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="move-title">
-				MT5电脑端
-			</div>
-			<div class="move-main">
-				<p>MT5电脑端交易平台为客户提供全面的工具和功能，拥有无比可拟的直观和可定制的用户界面特性。</p>
-				<p>您可以查看相同的报价，深度流动性和点差低至0。</p>
-			</div>
-			<div class="top-bottom-b">
-				<a href="" style="text-decoration: none;color: #FFFFFF;">
-					<div class="fourth-button sbutton hvr-sweep-to-right">
-						立即下载
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
-	<div class="pc">
-		<div class="pc-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-			<div class="pc-left-title">
-				MT5电脑端的优势
-			</div>
-			<div class="pc-left-main">
-				使用Attuare Pty. Ltd. MT5交易平台，为您在国际金融市场提供无限机会。
-			</div>
-			<div class="top-bottom-b">
-				<a href="" style="text-decoration: none;color: #FFFFFF;">
-					<div class="fourth-button sbutton hvr-sweep-to-right">
-						立即下载
-					</div>
-				</a>
-			</div>
-		</div>
-		<div class="pc-right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+  <div class="top-content">
+    <div class="bigimg"><img src="../assets/index/bg-download.jpg"></div>
+    <div class="top-big">
+      <div class="top-title">{{ $t('plat.platMJYPT855') }}</div>
+      <div class="top-main">{{ $t('plat.platJWHGPHQH') }}</div>
+      <div class="top-bottom"><a href="" style="text-decoration: none;color: #FFFFFF;">
+        <div class="fourth-button hvr-sweep-to-right">{{ $t('plat.platLJXZ1384') }}</div>
+      </a><a href="" style="text-decoration: none;color: #FFFFFF;">
+        <div class="fourth-button hvr-sweep-to-right">{{ $t('plat.platMNZH1796') }}</div>
+      </a></div>
+      <div class="top-img"><img src="../assets/index/platform-banner-1-en.png"></div>
+    </div>
+  </div>
+  <div class="function">
+    <div class="function-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="function-title">{{ $t('plat.platM9965220') }}</div>
+      <div class="function-main">{{ $t('plat.platYYMCSDJY') }}</div>
+    </div>
+    <div class="function-right hvr-bounce-in" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="function-right-top">{{ $t('plat.platGNSJ1687') }}</div>
+      <div class="function-right-main">
+        <div class="right-main-img"><img src="../assets/index/icon-check.png"></div>
+        <div class="right-main-text">{{ $t('plat.platZCLZCCMS') }}</div>
+      </div>
+      <div class="function-right-main">
+        <div class="right-main-img"><img src="../assets/index/icon-check.png"></div>
+        <div class="right-main-text">{{ $t('plat.platGGJDDDXZ') }}</div>
+      </div>
+      <div class="function-right-main">
+        <div class="right-main-img"><img src="../assets/index/icon-check.png"></div>
+        <div class="right-main-text">{{ $t('plat.platGKDZXSD1') }}</div>
+      </div>
+      <div class="function-right-main">
+        <div class="right-main-img"><img src="../assets/index/icon-check.png"></div>
+        <div class="right-main-text">{{ $t('plat.platQSDLMZSD') }}</div>
+      </div>
+    </div>
+  </div>
+  <div class="financial-top">
+    <div class="financial-title" data-aos="fade-down" data-aos-easing="linear"
+         data-aos-duration="300">{{ $t('plat.platMJYPTYS2') }}</div>
+  </div>
+  <div class="advantage">
+    <div class="advantage-big" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="advantage-title">{{ $t('plat.platKSZXSD15') }}</div>
+      <div class="advantage-main">{{ $t('plat.platWYNYDEJY') }}</div>
+    </div>
+    <div class="advantage-big" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+      <div class="advantage-title">{{ $t('plat.platLHDXDL50') }}</div>
+      <div class="advantage-main">{{ $t('plat.platAPLDRNGP') }}</div>
+    </div>
+    <div class="advantage-big" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="advantage-title">{{ $t('plat.platSCSD1497') }}</div>
+      <div class="advantage-main">{{ $t('plat.platWLNZNGSC') }}</div>
+    </div>
+    <div class="advantage-big" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="advantage-title">{{ $t('plat.platGJGJ7597') }}</div>
+      <div class="advantage-main">{{ $t('plat.platNKYDCDQT') }}</div>
+    </div>
+    <div class="advantage-big" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
+      <div class="advantage-title">{{ $t('plat.platMFGJ1759') }}</div>
+      <div class="advantage-main">{{ $t('plat.platMPTTGZSJ') }}</div>
+    </div>
+    <div class="advantage-big" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="advantage-title">{{ $t('plat.platZDJYHE76') }}</div>
+      <div class="advantage-main">{{ $t('plat.platMYAPLJGG') }}</div>
+    </div>
+  </div>
+  <div class="top-bottom" data-aos="fade-up"><a href="" style="text-decoration: none;color: #FFFFFF;">
+    <div class="fourth-button hvr-sweep-to-right">{{ $t('plat.platLJXZ9069') }}</div>
+  </a><a href="" style="text-decoration: none;color: #FFFFFF;">
+    <div class="fourth-button hvr-sweep-to-right">{{ $t('plat.platMNZH1660') }}</div>
+  </a></div>
+  <div class="move">
+    <div class="move-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="move-title">{{ $t('plat.platMYDB1152') }}</div>
+      <div class="move-main"><p>{{ $t('plat.platSYWMDYDB') }}</p>
+        <p>{{ $t('plat.platSJGDDJYZ') }}</p>
+        <p>{{ $t('plat.platTGXZMYYC') }}</p></div>
+      <div class="move-button"><a href=""><img src="../assets/index/IOS_Download-en.png"></a><a href=""><img
+          src="../assets/index/google_Play_download-en.png"></a></div>
+    </div>
+    <div class="move-right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"><img
+        src="../assets/index/mt5-iphone-4-en.png"></div>
+  </div>
+  <div class="move" data-aos="fade-up">
+    <div class="move-right" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><img
+        src="../assets/index/mt5-web-1-en.png"></div>
+    <div class="move-left" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="move-title">{{ $t('plat.platMDND5194') }}</div>
+      <div class="move-main"><p>{{ $t('plat.platMDNDJYPT') }}</p>
+        <p>{{ $t('plat.platNKYZKXTD') }}</p></div>
+      <div class="top-bottom-b"><a href="" style="text-decoration: none;color: #FFFFFF;">
+        <div class="fourth-button sbutton hvr-sweep-to-right">{{ $t('plat.platLJXZ1171') }}</div>
+      </a></div>
+    </div>
+  </div>
+
+  <div class="pc">
+    <div class="pc-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <div class="pc-left-title">{{ $t('plat.platMDNDDYS1') }}</div>
+      <div class="pc-left-main">{{ $t('plat.platSYAPLMJY') }}</div>
+      <div class="top-bottom-b"><a href="" style="text-decoration: none;color: #FFFFFF;">
+        <div class="fourth-button sbutton hvr-sweep-to-right">{{ $t('plat.platLJXZ1508') }}</div>
+      </a></div>
+    </div>
+
+    <div class="pc-right" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 			<div class="pc-right-big" v-for="item in pcList">
 				<div class="pc-right-img">
 					<img :src="item.src">
 				</div>
 				<div class="pc-right-title">
-					{{item.title}}
+					{{$t(item.title)}}
 				</div>
 				<div class="pc-right-main">
-					{{item.main}}
+					{{$t(item.main)}}
 				</div>
 			</div>
 		</div>
@@ -220,28 +129,28 @@
 				pcList: [
 					{
 						src: 'src/assets/index/icon-web.png',
-						title: '适用于任何浏览器',
-						main: '您可以无需其他软件在任何浏览器和操作系统上交易外汇。只需点击几下即可访问您的交易账户并开始交易。'
+						title: 'plat.platSYYRHLLQ',
+						main: 'plat.platNKYWXQTR',
 					},
 					{
 						src: 'src/assets/index/icon-result.png',
-						title: '技术分析指标',
-						main: '使用超过40种自定义指标可使用全面的图表功能，助您轻松上手。'
+						title: 'plat.platJSFXZB15',
+						main: 'plat.platSYCGZZDY',
 					},
 					{
 						src: 'src/assets/index/icon-research.png',
-						title: '订单管理',
-						main: 'MT5提供新的挂单选项。您可以下单，查看未结订单以及或有订单，全面掌握您的资产动态并通过网络管理。'
+						title: 'plat.platDDGL3802',
+						main: 'plat.platMTGXDGDX',
 					},
 					{
 						src: 'src/assets/index/icon-clock.png',
-						title: '快速执行',
-						main: '受益于我们的128位加密，这意味着无论您身在何处，无论您使用哪种设备，都可以安心使用和账户受到全面保护。'
+						title: 'plat.platKSZX1309',
+						main: 'plat.platSYYWMDWJ',
 					},
 					{
 						src: 'src/assets/index/icon-click.png',
-						title: '21个时间表和一键式交易',
-						main: 'MT5新增21个时间表满足您实现对所有细微价格变动的全面详细分析的需求。此外，您仍然可以使用一键式交易以应对快速变化的市场并轻松更新您的订单。'
+						title: 'plat.platGSJBHYJS',
+						main: 'plat.platMXZGSJBM',
 					},
 					{
 						src: '',

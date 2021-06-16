@@ -5,7 +5,7 @@
 				<el-tab-pane v-for="tabtop in tablist" :key="tabtop.label" :label="tabtop.label" :name="tabtop.name" id="tabimg">
 					<img :src="tabtop.imga" data-aos="fade-up" v-if="show" :key="show">
 					<div class="picture-text" data-aos="fade-up" data-aos-duration="1500" v-if="show" :key="show">
-						{{tabtop.text}}
+						{{$t(tabtop.text)}}
 					</div>
 				</el-tab-pane>
 		</el-tabs>
