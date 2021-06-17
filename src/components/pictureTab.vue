@@ -62,10 +62,11 @@
 	.picture-text {
 		width: 80%;
 		max-width: 900px;
-		height: 90px;
+		min-height: 90px;
 		padding-left: 12%;
 		padding-right: 5%;
-		padding-top: 5%;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		color: #9B9999;
 		background: #FFFFFF;
 		box-shadow: 5px 2px 10px 0 rgb(213 213 213 / 0.5);

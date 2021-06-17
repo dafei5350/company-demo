@@ -298,8 +298,8 @@ export default {
 		coopJYJYSLDY: "The commission is charged based on the number of transactions. The more the number of transactions under your name, the more generous the commission. ",
 		coopQDDHDZYD: "Strong backing",
 		coopGDHTJHWN: "High-end back-office plan, customized for your exclusive investment plan and rebate system, to ensure that your business opens into the blue ocean. ",
-		coopBBHZJH33: "White Label Cooperation Program",
-		coopBBFWYCWT: "White label service is also called OEM service. The Attuare Pty. Ltd. white label plan has a variety of multi-level designs to cooperate with customers in opening or setting up a brokerage company, and to help you elevate your business to a new level. The White Label Partner Program is a master control solution so you will be able to connect to our market-leading liquidity and technology. At the same time, you will preserve the continuity and integrity of your company's brand without worrying about the loss of customers. In this way, you can have your own foreign exchange company brand from day one. ",
+		coopBBHZJH33: "White Label Cooperation",
+		coopBBFWYCWT: "White label service is also called OEM service. The Attuare Pty. Ltd. white label plan has a variety of multi-level designs to cooperate with customers in opening or setting up a brokerage company, and to help you elevate your business to a new level. The White Label Partner Program is a master control solution so you will be able to connect to our market-leading liquidity and technology. At the same time, you will preserve the continuity and integrity of your company's brand without worrying about the loss of customers. ",
 		//coop-ib,coop-intem
 		coopQYDLYS19: "Regional Agency Advantage",
 		coopSRGXMS10: "Revenue Sharing Model",
@@ -311,7 +311,7 @@ export default {
 		coopWQTMX312: "Full transparency",
 		coopAPLZLYTG: "Attuare Pty. Ltd. is committed to providing comprehensive transparency, agent clients can check every transaction order of its trading account in the background",
 		coopQYDL1743: "Regional Agent",
-		coopAPLDQYDL: "Attuare Pty. Ltd.'s regional agency expansion plan provides you with excellent trading products and enjoys huge income potential. Our trading products guarantee that your customers will gain a special advantage in the foreign exchange market and be at the forefront of the market. The regional agency branch of Attuare Pty. Ltd. is literally responsible for the expansion of the brand in a certain area, so that the brand can be developed and continued. Join our professional regional agency expansion plan, you can get more potential benefits, and become an important starting point to promote regional agency. ",
+		coopAPLDQYDL: "Attuare Pty. Ltd.'s regional agency expansion plan provides you with excellent trading products and enjoys huge income potential. Our trading products guarantee that your customers will gain a special advantage in the foreign exchange market and be at the forefront of the market. The regional agency branch of Attuare Pty. Ltd. is literally responsible for the expansion of the brand in a certain area, so that the brand can be developed and continued. Join our professional regional agency expansion plan, you can get more potential benefits. ",
 	},
 	
 	plat: {
@@ -457,7 +457,7 @@ export default {
 		platQQXJY191: "Global Transaction",
 		platGGHBSZCY: "Currencies of various countries have risen and fallen due to policies. Investors can conduct global transactions based on the Attuare Pty. Ltd. MT4 account.",
 		platWH720549: "Foreign Exchange",
-		platWHJYSCYC: "Foreign exchange market, also known as “Foreign exchange” or “FX” market, is the world's largest financial market, with an average of more than $5 trillion in funds operating in it every day, equivalent to the sum of all securities market transactions in the United States More than 30 times. The foreign exchange market is much larger than the traditional stock, bond or futures market. The huge transaction volume makes the market less susceptible to price manipulation by a certain bank or institution. It is usually expressed by the exchange ratio between the two currencies. The front currency in a currency pair is the base currency, and the back is the counterpart currency. When you buy and sell currency pairs, you are based on the base currency.",
+		platWHJYSCYC: "Foreign exchange market, also known as “Foreign exchange” or “FX” market, is the world's largest financial market, with an average of more than $5 trillion in funds operating in it every day, equivalent to the sum of all securities market transactions in the United States More than 30 times. The foreign exchange market is much larger than the traditional stock, bond or futures market. The huge transaction volume makes the market less susceptible to price manipulation by a certain bank or institution.",
 		//product-index
 		platBDZDDJYC: "The most volatile trading product provides you with unlimited opportunities in the international financial market.",
 		platLJJY1290: "Trade Now",
@@ -478,7 +478,7 @@ export default {
 		platTXSKBJDD: "Uninterrupted trading",
 		platTXSKBJDJ: "Uninterrupted trading is available 24 hours a day for 5 days. Investors can participate in the volatility of the global market anytime, anywhere, and seize profit opportunities.",
 		platGJSJY117: "Precious Metal Trading",
-		platGJSJYSZT: "Precious metal trading refers to the process of investors who are optimistic about the precious metal market, through the process of buying low and selling high to earn the difference. It can also be a safe-haven transaction taken when the economic prospects are not optimistic. Realize the preservation and appreciation of assets. Due to the scarcity of gold, gold has always been a very precious metal. At the same time, it is also used as a medium of exchange or as currency. Its price is affected by the political situation, economic environment, and regional The impact of conflicts and other factors often leads to large fluctuations. In addition, gold is settled in U.S. dollars, so the rise and fall of the U.S. dollar will also affect the fluctuations in the price of gold.",
+		platGJSJYSZT: "Precious metal trading refers to the process of investors who are optimistic about the precious metal market, through the process of buying low and selling high to earn the difference. It can also be a safe-haven transaction taken when the economic prospects are not optimistic. Realize the preservation and appreciation of assets. Due to the scarcity of gold, gold has always been a very precious metal. At the same time, it is also used as a medium of exchange or as currency. Its price is affected by the political situation, economic environment",
 		//product-metal
 		platSMSCJHYJ: "What is CFD trading?",
 		platBZJJYCJH: "The advantage of margin trading contract for difference (CFD) trading is that customers can trade on margin, because CFD based on margin trading gives you the opportunity to profit even in small market fluctuations, which is also an excellent Investment method. Two-way trading. Because you are investing in a fluctuating stock index price rather than the actual holding stock index, you can buy and sell in real time without waiting for the stock index to settle. You can also short stocks and take advantage of the opportunity of falling prices to make a profit. Therefore, a successful CFD investor, whether in a bull market or a bear market, can profit by short-term trading.",
@@ -499,6 +499,6 @@ export default {
 		platCDDBZJYA: "Ultra-low margin requirement",
 		platCDDBZJYQ: "Ultra-low margin requirements, with a small investment cost to get nearly a hundred times the trading chips, and can be completed in a very short time, as short as a few seconds, you can also conduct longer-period transactions.",
 		platGPZS1111: "Stock Index",
-		platAPLWNTGS: "Attuare Pty. Ltd. provides you with more than ten types of stock index CFDs, allowing traders to trade based on their views on the US, Europe and Australia markets. You only need to pay a small part of the transaction amount. Margin, you can participate in the market, control your investment portfolio, and seize opportunities. CFDs cover all financial center indexes, which can be traded at $100. Long and short transactions can be carried out. The minimum number of transactions is 0.01 lots, and it is suitable for traders of all cycles. The CFD trading method is that the trader pays a certain percentage of the margin to the broker as the frozen funds according to the agreed number of lots."
+		platAPLWNTGS: "Attuare Pty. Ltd. provides you with more than ten types of stock index CFDs, allowing traders to trade based on their views on the US, Europe and Australia markets. You only need to pay a small part of the transaction amount. Margin, you can participate in the market, control your investment portfolio, and seize opportunities. CFDs cover all financial center indexes, which can be traded at $100. Long and short transactions can be carried out. The minimum number of transactions is 0.01 lots, and it is suitable for traders of all cycles."
 	}
 }

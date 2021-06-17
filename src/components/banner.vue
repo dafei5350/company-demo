@@ -96,7 +96,7 @@
 			line-height: 20px;
 		}
 		.banner-img img{
-			height: 80vw;
+			height: 100vw;
 		}
 	}
 </style>

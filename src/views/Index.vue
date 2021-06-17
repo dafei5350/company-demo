@@ -120,7 +120,7 @@
                                 alt=""/><b>{{ $t('index.indexZZDEJYMS') }}</b>
           <p>{{ $t('index.indexDDZJDJZL') }}</p></div>
         <router-link to="/">
-          <el-button type="primary hvr-sweep-to-right">{{ $t('index.indexLJGD1958') }}</el-button>
+          <el-button type="primary fourth-button hvr-sweep-to-right">{{ $t('index.indexLJGD1958') }}</el-button>
         </router-link>
       </div>
     </div>
@@ -270,7 +270,8 @@ export default {
 .py-row .block{ width: 80%; display:flex; flex-direction:row; justify-content: space-evenly}
 .py-row .block .items{width: 260px; height: 280px; border-radius: 5px; border: 1px solid #9099A0; display: flex; flex-direction: column; justify-content: space-evenly; align-items:center;}
 .py-row .block .items img{width: 60px; height: 60px;}
-.py-row .block .items span{color: #9b9999}
+.py-row .block .items p{padding: 10px;}
+.py-row .block .items span{color: #9b9999;padding: 0 10px;}
 .py-row .pay{text-align: center}
 
 
@@ -306,6 +307,17 @@ export default {
 .sprite-Yen {width:161px;height:160px;background-position:-518px -515px}
 .parent-apple {position:absolute;top:375px;left:60%;transform:scale(1.2);z-index:-1}
 .sprite-apple {width:160px;height:160px;background-position:-688px -5px}
+.fourth-button {
+		display: flex;
+		width: 200px;
+		height: 40px;
+		align-items: center;
+		justify-content: center;
+		background: #013B81;
+		border-radius:5px;
+		overflow: hidden;
+		box-shadow: 0px 2px 4px rgb(0 0 0 / 40%), 0px 0px 20px rgb(0 0 0 / 10%) inset;
+	}
 @keyframes -Pure-ECN-Pricing-icon {0% {transform:translateY(-50%) translateX(-50%)}
     to {transform:translateY(-60%) translateX(-50%)}
 }

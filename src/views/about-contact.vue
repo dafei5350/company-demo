@@ -4,7 +4,7 @@
     <div class="askd-top">
       <div class="ask-logo"><img src="../assets/index/contact_email.svg"></div>
       <div class="ask-title">{{ $t('about.aboutQYDY1761') }}</div>
-      <div class="ask-mail">{{ $t('about.aboutS1067339') }}</div>
+      <div class="ask-mail">service@attuare.com</div>
     </div>
     <div class="ask-picture"><img src="../assets/index/contact_operahouse.jpg"></div>
   </div>

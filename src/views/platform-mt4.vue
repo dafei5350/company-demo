@@ -98,7 +98,7 @@
     <div class="financial-title">{{ $t('plat.platDNDM2024') }}</div>
     <div class="financial-main"><p>{{ $t('plat.platMJYPTSSJ') }}</p></div>
   </div>
-  <div class="button-big" data-aos="fade-up"><a href="" class="button-a">
+  <div class="button-big" data-aos="fade-up" style="width: 200px;"><a href="" class="button-a">
     <div class="fourth-button hvr-sweep-to-right">{{ $t('plat.platLJXZ4186') }}</div>
   </a></div>
   <div class="financial-top" data-aos="fade-up">
