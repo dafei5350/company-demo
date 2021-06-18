@@ -241,7 +241,7 @@ export default {
 .zy-row{display:flex;width:100%;height:950px;background:#f2f2f2;flex-direction:column;align-items:center;justify-content:center}
 .zy-row .items .title{font-size:22px;margin-bottom:20px}
 .zy-row .items-rig{width:80%;color:#9b9999;display:flex;flex-direction:row}
-.zy-row .items-rig .block{width: 60%;margin-top: 100px;}
+.zy-row .items-rig .block{width: 60%;padding-top: 100px;}
 .zy-row .items-rig .block img{width: 100%;}
 .zy-row .items-rig .muens{width:50%;display:flex;flex-direction:row;flex-wrap:wrap}
 .zy-row .items-rig .muens .items{width:50%;display:flex;flex-direction:column}

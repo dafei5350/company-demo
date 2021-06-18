@@ -41,28 +41,28 @@
     <div class="financial-title" data-aos="fade-down" data-aos-easing="linear"
          data-aos-duration="300">{{ $t('plat.platMJYPTYS2') }}</div>
   </div>
-  <div class="advantage">
-    <div class="advantage-big" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+  <div class="advantage" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="advantage-big">
       <div class="advantage-title">{{ $t('plat.platKSZXSD15') }}</div>
       <div class="advantage-main">{{ $t('plat.platWYNYDEJY') }}</div>
     </div>
-    <div class="advantage-big" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
+    <div class="advantage-big">
       <div class="advantage-title">{{ $t('plat.platLHDXDL50') }}</div>
       <div class="advantage-main">{{ $t('plat.platAPLDRNGP') }}</div>
     </div>
-    <div class="advantage-big" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="advantage-big">
       <div class="advantage-title">{{ $t('plat.platSCSD1497') }}</div>
       <div class="advantage-main">{{ $t('plat.platWLNZNGSC') }}</div>
     </div>
-    <div class="advantage-big" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="advantage-big">
       <div class="advantage-title">{{ $t('plat.platGJGJ7597') }}</div>
       <div class="advantage-main">{{ $t('plat.platNKYDCDQT') }}</div>
     </div>
-    <div class="advantage-big" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
+    <div class="advantage-big">
       <div class="advantage-title">{{ $t('plat.platMFGJ1759') }}</div>
       <div class="advantage-main">{{ $t('plat.platMPTTGZSJ') }}</div>
     </div>
-    <div class="advantage-big" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="advantage-big">
       <div class="advantage-title">{{ $t('plat.platZDJYHE76') }}</div>
       <div class="advantage-main">{{ $t('plat.platMYAPLJGG') }}</div>
     </div>
